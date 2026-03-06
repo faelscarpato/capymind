@@ -1,0 +1,263 @@
+capymind/
+├── README.md
+├── INVENTORY.md
+├── MIGRATION_PLAN.md
+├── CLEANUP_PLAN.md
+├── PROJECT_CATALOG.md
+├── REPO_RULES.md
+├── PROPOSED_TREE.txt
+├── FINAL_TREE.txt
+├── FILE_MANIFEST.csv
+├── HEAVY_CONTENT_REPORT.md
+├── .gitignore
+├── knowledge/
+├── docs/
+├── prompts/
+├── datasets/
+├── data/
+├── schemas/
+├── references/
+├── indexes/
+├── projects/
+├── scripts/
+├── archive/
+
+projects/
+├── bring-any-idea-to-life/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capy-station-stackverse-portfolio/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── absencia-control-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── aura-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── bocaaberta/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capibaraanalytics-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capy-ai-verse-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capy-station-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capy-universe-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capy-workspace/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capyagente-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capyai-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capyai-wx-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capybox-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capychat-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capycontrato-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capyfactory-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capyide-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capymes-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capypages-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capyptt-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capyroom-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capyunicode-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capyuniv2-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capyuniv2-main-2/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capyviewport-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capyvision-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capywork-saas/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capypos/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capy-workspace-7/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capyops-main/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── capyops-main-2/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── nova-pasta/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
+├── nova-pasta-2/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── tree.txt
+│   ├── stack.md
+│   ├── summary.md
+│   ├── important-files.md
