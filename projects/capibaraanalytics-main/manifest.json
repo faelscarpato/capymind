@@ -1,0 +1,31 @@
+{
+  "project_name": "capibaraanalytics-main",
+  "slug": "capibaraanalytics-main",
+  "original_path": "D:\\novosproj\\projects\\2025\\capibaraanalytics-main\\capibaraanalytics-main",
+  "detected_type": "web-app",
+  "main_stack": [
+    "Node.js",
+    "React",
+    "Vite",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "important_files": [
+    "package.json",
+    "README.md",
+    "vite.config.ts",
+    "tsconfig.json",
+    "tailwind.config.ts",
+    "src/main.tsx",
+    "src/App.tsx",
+    "src/components",
+    "public"
+  ],
+  "entry_points": [
+    "package.json",
+    "README.md",
+    "src/main.tsx",
+    "src/App.tsx"
+  ],
+  "notes": "AI-oriented product with chat, assistant, or automation behavior."
+}

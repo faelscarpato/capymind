@@ -1,0 +1,42 @@
+capyide-main/
+├── js/
+│   ├── controller/
+│   │   ├── apiKeyController.js
+│   │   ├── appController.js
+│   │   ├── chatController.js
+│   │   └── systemTestController.js
+│   ├── model/
+│   │   └── appState.js
+│   ├── services/
+│   │   ├── aiService.js
+│   │   ├── apiKeyService.js
+│   │   └── themeService.js
+│   ├── shared/
+│   │   ├── html.js
+│   │   └── intents.js
+│   ├── view/
+│   │   ├── chatView.js
+│   │   ├── domElements.js
+│   │   ├── editorView.js
+│   │   └── notificationView.js
+│   ├── ai.js
+│   ├── apiKey.js
+│   ├── app.js
+│   ├── chat.js
+│   ├── editor.js
+│   ├── elements.js
+│   ├── state.js
+│   ├── tests.js
+│   ├── theme.js
+│   └── utils.js
+├── tests/
+│   ├── aiService.test.js
+│   ├── html.test.js
+│   └── intents.test.js
+├── .gitignore
+├── capyide.html
+├── index.html
+├── jest.config.cjs
+├── package-lock.json
+├── package.json
+└── README.md

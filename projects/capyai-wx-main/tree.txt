@@ -1,0 +1,50 @@
+CapyAI-wx-main/
+├── app/
+│   ├── api/
+│   │   ├── chat/
+│   │   │   └── route.ts
+│   │   ├── execute-code/
+│   │   │   └── route.ts
+│   │   └── generate-image/
+│   │       └── route.ts
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── ui/
+│   │   ├── badge.tsx
+│   │   ├── button.tsx
+│   │   ├── card.tsx
+│   │   ├── checkbox.tsx
+│   │   ├── dialog.tsx
+│   │   ├── input.tsx
+│   │   ├── label.tsx
+│   │   ├── scroll-area.tsx
+│   │   ├── select.tsx
+│   │   ├── separator.tsx
+│   │   ├── tabs.tsx
+│   │   └── textarea.tsx
+│   ├── chat-interface.tsx
+│   ├── code-executor.tsx
+│   ├── export-manager.tsx
+│   ├── image-generator.tsx
+│   ├── sidebar.tsx
+│   └── theme-provider.tsx
+├── lib/
+│   └── utils.ts
+├── public/
+│   ├── placeholder-logo.png
+│   ├── placeholder-logo.svg
+│   ├── placeholder-user.jpg
+│   ├── placeholder.jpg
+│   └── placeholder.svg
+├── styles/
+│   └── globals.css
+├── .gitignore
+├── components.json
+├── next.config.mjs
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
+├── README.md
+└── tsconfig.json

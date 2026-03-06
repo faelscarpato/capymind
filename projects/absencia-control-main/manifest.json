@@ -1,0 +1,28 @@
+{
+  "project_name": "absencia-control-main",
+  "slug": "absencia-control-main",
+  "original_path": "D:\\novosproj\\projects\\2025\\absencia-control-main\\absencia-control-main",
+  "detected_type": "web-app",
+  "main_stack": [
+    "Node.js",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "important_files": [
+    "package.json",
+    "README.md",
+    "next.config.js",
+    "tsconfig.json",
+    "tailwind.config.ts",
+    "src/app",
+    "src/components",
+    "public"
+  ],
+  "entry_points": [
+    "package.json",
+    "README.md"
+  ],
+  "notes": "AI-oriented product with chat, assistant, or automation behavior."
+}

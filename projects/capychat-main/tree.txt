@@ -1,0 +1,74 @@
+capychat-main/
+├── app/
+│   ├── api/
+│   │   └── chat/
+│   │       └── route.ts
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── ui/
+│   │   ├── accordion.tsx
+│   │   ├── alert-dialog.tsx
+│   │   ├── alert.tsx
+│   │   ├── aspect-ratio.tsx
+│   │   ├── avatar.tsx
+│   │   ├── badge.tsx
+│   │   ├── breadcrumb.tsx
+│   │   ├── button.tsx
+│   │   ├── calendar.tsx
+│   │   ├── card.tsx
+│   │   ├── carousel.tsx
+│   │   ├── chart.tsx
+│   │   ├── checkbox.tsx
+│   │   ├── collapsible.tsx
+│   │   ├── command.tsx
+│   │   └── context-menu.tsx
+│   ├── chat-input.tsx
+│   ├── chat-interface.tsx
+│   ├── chat-message.tsx
+│   ├── chat.tsx
+│   ├── export-chat.tsx
+│   ├── personality-creator.tsx
+│   ├── personality-gallery.tsx
+│   ├── personality-selector.tsx
+│   ├── sidebar.tsx
+│   ├── theme-provider.tsx
+│   ├── theme-selector.tsx
+│   └── theme-toggle.tsx
+├── contexts/
+│   ├── auth-context.tsx
+│   ├── chat-context.tsx
+│   ├── personality-context.tsx
+│   └── theme-context.tsx
+├── hooks/
+│   ├── use-mobile.tsx
+│   └── use-toast.ts
+├── lib/
+│   ├── db-init.ts
+│   ├── personalities.ts
+│   ├── supabase.ts
+│   └── utils.ts
+├── migrations/
+│   ├── create_stored_procedures.sql
+│   ├── create_tables.sql
+│   ├── create_tables_v2.sql
+│   ├── create_tables_v3.sql
+│   └── direct_table_creation.sql
+├── public/
+│   ├── placeholder-logo.png
+│   ├── placeholder-logo.svg
+│   ├── placeholder-user.jpg
+│   ├── placeholder.jpg
+│   └── placeholder.svg
+├── styles/
+│   └── globals.css
+├── types/
+│   └── chat.ts
+├── .gitignore
+├── components.json
+├── next.config.mjs
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
+└── README.md

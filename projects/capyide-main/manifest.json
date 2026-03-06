@@ -1,0 +1,19 @@
+{
+  "project_name": "capyide-main",
+  "slug": "capyide-main",
+  "original_path": "D:\\novosproj\\projects\\2025\\capyide-main\\capyide-main",
+  "detected_type": "software-project",
+  "main_stack": [
+    "Node.js",
+    "JavaScript"
+  ],
+  "important_files": [
+    "package.json",
+    "README.md"
+  ],
+  "entry_points": [
+    "package.json",
+    "README.md"
+  ],
+  "notes": "AI-oriented product with chat, assistant, or automation behavior."
+}

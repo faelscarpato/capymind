@@ -1,0 +1,81 @@
+capibaraanalytics-main/
+├── public/
+│   ├── lovable-uploads/
+│   │   └── ddf5c4d4-c3df-4674-96f2-10380a1d9918.png
+│   ├── favicon.ico
+│   ├── og-image.png
+│   └── placeholder.svg
+├── src/
+│   ├── components/
+│   │   ├── challenge/
+│   │   │   └── ChallengeDetails.tsx
+│   │   ├── code/
+│   │   │   ├── CodeSection.tsx
+│   │   │   └── LanguageSelector.tsx
+│   │   ├── feedback/
+│   │   │   ├── CodeSubmissionForm.tsx
+│   │   │   ├── DetailedAnalysisTabs.tsx
+│   │   │   ├── FeedbackResult.tsx
+│   │   │   └── OriginalCodeView.tsx
+│   │   ├── ui/
+│   │   │   ├── accordion.tsx
+│   │   │   ├── alert-dialog.tsx
+│   │   │   ├── alert.tsx
+│   │   │   ├── aspect-ratio.tsx
+│   │   │   ├── avatar.tsx
+│   │   │   ├── badge.tsx
+│   │   │   ├── breadcrumb.tsx
+│   │   │   ├── button.tsx
+│   │   │   ├── calendar.tsx
+│   │   │   ├── card.tsx
+│   │   │   ├── carousel.tsx
+│   │   │   ├── chart.tsx
+│   │   │   ├── checkbox.tsx
+│   │   │   ├── collapsible.tsx
+│   │   │   ├── command.tsx
+│   │   │   └── context-menu.tsx
+│   │   ├── AnimatedTransition.tsx
+│   │   ├── ChallengeCard.tsx
+│   │   ├── CodeEditor.tsx
+│   │   ├── CodePreview.tsx
+│   │   ├── CodeSuggestion.tsx
+│   │   ├── FeedbackCard.tsx
+│   │   ├── FileUpload.tsx
+│   │   ├── Footer.tsx
+│   │   ├── MatrixBackground.tsx
+│   │   └── Navbar.tsx
+│   ├── hooks/
+│   │   ├── use-mobile.tsx
+│   │   └── use-toast.ts
+│   ├── lib/
+│   │   └── utils.ts
+│   ├── pages/
+│   │   ├── Challenges.tsx
+│   │   ├── CodeSubmission.tsx
+│   │   ├── DetailedFeedback.tsx
+│   │   ├── Feedback.tsx
+│   │   ├── Index.tsx
+│   │   └── NotFound.tsx
+│   ├── utils/
+│   │   ├── aiEvaluation.ts
+│   │   ├── codeLanguages.ts
+│   │   └── googleAI.ts
+│   ├── App.css
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   └── vite-env.d.ts
+├── .gitignore
+├── bun.lockb
+├── components.json
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.ts
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts

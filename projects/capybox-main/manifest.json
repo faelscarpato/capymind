@@ -1,0 +1,32 @@
+{
+  "project_name": "capybox-main",
+  "slug": "capybox-main",
+  "original_path": "D:\\novosproj\\projects\\2025\\capybox-main\\capybox-main",
+  "detected_type": "web-app",
+  "main_stack": [
+    "Node.js",
+    "React",
+    "Vite",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "important_files": [
+    "package.json",
+    "README.md",
+    "vite.config.ts",
+    "tsconfig.json",
+    "tailwind.config.js",
+    "src/main.tsx",
+    "src/App.tsx",
+    "src/components",
+    "supabase",
+    "public"
+  ],
+  "entry_points": [
+    "package.json",
+    "README.md",
+    "src/main.tsx",
+    "src/App.tsx"
+  ],
+  "notes": "AI-oriented product with chat, assistant, or automation behavior."
+}

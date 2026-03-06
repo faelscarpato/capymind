@@ -1,0 +1,28 @@
+{
+  "project_name": "CapyAI-wx-main",
+  "slug": "capyai-wx-main",
+  "original_path": "D:\\novosproj\\projects\\2025\\CapyAI-wx-main\\CapyAI-wx-main",
+  "detected_type": "web-app",
+  "main_stack": [
+    "Node.js",
+    "Next.js",
+    "React",
+    "TypeScript"
+  ],
+  "important_files": [
+    "package.json",
+    "README.md",
+    "tsconfig.json",
+    "app/page.tsx",
+    "app/layout.tsx",
+    "app/api",
+    "public"
+  ],
+  "entry_points": [
+    "package.json",
+    "README.md",
+    "app/page.tsx",
+    "app/layout.tsx"
+  ],
+  "notes": "AI-oriented product with chat, assistant, or automation behavior."
+}

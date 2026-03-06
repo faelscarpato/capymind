@@ -1,0 +1,82 @@
+capybox-main/
+├── ibge/
+│   ├── CNAE2026.TXT
+│   ├── estados.json
+│   ├── LISTA DE MUNICIPIOS.TXT
+│   ├── municipios.json
+│   ├── servicodados.ibge.gov.br_api_docs_CNAE_versao=2#api-_.txt
+│   └── servicodados.ibge.gov.br_api_docs_produtos_versao=1.txt
+├── public/
+│   └── ibge/
+│       ├── cnae2026.txt
+│       ├── estados.json
+│       └── municipios.json
+├── src/
+│   ├── components/
+│   │   ├── OpeningSplash.tsx
+│   │   └── Shell.tsx
+│   ├── lib/
+│   │   ├── auth.tsx
+│   │   ├── companySettings.ts
+│   │   ├── db.ts
+│   │   ├── ibgeApi.ts
+│   │   ├── supabase.ts
+│   │   ├── taxRates.ts
+│   │   ├── tributoApi.ts
+│   │   └── types.ts
+│   ├── pages/
+│   │   ├── AccountsPayablePage.tsx
+│   │   ├── AccountsReceivablePage.tsx
+│   │   ├── CartonQuotePage.tsx
+│   │   ├── CustomersPage.tsx
+│   │   ├── DashboardPage.tsx
+│   │   ├── ExpensesPage.tsx
+│   │   ├── InventoryPage.tsx
+│   │   ├── LoginPage.tsx
+│   │   ├── NewSalePage.tsx
+│   │   ├── PackingKitsPage.tsx
+│   │   ├── PredictiveStockPage.tsx
+│   │   ├── PriceCalculatorPage.tsx
+│   │   ├── QuotesPage.tsx
+│   │   ├── ReportsPage.tsx
+│   │   ├── ScrapsPage.tsx
+│   │   └── SettingsPage.tsx
+│   ├── types/
+│   │   └── fluent.d.ts
+│   ├── ui/
+│   │   ├── AppLayout.tsx
+│   │   ├── MetricCard.tsx
+│   │   ├── PageHeader.tsx
+│   │   ├── SectionCard.tsx
+│   │   ├── SidebarWidgetContext.tsx
+│   │   ├── StatusChip.tsx
+│   │   └── ThemeModeProvider.tsx
+│   ├── App.tsx
+│   ├── dashboard-improvements.css
+│   ├── main.tsx
+│   └── styles.css
+├── supabase/
+│   ├── migrations/
+│   │   ├── 20260121_cartonops_mvp.sql
+│   │   ├── 20260121_inventory_accounts_customers.sql
+│   │   ├── 20260122_accounts_receivable_sale_link.sql
+│   │   └── 20260122_inventory_movement_conflict_fix.sql
+│   ├── Alter_products_packaging_kit.sql
+│   ├── Alter_purchase_quote_items_product.sql
+│   ├── Financeiro_Insumos_kit.sql
+│   ├── Orcamentos.sql
+│   ├── PROMPT_CODEX_CAPYWAVEB.md
+│   ├── schema_reports_additions.sql
+│   └── seed_manual.sql
+├── Agent.md
+├── api-docs.json
+├── index.html
+├── LISTA DE MUNICIPIOS.TXT
+├── Novo Documento de Texto.txt
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── Projeto_CartonOps.md
+├── README.md
+├── tailwind.config.js
+└── tsconfig.json

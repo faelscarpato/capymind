@@ -1,0 +1,100 @@
+absencia-control-main/
+├── cache/
+│   └── huggingface/
+│       └── hub/
+│           ├── .locks/
+│           │   └── models--Xenova--llama-3-tokenizer/
+│           │       └── 94eacd0897072dcd7b84d1f6ff3c3f6d1933a8cc.lock
+│           └── models--Xenova--llama-3-tokenizer/
+│               ├── blobs/
+│               │   └── 94eacd0897072dcd7b84d1f6ff3c3f6d1933a8cc
+│               └── refs/
+│                   └── main
+├── npm/
+│   ├── _logs/
+│   │   ├── 2025-05-13T04_09_35_317Z-debug-0.log
+│   │   ├── 2025-05-13T04_24_02_909Z-debug-0.log
+│   │   ├── 2025-05-13T04_24_06_612Z-debug-0.log
+│   │   ├── 2025-05-13T04_36_26_358Z-debug-0.log
+│   │   ├── 2025-05-13T04_36_30_415Z-debug-0.log
+│   │   ├── 2025-05-13T04_37_08_097Z-debug-0.log
+│   │   ├── 2025-05-13T04_37_10_721Z-debug-0.log
+│   │   ├── 2025-05-13T04_47_27_954Z-debug-0.log
+│   │   ├── 2025-05-13T04_47_30_952Z-debug-0.log
+│   │   ├── 2025-05-13T04_48_06_351Z-debug-0.log
+│   │   └── 2025-05-13T04_48_08_958Z-debug-0.log
+│   └── _update-notifier-last-checked
+├── public/
+│   ├── android-chrome-192x192.png
+│   ├── android-chrome-512x512.png
+│   ├── apple-touch-icon.png
+│   ├── favicon-16x16.png
+│   ├── favicon-32x32.png
+│   ├── favicon.ico
+│   └── site.webmanifest
+├── src/
+│   ├── app/
+│   │   ├── api/
+│   │   │   ├── absences/
+│   │   │   │   ├── [id]/
+│   │   │   │   │   ├── .gitkeep
+│   │   │   │   │   └── route.ts
+│   │   │   │   └── route.ts
+│   │   │   ├── breaks/
+│   │   │   │   ├── [date]/
+│   │   │   │   │   ├── .gitkeep
+│   │   │   │   │   └── route.ts
+│   │   │   │   └── route.ts
+│   │   │   ├── employees/
+│   │   │   │   ├── [id]/
+│   │   │   │   │   ├── .gitkeep
+│   │   │   │   │   └── route.ts
+│   │   │   │   └── route.ts
+│   │   │   └── migrate/
+│   │   │       └── route.ts
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components/
+│   │   ├── attendance/
+│   │   │   └── AttendanceRegistration.tsx
+│   │   ├── breaks/
+│   │   │   ├── ActiveUsers.tsx
+│   │   │   ├── BreakSchedule.tsx
+│   │   │   └── CollaborationInfo.tsx
+│   │   ├── dashboard/
+│   │   │   └── AbsenteeismDashboard.tsx
+│   │   ├── employees/
+│   │   │   └── EmployeeManagement.tsx
+│   │   ├── migration/
+│   │   │   └── MigrationHelper.tsx
+│   │   └── ui/
+│   │       └── RealtimeNotification.tsx
+│   ├── db/
+│   │   ├── index.ts
+│   │   └── schema.ts
+│   ├── lib/
+│   │   ├── api/
+│   │   │   └── util.ts
+│   │   ├── hooks/
+│   │   │   └── useRealtimeSubscription.tsx
+│   │   ├── data.ts
+│   │   ├── supabase-server.ts
+│   │   ├── supabase.ts
+│   │   └── utils.ts
+│   ├── styles/
+│   │   └── globals.css
+│   └── types/
+│       ├── index.ts
+│       └── tailwind.d.ts
+├── .gitignore
+├── bun.lockb
+├── components.json
+├── Dockerfile
+├── dockerignore
+├── DS_Store
+├── env.local
+├── eslintrc.cjs
+├── next-env.d.ts
+├── next.config.js
+├── package.json
+└── postcss.config.js

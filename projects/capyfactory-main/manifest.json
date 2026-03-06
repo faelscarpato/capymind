@@ -1,0 +1,28 @@
+{
+  "project_name": "capyfactory-main",
+  "slug": "capyfactory-main",
+  "original_path": "D:\\novosproj\\projects\\2025\\capyfactory-main\\capyfactory-main",
+  "detected_type": "web-app",
+  "main_stack": [
+    "Node.js",
+    "Next.js",
+    "React",
+    "TypeScript"
+  ],
+  "important_files": [
+    "package.json",
+    "README.md",
+    "tsconfig.json",
+    "tailwind.config.ts",
+    "app/page.tsx",
+    "app/layout.tsx",
+    "public"
+  ],
+  "entry_points": [
+    "package.json",
+    "README.md",
+    "app/page.tsx",
+    "app/layout.tsx"
+  ],
+  "notes": "AI-oriented product with chat, assistant, or automation behavior."
+}

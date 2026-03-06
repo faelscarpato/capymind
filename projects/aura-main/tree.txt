@@ -1,0 +1,75 @@
+aura-main/
+├── components/
+│   ├── icons/
+│   │   └── AnimatedWeatherIcon.tsx
+│   ├── settings/
+│   │   ├── ApiKeySettings.tsx
+│   │   ├── GoogleConnectionsSettings.tsx
+│   │   ├── PlanSettings.tsx
+│   │   ├── ProfileSettings.tsx
+│   │   └── VoiceSettings.tsx
+│   ├── surfaces/
+│   │   ├── AgendaSurface.tsx
+│   │   ├── EditorSurface.tsx
+│   │   ├── NewsSurface.tsx
+│   │   ├── ShoppingSurface.tsx
+│   │   ├── TasksSurface.tsx
+│   │   ├── VisionSurface.tsx
+│   │   └── WeatherSurface.tsx
+│   ├── NewsWidget.tsx
+│   ├── SettingsPanel.tsx
+│   ├── SilentMessageOverlay.tsx
+│   ├── SilentModeInput.tsx
+│   ├── SmartFrameMode.tsx
+│   ├── SurfaceManager.tsx
+│   ├── VoiceOrb.tsx
+│   └── WeatherWidget.tsx
+├── hooks/
+│   └── useIdleTimer.ts
+├── public/
+│   └── audio-processor.js
+├── server/
+│   ├── public/
+│   │   ├── service-worker.js
+│   │   └── websocket-interceptor.js
+│   ├── services/
+│   │   ├── integrations/
+│   │   │   ├── googleCalendarService.js
+│   │   │   ├── googleGmailService.js
+│   │   │   ├── googleKeepService.js
+│   │   │   └── googleNewsService.js
+│   │   ├── apiKeyService.js
+│   │   ├── authService.js
+│   │   ├── billingService.js
+│   │   └── userProfileService.js
+│   ├── package.json
+│   └── server.js
+├── services/
+│   ├── agendaService.ts
+│   ├── apiKeyService.ts
+│   ├── billingService.ts
+│   ├── geminiLive.ts
+│   ├── memoryService.ts
+│   ├── shoppingService.ts
+│   ├── supabaseClient.ts
+│   ├── tasksService.ts
+│   ├── userProfileService.ts
+│   └── visionService.ts
+├── store/
+│   └── slices/
+│       ├── createDataSlice.ts
+│       ├── createSessionSlice.ts
+│       └── createUISlice.ts
+├── supabase/
+│   └── config.toml
+├── utils/
+│   ├── audioUtils.ts
+│   └── fileUtils.ts
+├── .gitignore
+├── AGENT.md
+├── agents.md
+├── App.tsx
+├── constants.ts
+├── Dockerfile
+├── index.html
+└── index.tsx

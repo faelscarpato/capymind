@@ -1,0 +1,121 @@
+capyfactory-main/
+├── app/
+│   ├── compras/
+│   │   └── page.tsx
+│   ├── estoque/
+│   │   └── page.tsx
+│   ├── financeiro/
+│   │   └── page.tsx
+│   ├── logistica/
+│   │   └── page.tsx
+│   ├── manutencao/
+│   │   └── page.tsx
+│   ├── pcp/
+│   │   └── page.tsx
+│   ├── producao/
+│   │   └── page.tsx
+│   ├── qualidade/
+│   │   └── page.tsx
+│   ├── rh/
+│   │   └── page.tsx
+│   ├── vendas/
+│   │   └── page.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── compras/
+│   │   ├── compras-dashboard.tsx
+│   │   ├── compras-table.tsx
+│   │   ├── fornecedores-table.tsx
+│   │   ├── nova-compra-form.tsx
+│   │   └── novo-fornecedor-form.tsx
+│   ├── estoque/
+│   │   ├── estoque-dashboard.tsx
+│   │   ├── materia-prima-table.tsx
+│   │   ├── novo-item-estoque-form.tsx
+│   │   └── produto-acabado-table.tsx
+│   ├── financeiro/
+│   │   ├── contas-pagar-table.tsx
+│   │   ├── contas-receber-table.tsx
+│   │   ├── financeiro-dashboard.tsx
+│   │   ├── nova-conta-pagar-form.tsx
+│   │   └── nova-conta-receber-form.tsx
+│   ├── logistica/
+│   │   ├── entregas-table.tsx
+│   │   ├── logistica-dashboard.tsx
+│   │   ├── nova-entrega-form.tsx
+│   │   ├── nova-transportadora-form.tsx
+│   │   └── transportadoras-table.tsx
+│   ├── manutencao/
+│   │   ├── equipamentos-table.tsx
+│   │   ├── manutencao-dashboard.tsx
+│   │   ├── manutencoes-table.tsx
+│   │   ├── nova-manutencao-form.tsx
+│   │   └── novo-equipamento-form.tsx
+│   ├── pcp/
+│   │   ├── mrp-table.tsx
+│   │   ├── novo-plano-producao-form.tsx
+│   │   ├── pcp-dashboard.tsx
+│   │   ├── producao-planejamento-table.tsx
+│   │   └── producao-programacao-table.tsx
+│   ├── producao/
+│   │   ├── ordens-producao-table.tsx
+│   │   └── producao-dashboard.tsx
+│   ├── qualidade/
+│   │   ├── inspecoes-table.tsx
+│   │   ├── nova-inspecao-form.tsx
+│   │   └── qualidade-dashboard.tsx
+│   ├── rh/
+│   │   ├── funcionarios-table.tsx
+│   │   ├── novo-funcionario-form.tsx
+│   │   └── rh-dashboard.tsx
+│   ├── ui/
+│   │   ├── accordion.tsx
+│   │   ├── alert-dialog.tsx
+│   │   ├── alert.tsx
+│   │   ├── aspect-ratio.tsx
+│   │   ├── avatar.tsx
+│   │   ├── badge.tsx
+│   │   ├── breadcrumb.tsx
+│   │   ├── button.tsx
+│   │   ├── calendar.tsx
+│   │   ├── card.tsx
+│   │   ├── carousel.tsx
+│   │   ├── chart.tsx
+│   │   ├── checkbox.tsx
+│   │   ├── collapsible.tsx
+│   │   ├── command.tsx
+│   │   └── context-menu.tsx
+│   ├── vendas/
+│   │   ├── clientes-table.tsx
+│   │   ├── novo-cliente-form.tsx
+│   │   ├── novo-pedido-form.tsx
+│   │   ├── vendas-dashboard.tsx
+│   │   └── vendas-table.tsx
+│   ├── sidebar.tsx
+│   ├── super-dashboard.tsx
+│   └── theme-provider.tsx
+├── context/
+│   └── data-context.tsx
+├── data/
+│   └── mock-data.ts
+├── hooks/
+│   ├── use-mobile.tsx
+│   └── use-toast.ts
+├── lib/
+│   └── utils.ts
+├── public/
+│   ├── placeholder-logo.png
+│   ├── placeholder-logo.svg
+│   ├── placeholder-user.jpg
+│   ├── placeholder.jpg
+│   └── placeholder.svg
+├── styles/
+│   └── globals.css
+├── .gitignore
+├── components.json
+├── next.config.mjs
+├── package.json
+├── pnpm-lock.yaml
+... tree truncated ...

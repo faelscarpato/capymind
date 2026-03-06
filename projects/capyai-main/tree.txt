@@ -1,0 +1,59 @@
+CapyAI-main/
+├── app/
+│   ├── api/
+│   │   └── chat/
+│   │       └── route.ts
+│   ├── catalog/
+│   │   ├── loading.tsx
+│   │   └── page.tsx
+│   ├── chat/
+│   │   └── [agentId]/
+│   │       ├── .gitkeep
+│   │       └── page.tsx
+│   ├── ide/
+│   │   ├── layout.tsx
+│   │   ├── loading.tsx
+│   │   └── page.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── ide/
+│   │   ├── code-editor.tsx
+│   │   ├── file-explorer.tsx
+│   │   └── preview-panel.tsx
+│   ├── ui/
+│   │   ├── alert.tsx
+│   │   ├── avatar.tsx
+│   │   ├── badge.tsx
+│   │   ├── button.tsx
+│   │   ├── card.tsx
+│   │   ├── dialog.tsx
+│   │   ├── input.tsx
+│   │   ├── label.tsx
+│   │   ├── resizable.tsx
+│   │   ├── scroll-area.tsx
+│   │   ├── select.tsx
+│   │   ├── separator.tsx
+│   │   ├── sheet.tsx
+│   │   └── tabs.tsx
+│   └── theme-provider.tsx
+├── lib/
+│   └── utils.ts
+├── public/
+│   ├── placeholder-logo.png
+│   ├── placeholder-logo.svg
+│   ├── placeholder-user.jpg
+│   ├── placeholder.jpg
+│   └── placeholder.svg
+├── styles/
+│   └── globals.css
+├── .gitignore
+├── components.json
+├── next.config.mjs
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
+├── README.md
+├── tailwind.config.ts
+└── tsconfig.json

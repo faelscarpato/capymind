@@ -1,0 +1,25 @@
+{
+  "project_name": "capycontrato-main",
+  "slug": "capycontrato-main",
+  "original_path": "D:\\novosproj\\projects\\2025\\capycontrato-main\\capycontrato-main",
+  "detected_type": "web-app",
+  "main_stack": [
+    "Node.js",
+    "React",
+    "Vite",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "important_files": [
+    "package.json",
+    "README.md",
+    "vite.config.ts",
+    "tsconfig.json",
+    "public"
+  ],
+  "entry_points": [
+    "package.json",
+    "README.md"
+  ],
+  "notes": "AI-oriented product with chat, assistant, or automation behavior."
+}

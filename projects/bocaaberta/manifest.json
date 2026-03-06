@@ -1,0 +1,28 @@
+{
+  "project_name": "bocaaberta",
+  "slug": "bocaaberta",
+  "original_path": "D:\\novosproj\\projects\\2025\\bocaaberta",
+  "detected_type": "web-app",
+  "main_stack": [
+    "Node.js",
+    "React",
+    "Vite",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "important_files": [
+    "package.json",
+    "vite.config.ts",
+    "tsconfig.json",
+    "tailwind.config.js",
+    "src/main.tsx",
+    "src/App.tsx",
+    "src/components"
+  ],
+  "entry_points": [
+    "package.json",
+    "src/main.tsx",
+    "src/App.tsx"
+  ],
+  "notes": "Software project based on Node.js, React, Vite."
+}
