@@ -22,3 +22,24 @@ Resumo curto: <div align="center"> <img width="1200" height="475" alt="GHBanner"
 ## Observacoes
 - O codigo-fonte completo permaneceu fora do `capymind`.
 - Arquivos relacionados: [stack](./stack.md), [architecture](./architecture.md), [key-files](./key-files.md).
+
+🛠️ CapyOps Main - Overview
+
+📌 Identidade do Projeto
+
+O coração da infraestrutura. O CapyOps gerencia pipelines, automações e a estabilidade do ecossistema Scarpato.
+
+🔗 Source Artifact (GitHub)
+
+O repositório mestre de infraestrutura está em:
+👉 https://github.com/faelscarpato/capyops
+
+🎯 Pilar Estratégico
+
+Automação de deploys.
+
+Monitoramento de agentes de IA.
+
+Segurança e governança de dados.
+
+Operação centralizada, execução distribuída.
