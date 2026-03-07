@@ -22,3 +22,25 @@ Resumo curto: # Pétala Decor - Site Oficial (Next.js + Mercado Livre API) Site 
 ## Observacoes
 - O codigo-fonte completo permaneceu fora do `capymind`.
 - Arquivos relacionados: [stack](./stack.md), [architecture](./architecture.md), [key-files](./key-files.md).
+
+- 
+Pétala Decor - Overview
+
+📌 Identidade do Projeto
+
+Arquitetura completa de e-commerce e gestão de catálogos para a marca Pétala Decor, integrando marketplaces e canais diretos.
+
+🔗 Source Artifact (GitHub)
+
+Acesse o código-fonte e histórico de commits em:
+👉 https://github.com/faelscarpato/petaladecor
+
+🎯 Objetivos
+
+Governança de catálogo de produtos.
+
+Gestão de media assets para anúncios.
+
+Integração com APIs de logística.
+
+Propriedade intelectual documentada via Capymind.
