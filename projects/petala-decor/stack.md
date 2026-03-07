@@ -3,14 +3,14 @@
 Resumo curto: stack tecnico detectado de forma heuristica.
 
 ## Origem
-- Caminho original: `D:\novosproj\projects\active\ops\Nova pasta (2)`
+- Caminho original: `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\PETALA DECOR`
 
 ## Detectado
-- Linguagens: JavaScript
-- Frameworks: React, Vite
-- Toolchain: npm
-- Bibliotecas principais: Sem bibliotecas-chave suficientemente claras
-- Sinais funcionais: Scripts de build e desenvolvimento presentes
+- Linguagens: TypeScript, JavaScript
+- Frameworks: Next.js, React
+- Toolchain: pnpm
+- Bibliotecas principais: Tailwind CSS, Radix UI, shadcn/ui, Zustand, Zod, Upstash Redis, Mercado Livre API
+- Sinais funcionais: API, Auth, UI kit, Storage, Scripts de build e desenvolvimento presentes
 - Confianca da deteccao: alta
 
 ## Inferido
