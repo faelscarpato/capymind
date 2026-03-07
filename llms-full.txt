@@ -1,0 +1,85 @@
+# CapyMind Full Index
+> Índice expandido para agentes que precisam navegar o acervo completo com mais contexto.
+
+## Root files
+- [README.md](./README.md): visão geral e rotas principais.
+- [MCP_GUIDE.md](./MCP_GUIDE.md): instruções de navegação para MCP.
+- [KNOWLEDGE_MAP.md](./KNOWLEDGE_MAP.md): mapa dos domínios.
+- [PROJECT_CATALOG.md](./PROJECT_CATALOG.md): catálogo de projetos.
+- [INVENTORY.md](./INVENTORY.md): panorama quantitativo.
+- [REPO_RULES.md](./REPO_RULES.md): regras do repositório.
+- [HEAVY_CONTENT_REPORT.md](./HEAVY_CONTENT_REPORT.md): conteúdo pesado detectado.
+- [REVIEW_QUEUE.md](./REVIEW_QUEUE.md): pendências de revisão.
+
+## Knowledge
+- [knowledge/overview.md](./knowledge/overview.md)
+- [knowledge/technical/capy-ecosystem-overview.md](./knowledge/technical/capy-ecosystem-overview.md)
+- [knowledge/operations/capy-ops-and-ml-workflows.md](./knowledge/operations/capy-ops-and-ml-workflows.md)
+- [knowledge/business/mercado-livre-operations.md](./knowledge/business/mercado-livre-operations.md)
+- [knowledge/commercial/marketplace-sales-materials.md](./knowledge/commercial/marketplace-sales-materials.md)
+- [knowledge/products/petala-decor-catalog-notes.md](./knowledge/products/petala-decor-catalog-notes.md)
+- [knowledge/ai/prompt-engineering-notes.md](./knowledge/ai/prompt-engineering-notes.md)
+- [knowledge/branding/brand-asset-signals.md](./knowledge/branding/brand-asset-signals.md)
+
+## Featured project paths
+- [projects/_featured.md](./projects/_featured.md)
+- [projects/capyops-main/overview.md](./projects/capyops-main/overview.md)
+- [projects/capyops-v3/overview.md](./projects/capyops-v3/overview.md)
+- [projects/capy-universe-main/overview.md](./projects/capy-universe-main/overview.md)
+- [projects/capyuniverse-main/overview.md](./projects/capyuniverse-main/overview.md)
+- [projects/capywork-saas/overview.md](./projects/capywork-saas/overview.md)
+- [projects/capyide-main/overview.md](./projects/capyide-main/overview.md)
+- [projects/capyvision-main/overview.md](./projects/capyvision-main/overview.md)
+- [projects/petala-decor/overview.md](./projects/petala-decor/overview.md)
+- [projects/bocaaberta/overview.md](./projects/bocaaberta/overview.md)
+
+## Project navigation pattern
+Para qualquer projeto em `projects/<slug>/`, leia nesta ordem:
+1. `overview.md`
+2. `purpose.md`
+3. `stack.md`
+4. `architecture.md`
+5. `key-files.md`
+6. `integrations.md`
+7. `data-notes.md`
+8. `ui-notes.md`
+9. `roadmap-notes.md`
+10. `source-path.md`
+
+## Collections
+- [prompts/_index.md](./prompts/_index.md)
+- [datasets/_index.md](./datasets/_index.md)
+- [docs/_index.md](./docs/_index.md)
+- [references/_index.md](./references/_index.md)
+- [assets/_index.md](./assets/_index.md)
+- [archive/_index.md](./archive/_index.md)
+
+## Domain-specific entry points
+### IA / prompts
+- [knowledge/ai/prompt-engineering-notes.md](./knowledge/ai/prompt-engineering-notes.md)
+- [prompts/analysis/agent-system-prompt.md](./prompts/analysis/agent-system-prompt.md)
+- [prompts/analysis/full-search-ai-prompt.md](./prompts/analysis/full-search-ai-prompt.md)
+- [prompts/coding/codegen-instructions.md](./prompts/coding/codegen-instructions.md)
+- [prompts/image/vision-to-code-pattern.md](./prompts/image/vision-to-code-pattern.md)
+
+### Operação / Mercado Livre
+- [knowledge/business/mercado-livre-operations.md](./knowledge/business/mercado-livre-operations.md)
+- [knowledge/operations/capy-ops-and-ml-workflows.md](./knowledge/operations/capy-ops-and-ml-workflows.md)
+- [datasets/structured/mercado-livre-anuncios.md](./datasets/structured/mercado-livre-anuncios.md)
+- [datasets/structured/mercado-livre-produtos.md](./datasets/structured/mercado-livre-produtos.md)
+- [datasets/structured/mercado-livre-taxas-e-gestao.md](./datasets/structured/mercado-livre-taxas-e-gestao.md)
+- [references/commercial/mercado-livre-commercial-documents.md](./references/commercial/mercado-livre-commercial-documents.md)
+- [references/external/mercado-livre-api-reference.md](./references/external/mercado-livre-api-reference.md)
+
+### Produto físico / Pétala Decor
+- [knowledge/products/petala-decor-catalog-notes.md](./knowledge/products/petala-decor-catalog-notes.md)
+- [assets/catalogs/petala-decor-product-catalog.md](./assets/catalogs/petala-decor-product-catalog.md)
+- [assets/product-assets/petala-decor-media-batches.md](./assets/product-assets/petala-decor-media-batches.md)
+- [knowledge/commercial/marketplace-sales-materials.md](./knowledge/commercial/marketplace-sales-materials.md)
+
+### Arquitetura / integração / UI
+- [docs/architecture/capy-project-patterns.md](./docs/architecture/capy-project-patterns.md)
+- [docs/systems/operational-systems-overview.md](./docs/systems/operational-systems-overview.md)
+- [docs/flows/ingestion-and-governance.md](./docs/flows/ingestion-and-governance.md)
+- [docs/ui-ux/design-system-signals.md](./docs/ui-ux/design-system-signals.md)
+- [docs/api/integration-signals.md](./docs/api/integration-signals.md)

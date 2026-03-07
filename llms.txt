@@ -1,0 +1,42 @@
+# CapyMind
+> Base de conhecimento leve do ecossistema Capy, preparada para MCP, IA, automações e navegação humana.
+
+Este repositório contém documentação derivada, índices, resumos de projetos, prompts, datasets descritos e referências. Ele **não** contém cópias integrais dos projetos-fonte.
+
+## Start here
+- [README.md](./README.md): visão geral do repositório.
+- [MCP_GUIDE.md](./MCP_GUIDE.md): como navegar este acervo com IA.
+- [KNOWLEDGE_MAP.md](./KNOWLEDGE_MAP.md): mapa principal das áreas do repositório.
+- [REPO_RULES.md](./REPO_RULES.md): o que entra e o que não entra.
+
+## Core knowledge
+- [knowledge/technical/capy-ecosystem-overview.md](./knowledge/technical/capy-ecosystem-overview.md): panorama técnico do ecossistema Capy.
+- [knowledge/operations/capy-ops-and-ml-workflows.md](./knowledge/operations/capy-ops-and-ml-workflows.md): fluxos operacionais e sinais do CapyOps.
+- [knowledge/business/mercado-livre-operations.md](./knowledge/business/mercado-livre-operations.md): operação comercial e Mercado Livre.
+- [knowledge/products/petala-decor-catalog-notes.md](./knowledge/products/petala-decor-catalog-notes.md): catálogo e contexto de produto da Pétala Decor.
+- [knowledge/ai/prompt-engineering-notes.md](./knowledge/ai/prompt-engineering-notes.md): notas centrais sobre prompts e fluxos de IA.
+
+## Featured projects
+- [projects/_featured.md](./projects/_featured.md): seleção rápida dos projetos prioritários.
+- [projects/capyops-main/overview.md](./projects/capyops-main/overview.md): CapyOps ML.
+- [projects/capyops-v3/overview.md](./projects/capyops-v3/overview.md): variante relevante do CapyOps.
+- [projects/capy-universe-main/overview.md](./projects/capy-universe-main/overview.md): núcleo de universo/plataforma.
+- [projects/capywork-saas/overview.md](./projects/capywork-saas/overview.md): leitura ligada ao CapyOne.
+- [projects/petala-decor/overview.md](./projects/petala-decor/overview.md): negócio, branding e catálogo.
+- [PROJECT_CATALOG.md](./PROJECT_CATALOG.md): catálogo completo dos projetos detectados.
+
+## Collections
+- [prompts/_index.md](./prompts/_index.md): prompts catalogados.
+- [datasets/_index.md](./datasets/_index.md): bases descritas e candidatas.
+- [docs/_index.md](./docs/_index.md): notas arquiteturais, sistêmicas e de UX.
+- [references/_index.md](./references/_index.md): referências técnicas, comerciais, contratos e materiais externos.
+- [assets/_index.md](./assets/_index.md): catálogos e notas de ativos visuais.
+
+## Guidance
+- Para perguntas sobre um projeto específico, abra a pasta em `projects/<slug>/` e leia `overview.md`, `stack.md`, `architecture.md` e `integrations.md`.
+- Para perguntas sobre operação, priorize `knowledge/business`, `knowledge/operations`, `datasets` e `references/commercial`.
+- Para perguntas sobre IA, priorize `knowledge/ai`, `prompts` e `references/technical`.
+- Para rastreabilidade, use `source-path.md` em cada projeto.
+
+## Full index
+- [llms-full.txt](./llms-full.txt): versão expandida do índice para navegação mais ampla.
