@@ -22,3 +22,24 @@ Resumo curto: <div align="center"> <img width="1200" height="475" alt="GHBanner"
 ## Observacoes
 - O codigo-fonte completo permaneceu fora do `capymind`.
 - Arquivos relacionados: [stack](./stack.md), [architecture](./architecture.md), [key-files](./key-files.md).
+
+👁️ CapyVision Main - Overview
+
+📌 Identidade do Projeto
+
+O CapyVision é o motor de inteligência visual especializado em extração de dados e reconhecimento de padrões para o ecossistema Capymind.
+
+🔗 Source Artifact (GitHub)
+
+Para desenvolvimento, revisão de código e CI/CD, o repositório oficial é:
+👉 https://github.com/faelscarpato/capyvision
+
+🎯 Escopo
+
+Processamento de imagens comerciais.
+
+OCR de documentos e notas fiscais.
+
+Integração com fluxos de automação industrial.
+
+Este documento é a camada de inteligência; o código reside no GitHub.
