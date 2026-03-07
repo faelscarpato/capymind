@@ -22,3 +22,24 @@ Resumo curto: # absencia-control
 ## Observacoes
 - O codigo-fonte completo permaneceu fora do `capymind`.
 - Arquivos relacionados: [stack](./stack.md), [architecture](./architecture.md), [key-files](./key-files.md).
+
+🚀 Absência Control - Overview
+
+📌 Identidade do Projeto
+
+Sistema de gestão de presenças e controle operacional para fluxos de trabalho distribuídos.
+
+🔗 Source Artifact (GitHub)
+
+Encontre a implementação técnica em:
+👉 https://github.com/faelscarpato/absencia-control
+
+🎯 Funcionalidades
+
+Dashboard de monitoramento em tempo real.
+
+Notificações inteligentes de desvio de fluxo.
+
+Relatórios de produtividade.
+
+Foco em resultados e visibilidade operacional.
