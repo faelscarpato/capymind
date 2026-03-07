@@ -1,0 +1,99 @@
+CapyMES-main/
+├── app/
+│   ├── admin/
+│   │   └── page.tsx
+│   ├── diagnostic/
+│   │   └── page.tsx
+│   ├── login/
+│   │   └── page.tsx
+│   ├── maintenance/
+│   │   └── page.tsx
+│   ├── production-orders/
+│   │   └── page.tsx
+│   ├── profile/
+│   │   └── page.tsx
+│   ├── quality/
+│   │   └── page.tsx
+│   ├── settings/
+│   │   └── page.tsx
+│   ├── traceability/
+│   │   ├── loading.tsx
+│   │   └── page.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── admin/
+│   │   ├── add-user-dialog.tsx
+│   │   └── edit-user-dialog.tsx
+│   ├── dashboard/
+│   │   ├── ai-alerts.tsx
+│   │   ├── kpi-cards.tsx
+│   │   └── production-timeline.tsx
+│   ├── maintenance/
+│   │   └── add-maintenance-dialog.tsx
+│   ├── production-orders/
+│   │   ├── add-order-dialog.tsx
+│   │   └── production-orders-table.tsx
+│   ├── quality/
+│   │   └── add-inspection-dialog.tsx
+│   ├── ui/
+│   │   ├── alert.tsx
+│   │   ├── avatar.tsx
+│   │   ├── badge.tsx
+│   │   ├── button.tsx
+│   │   ├── card.tsx
+│   │   ├── dialog.tsx
+│   │   ├── dropdown-menu.tsx
+│   │   ├── input.tsx
+│   │   ├── label.tsx
+│   │   ├── scroll-area.tsx
+│   │   ├── select.tsx
+│   │   ├── separator.tsx
+│   │   ├── sheet.tsx
+│   │   ├── sidebar.tsx
+│   │   ├── skeleton.tsx
+│   │   └── switch.tsx
+│   ├── app-sidebar.tsx
+│   ├── auth-wrapper.tsx
+│   ├── capy-ai-button.tsx
+│   ├── connection-diagnostic.tsx
+│   ├── connection-status.tsx
+│   ├── protected-route.tsx
+│   ├── theme-provider.tsx
+│   └── topbar.tsx
+├── hooks/
+│   ├── use-mobile.tsx
+│   └── use-production-orders.ts
+├── lib/
+│   ├── auth-context.tsx
+│   ├── connection-context.tsx
+│   ├── offline-data.ts
+│   ├── supabase.ts
+│   ├── types.ts
+│   └── utils.ts
+├── public/
+│   ├── placeholder-logo.png
+│   ├── placeholder-logo.svg
+│   ├── placeholder-user.jpg
+│   ├── placeholder.jpg
+│   └── placeholder.svg
+├── scripts/
+│   ├── create-full-mes-database.sql
+│   ├── create-table-check-function.sql
+│   ├── create-tables.sql
+│   ├── create-user-passwords-table.sql
+│   ├── setup-database.sql
+│   ├── update-users-table-uuid.sql
+│   └── verify-tables.sql
+├── styles/
+│   └── globals.css
+├── .gitignore
+├── components.json
+├── next.config.mjs
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
+├── README.md
+├── tailwind.config.ts
+└── tsconfig.json

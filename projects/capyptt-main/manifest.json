@@ -1,0 +1,18 @@
+{
+  "project_name": "capyptt-main",
+  "slug": "capyptt-main",
+  "original_path": "D:\\novosproj\\projects\\2025\\capyptt-main\\capyptt-main",
+  "detected_type": "software-project",
+  "main_stack": [
+    "Node.js",
+    "JavaScript"
+  ],
+  "important_files": [
+    "package.json"
+  ],
+  "entry_points": [
+    "package.json",
+    "server.js"
+  ],
+  "notes": "AI-oriented product with chat, assistant, or automation behavior."
+}

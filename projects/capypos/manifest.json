@@ -1,0 +1,27 @@
+{
+  "project_name": "capypos",
+  "slug": "capypos",
+  "original_path": "D:\\novosproj\\projects\\active\\capypos",
+  "detected_type": "desktop-app",
+  "main_stack": [
+    "Node.js",
+    "React",
+    "Vite",
+    "Electron",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "important_files": [
+    "package.json",
+    "README.md",
+    "vite.config.ts",
+    "tsconfig.json",
+    "tailwind.config.ts",
+    "supabase"
+  ],
+  "entry_points": [
+    "package.json",
+    "README.md"
+  ],
+  "notes": "MVP v0 em Electron + React + TypeScript + Tailwind para devolucao de retornaveis unitarios."
+}

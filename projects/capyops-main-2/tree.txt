@@ -1,0 +1,121 @@
+capyops-main/
+├── android-twa/
+│   └── twa-manifest.json
+├── docs/
+│   ├── APK_TWA.md
+│   ├── navigation.graph.mermaid
+│   ├── routes.json
+│   └── ROUTES_AUDIT_REPORT.md
+├── electron/
+│   └── main.cjs
+├── functions/
+│   └── api/
+│       ├── admin/
+│       │   └── workspace/
+│       │       ├── ensure.ts
+│       │       └── invite.ts
+│       └── meli/
+│           ├── items/
+│           │   ├── sync.ts
+│           │   └── update.ts
+│           ├── oauth/
+│           │   ├── callback.ts
+│           │   ├── disconnect.ts
+│           │   └── start.ts
+│           ├── orders/
+│           │   └── sync.ts
+│           ├── shipments/
+│           │   ├── label.ts
+│           │   └── sync.ts
+│           ├── _shared.ts
+│           ├── notificacoes.ts
+│           └── worker.ts
+├── icons/
+│   ├── 200.png
+│   ├── icon-144x144.png
+│   ├── icon-192x192.png
+│   ├── icon-48x48.png
+│   ├── icon-512x512.png
+│   ├── icon-72x72.png
+│   ├── icon-96x96.png
+│   └── teste.txt
+├── public/
+│   ├── icons/
+│   │   ├── 200.png
+│   │   ├── icon-144x144.png
+│   │   ├── icon-192x192.png
+│   │   ├── icon-48x48.png
+│   │   ├── icon-512x512.png
+│   │   ├── icon-72x72.png
+│   │   └── icon-96x96.png
+│   ├── screenshots/
+│   │   ├── dashboard-narrow-720x1280.png
+│   │   └── dashboard-wide-1280x720.png
+│   ├── manifest.webmanifest
+│   ├── robots.txt
+│   ├── sitemap.xml
+│   └── sw.js
+├── scripts/
+│   └── generate-electron-icon.mjs
+├── src/
+│   ├── assets/
+│   │   ├── logo.png
+│   │   ├── logo1.png
+│   │   ├── logo2.png
+│   │   ├── logo3.png
+│   │   ├── logo4.png
+│   │   ├── logo5.png
+│   │   ├── logocapyops.png
+│   │   └── logocapyops1.png
+│   ├── components/
+│   │   ├── pricing/
+│   │   │   └── PricingBreakdown.tsx
+│   │   ├── sales/
+│   │   │   ├── NewSaleWizard.tsx
+│   │   │   ├── SaleItemRow.tsx
+│   │   │   ├── SaleStepDetails.tsx
+│   │   │   ├── SaleStepProducts.tsx
+│   │   │   ├── SaleStepReview.tsx
+│   │   │   └── types.ts
+│   │   ├── tasks/
+│   │   │   └── TodayTasksPanel.tsx
+│   │   ├── ErrorBoundary.tsx
+│   │   ├── InstallAppCard.tsx
+│   │   ├── InstallOptionsPanel.tsx
+│   │   ├── OpeningSplash.tsx
+│   │   └── Shell.tsx
+│   ├── features/
+│   │   ├── inventory/
+│   │   │   ├── ProductForm.tsx
+│   │   │   └── ProductTable.tsx
+│   │   └── registrations/
+│   │       ├── ads/
+│   │       │   ├── AdsCategoryManager.tsx
+│   │       │   ├── AdsOrganicManager.tsx
+│   │       │   ├── AdsPaidManager.tsx
+│   │       │   ├── AdsPlatformsManager.tsx
+│   │       │   └── AdsSkuManager.tsx
+│   │       ├── logistics/
+│   │       │   ├── PackagingManager.tsx
+│   │       │   ├── PackingKitManager.tsx
+│   │       │   ├── ProductWeightManager.tsx
+│   │       │   ├── ShippingRatesManager.tsx
+│   │       │   └── SupplyManager.tsx
+│   │       ├── minierp/
+│   │       │   ├── ExpenseManager.tsx
+│   │       │   ├── FeesManager.tsx
+│   │       │   ├── PaymentManager.tsx
+│   │       │   ├── PurchaseQuoteManager.tsx
+│   │       │   ├── ReturnsManager.tsx
+│   │       │   └── TaxesManager.tsx
+│   │       ├── stock/
+│   │       │   ├── CancelLog.tsx
+│   │       │   └── StockMovementManager.tsx
+│   │       ├── AdsTab.tsx
+│   │       ├── ClientForm.tsx
+│   │       ├── ClientTab.tsx
+│   │       ├── ClientTable.tsx
+│   │       ├── LogisticsTab.tsx
+│   │       ├── MiniERPTab.tsx
+│   │       ├── ProductTab.tsx
+... tree truncated ...

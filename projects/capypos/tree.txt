@@ -1,0 +1,63 @@
+capypos/
+├── dist-electron/
+│   ├── main/
+│   │   ├── index.js
+│   │   └── index.js.map
+│   └── preload/
+│       ├── index.js
+│       └── index.js.map
+├── src/
+│   ├── main/
+│   │   └── index.ts
+│   ├── preload/
+│   │   └── index.ts
+│   └── renderer/
+│       ├── assets/
+│       │   ├── products/
+│       │   │   ├── pet1-5l.png
+│       │   │   ├── pet1l.png
+│       │   │   ├── pet2l.png
+│       │   │   ├── vidro300ml.png
+│       │   │   └── vidro600ml.png
+│       │   └── 94b7bfbf-a76c-4df0-871e-398025cc219f.png
+│       ├── components/
+│       │   ├── BottomActionBar.tsx
+│       │   ├── CashierRedeem.tsx
+│       │   ├── CountKPI.tsx
+│       │   ├── LastCodeBox.tsx
+│       │   ├── ProductSelect.tsx
+│       │   ├── ScanCount.tsx
+│       │   ├── Topbar.tsx
+│       │   └── VoucherReady.tsx
+│       ├── lib/
+│       │   ├── cashier.ts
+│       │   ├── pdfTemplate.ts
+│       │   ├── productVisuals.ts
+│       │   ├── supabase.ts
+│       │   ├── useScannerBuffer.ts
+│       │   └── vouchers.ts
+│       ├── styles/
+│       │   ├── kiosk-ui.css
+│       │   └── tokens.css
+│       ├── App.tsx
+│       ├── main.tsx
+│       ├── styles.css
+│       ├── types.ts
+│       └── vite-env.d.ts
+├── supabase/
+│   ├── migrations/
+│   │   └── 0003_cashier_mode.sql
+│   └── schema.sql
+├── .env
+├── .env.example
+├── .env.txt
+├── .gitignore
+├── .gitkeep
+├── agent.md
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.cjs
+├── README.md
+├── schema.sql
+└── tailwind.config.ts

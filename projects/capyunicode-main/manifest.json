@@ -1,0 +1,23 @@
+{
+  "project_name": "CapyUNIcode-main",
+  "slug": "capyunicode-main",
+  "original_path": "D:\\novosproj\\projects\\2025\\CapyUNIcode-main\\CapyUNIcode-main",
+  "detected_type": "web-app",
+  "main_stack": [
+    "Node.js",
+    "React",
+    "Vite",
+    "TypeScript"
+  ],
+  "important_files": [
+    "package.json",
+    "README.md",
+    "vite.config.ts",
+    "tsconfig.json"
+  ],
+  "entry_points": [
+    "package.json",
+    "README.md"
+  ],
+  "notes": "AI-oriented product with chat, assistant, or automation behavior."
+}

@@ -1,0 +1,34 @@
+{
+  "project_name": "capyops-main",
+  "slug": "capyops-main-2",
+  "original_path": "D:\\novosproj\\projects\\active\\ops\\capyops-main (3)\\capyops-main",
+  "detected_type": "desktop-app",
+  "main_stack": [
+    "Node.js",
+    "React",
+    "Vite",
+    "Electron",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "important_files": [
+    "package.json",
+    "README.md",
+    "vite.config.ts",
+    "tsconfig.json",
+    "tailwind.config.js",
+    "src/main.tsx",
+    "src/App.tsx",
+    "src/components",
+    "supabase",
+    "functions",
+    "public"
+  ],
+  "entry_points": [
+    "package.json",
+    "README.md",
+    "src/main.tsx",
+    "src/App.tsx"
+  ],
+  "notes": "Operational software focused on dashboards, internal flow, and integrations."
+}

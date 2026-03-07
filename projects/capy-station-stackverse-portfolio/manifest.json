@@ -1,0 +1,23 @@
+{
+  "project_name": "capy-station---stackverse-portfolio",
+  "slug": "capy-station-stackverse-portfolio",
+  "original_path": "D:\\novosproj\\archive\\versions\\capy-station---stackverse-portfolio",
+  "detected_type": "web-app",
+  "main_stack": [
+    "Node.js",
+    "React",
+    "Vite",
+    "TypeScript"
+  ],
+  "important_files": [
+    "package.json",
+    "README.md",
+    "vite.config.ts",
+    "tsconfig.json"
+  ],
+  "entry_points": [
+    "package.json",
+    "README.md"
+  ],
+  "notes": "Institutional or personal portfolio website."
+}

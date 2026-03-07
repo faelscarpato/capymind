@@ -1,0 +1,41 @@
+CapyUNIcode-main/
+├── components/
+│   ├── CommandPalette.tsx
+│   ├── ContextMenu.tsx
+│   ├── DiffModal.tsx
+│   ├── EditorWrapper.tsx
+│   ├── Explorer.tsx
+│   ├── NewProjectModal.tsx
+│   ├── ProjectWizardModal.tsx
+│   ├── SettingsModal.tsx
+│   ├── StartCenter.tsx
+│   ├── TerminalPanel.tsx
+│   ├── VibeSidebar.tsx
+│   └── Workbench.tsx
+├── packages/
+│   ├── core-kernel/
+│   │   ├── CommandRegistry.ts
+│   │   ├── EventBus.ts
+│   │   ├── Kernel.ts
+│   │   └── ServiceContainer.ts
+│   ├── core-runtime/
+│   │   └── Shell.ts
+│   ├── core-templates/
+│   │   └── Templates.ts
+│   └── core-workspace/
+│       ├── FileSystem.ts
+│       ├── VirtualFileSystem.ts
+│       └── WorkspaceService.ts
+├── ui/
+│   └── store/
+│       └── useIdeStore.ts
+├── .gitignore
+├── App.tsx
+├── index.html
+├── index.tsx
+├── metadata.json
+├── package.json
+├── README.md
+├── tsconfig.json
+├── types.ts
+└── vite.config.ts

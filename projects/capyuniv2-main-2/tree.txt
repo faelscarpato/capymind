@@ -1,0 +1,78 @@
+capyuniv2-main/
+├── components/
+│   ├── capy/
+│   │   ├── BlogView.tsx
+│   │   ├── CapyChat.tsx
+│   │   ├── CapyUniverseView.tsx
+│   │   ├── CommunityView.tsx
+│   │   ├── DocsView.tsx
+│   │   └── PricingView.tsx
+│   ├── command/
+│   │   ├── CommandPalette.tsx
+│   │   └── QuickOpen.tsx
+│   ├── editor/
+│   │   ├── EditorArea.tsx
+│   │   ├── MonacoWrapper.tsx
+│   │   └── TabsBar.tsx
+│   ├── explorer/
+│   │   ├── Explorer.tsx
+│   │   ├── FileNodeItem.tsx
+│   │   └── FileTree.tsx
+│   ├── extensions/
+│   │   └── ExtensionsView.tsx
+│   ├── grounding/
+│   │   └── GroundingView.tsx
+│   ├── layout/
+│   │   ├── ActivityBar.tsx
+│   │   ├── MainLayout.tsx
+│   │   ├── Panel.tsx
+│   │   ├── RightSidebar.tsx
+│   │   ├── Sidebar.tsx
+│   │   ├── StatusBar.tsx
+│   │   ├── Topbar.tsx
+│   │   └── WelcomeScreen.tsx
+│   ├── modals/
+│   │   ├── AboutModal.tsx
+│   │   ├── ApiKeyModal.tsx
+│   │   ├── DocsModal.tsx
+│   │   └── TutorialModal.tsx
+│   ├── nano/
+│   │   └── NanoBananaView.tsx
+│   ├── preview/
+│   │   └── WebPreview.tsx
+│   ├── search/
+│   │   └── SearchView.tsx
+│   ├── terminal/
+│   │   └── TerminalView.tsx
+│   └── ui/
+│       ├── ContextMenu.tsx
+│       ├── Icon.tsx
+│       └── Toast.tsx
+├── lib/
+│   ├── fileUtils.ts
+│   ├── geminiClient.ts
+│   ├── i18n.ts
+│   ├── ids.ts
+│   ├── storage.ts
+│   ├── terminalEngine.ts
+│   ├── themes.ts
+│   └── zip.ts
+├── public/
+│   └── Teste.txt
+├── stores/
+│   ├── chatStore.ts
+│   ├── notificationStore.ts
+│   ├── uiStore.ts
+│   └── workspaceStore.ts
+├── .gitignore
+├── App.tsx
+├── constants.ts
+├── index.html
+├── index.tsx
+├── manifest.json
+├── metadata.json
+├── package.json
+├── pwa-192x192.png
+├── pwa-512x512.png
+├── README.md
+└── registerServiceWorker.ts

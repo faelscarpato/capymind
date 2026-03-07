@@ -1,0 +1,92 @@
+capyuniv2-main/
+├── .npm-cache/
+│   ├── _logs/
+│   │   └── 2026-02-21T13_24_16_333Z-debug-0.log
+│   └── _update-notifier-last-checked
+├── components/
+│   ├── capy/
+│   │   ├── BlogView.tsx
+│   │   ├── CapyChat.tsx
+│   │   ├── CapyUniverseView.tsx
+│   │   ├── CommunityView.tsx
+│   │   ├── DocsView.tsx
+│   │   └── PricingView.tsx
+│   ├── command/
+│   │   ├── CommandPalette.tsx
+│   │   └── QuickOpen.tsx
+│   ├── editor/
+│   │   ├── EditorArea.tsx
+│   │   ├── MonacoWrapper.tsx
+│   │   └── TabsBar.tsx
+│   ├── explorer/
+│   │   ├── Explorer.tsx
+│   │   ├── FileNodeItem.tsx
+│   │   └── FileTree.tsx
+│   ├── extensions/
+│   │   └── ExtensionsView.tsx
+│   ├── grounding/
+│   │   └── .gitkeep
+│   ├── layout/
+│   │   ├── ActivityBar.tsx
+│   │   ├── MainLayout.tsx
+│   │   ├── Panel.tsx
+│   │   ├── RightSidebar.tsx
+│   │   ├── Sidebar.tsx
+│   │   ├── StatusBar.tsx
+│   │   ├── Topbar.tsx
+│   │   └── WelcomeScreen.tsx
+│   ├── modals/
+│   │   ├── AboutModal.tsx
+│   │   ├── ApiKeyModal.tsx
+│   │   ├── DocsModal.tsx
+│   │   └── TutorialModal.tsx
+│   ├── nano/
+│   │   └── .gitkeep
+│   ├── preview/
+│   │   └── WebPreview.tsx
+│   ├── search/
+│   │   └── SearchView.tsx
+│   ├── terminal/
+│   │   └── TerminalView.tsx
+│   └── ui/
+│       ├── ContextMenu.tsx
+│       ├── Dialog.tsx
+│       ├── Icon.tsx
+│       └── Toast.tsx
+├── lib/
+│   ├── fileUtils.ts
+│   ├── geminiClient.ts
+│   ├── i18n.ts
+│   ├── ids.ts
+│   ├── storage.ts
+│   ├── terminalEngine.ts
+│   ├── themes.ts
+│   └── zip.ts
+├── public/
+│   └── Teste.txt
+├── server/
+│   ├── terminal/
+│   │   ├── protocol.ts
+│   │   └── pty.ts
+│   └── index.ts
+├── src/
+│   └── research/
+│       ├── providers/
+│       │   └── serper.ts
+│       ├── researchStore.ts
+│       ├── ResearchView.tsx
+│       └── types.ts
+├── stores/
+│   ├── chatStore.ts
+│   ├── notificationStore.ts
+│   ├── uiStore.ts
+│   └── workspaceStore.ts
+├── .gitignore
+├── App.tsx
+├── constants.ts
+├── index.html
+├── index.tsx
+├── manifest.json
+├── metadata.json
+├── package-lock.json
+└── package.json
