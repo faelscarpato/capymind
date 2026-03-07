@@ -1,0 +1,121 @@
+Nova pasta (2)/
+├── src/
+│   ├── app/
+│   │   ├── AppShell.jsx
+│   │   └── routes.jsx
+│   ├── components/
+│   │   ├── ConfirmDialog.jsx
+│   │   ├── DataTablePage.jsx
+│   │   ├── DealCard.jsx
+│   │   ├── DealDrawer.jsx
+│   │   ├── FormField.jsx
+│   │   ├── InfoPage.jsx
+│   │   ├── KanbanColumn.jsx
+│   │   ├── Modal.jsx
+│   │   ├── ModulePlaceholder.jsx
+│   │   ├── MoreInsights.jsx
+│   │   ├── PageHeader.jsx
+│   │   ├── Sidebar.jsx
+│   │   └── Topbar.jsx
+│   ├── data/
+│   │   └── pages.js
+│   ├── domain/
+│   │   ├── adapters/
+│   │   │   └── storage/
+│   │   │       ├── localDb.js
+│   │   │       └── storage.js
+│   │   ├── entities/
+│   │   │   ├── customer.js
+│   │   │   ├── deal.js
+│   │   │   ├── integration.js
+│   │   │   ├── interaction.js
+│   │   │   ├── ledger.js
+│   │   │   ├── money.js
+│   │   │   ├── order.js
+│   │   │   ├── pipeline.js
+│   │   │   ├── product.js
+│   │   │   ├── stockMovement.js
+│   │   │   └── task.js
+│   │   ├── events/
+│   │   │   ├── eventBus.js
+│   │   │   └── events.js
+│   │   ├── repositories/
+│   │   │   ├── customerRepo.js
+│   │   │   ├── dealRepo.js
+│   │   │   ├── interactionRepo.js
+│   │   │   ├── ledgerRepo.js
+│   │   │   ├── orderRepo.js
+│   │   │   ├── pipelineRepo.js
+│   │   │   ├── productRepo.js
+│   │   │   └── stockMovementRepo.js
+│   │   ├── services/
+│   │   │   ├── crmService.js
+│   │   │   ├── customerService.js
+│   │   │   ├── dashboardService.js
+│   │   │   ├── financeService.js
+│   │   │   ├── orderService.js
+│   │   │   ├── productService.js
+│   │   │   └── stockService.js
+│   │   ├── utils/
+│   │   │   └── debounce.js
+│   │   ├── index.js
+│   │   └── useDomainEvents.js
+│   ├── pages/
+│   │   ├── AgendaPage.jsx
+│   │   ├── AnunciosPage.jsx
+│   │   ├── CardapioPage.jsx
+│   │   ├── ClientesPage.jsx
+│   │   ├── ConcorrenciaPage.jsx
+│   │   ├── ConfiguracoesPage.jsx
+│   │   ├── ContasPage.jsx
+│   │   ├── CrmPage.jsx
+│   │   ├── DashboardPage.jsx
+│   │   ├── DropshippingPage.jsx
+│   │   ├── EstoquePage.jsx
+│   │   ├── FinanceiroPage.jsx
+│   │   ├── IndustrialPage.jsx
+│   │   ├── NovaVendaPage.jsx
+│   │   ├── PdvPage.jsx
+│   │   └── PixPage.jsx
+│   ├── plugins/
+│   │   ├── agenda/
+│   │   │   └── manifest.jsx
+│   │   ├── anuncios/
+│   │   │   └── manifest.jsx
+│   │   ├── cardapio/
+│   │   │   └── manifest.jsx
+│   │   ├── clientes/
+│   │   │   └── manifest.jsx
+│   │   ├── concorrencia/
+│   │   │   └── manifest.jsx
+│   │   ├── configuracoes/
+│   │   │   └── manifest.jsx
+│   │   ├── contas/
+│   │   │   └── manifest.jsx
+│   │   ├── core/
+│   │   │   └── manifest.jsx
+│   │   ├── crm/
+│   │   │   └── manifest.jsx
+│   │   ├── dropshipping/
+│   │   │   └── manifest.jsx
+│   │   ├── estoque/
+│   │   │   └── manifest.jsx
+│   │   ├── financeiro/
+│   │   │   └── manifest.jsx
+│   │   ├── industrial/
+│   │   │   └── manifest.jsx
+│   │   ├── integracoes/
+│   │   │   └── manifest.jsx
+│   │   ├── pdv/
+│   │   │   └── manifest.jsx
+│   │   └── pix/
+│   │       └── manifest.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles.css
+├── ARQUIVO COM SCRIPT.txt
+├── CAPYOPS-MODULOS-COM PLUGINS.zip
+├── index.html
+├── MODULAR ESSE ARQUIVO E TRANSFORMAR EM VITE E COMPLETAR SEGUINDA A LOGICA.txt
+├── package-lock.json
+... tree truncated ...

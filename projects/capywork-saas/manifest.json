@@ -1,0 +1,26 @@
+{
+  "project_name": "capywork-saas",
+  "slug": "capywork-saas",
+  "original_path": "D:\\novosproj\\projects\\2025\\capywork-saas",
+  "detected_type": "web-app",
+  "main_stack": [
+    "Node.js",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "important_files": [
+    "package.json",
+    "tsconfig.json",
+    "tailwind.config.ts",
+    "app/page.tsx",
+    "app/layout.tsx"
+  ],
+  "entry_points": [
+    "package.json",
+    "app/page.tsx",
+    "app/layout.tsx"
+  ],
+  "notes": "Software project based on Node.js, Next.js, React."
+}

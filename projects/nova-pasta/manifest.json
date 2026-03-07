@@ -1,0 +1,36 @@
+{
+  "project_name": "Nova pasta",
+  "slug": "nova-pasta",
+  "original_path": "D:\\novosproj\\projects\\active\\ops\\Nova pasta",
+  "detected_type": "desktop-app",
+  "main_stack": [
+    "Node.js",
+    "React",
+    "Vite",
+    "Tauri",
+    "TypeScript",
+    "JavaScript",
+    "Rust"
+  ],
+  "important_files": [
+    "package.json",
+    "README.md",
+    "vite.config.ts",
+    "tsconfig.json",
+    "tailwind.config.ts",
+    "src-tauri/Cargo.toml",
+    "src/main.tsx",
+    "src/App.tsx",
+    "src/components",
+    "public",
+    "src-tauri"
+  ],
+  "entry_points": [
+    "package.json",
+    "README.md",
+    "src/main.tsx",
+    "src/App.tsx",
+    "src-tauri/Cargo.toml"
+  ],
+  "notes": "Aplicativo desktop para diagnostico e inspecao ADB em dispositivos autorizados."
+}

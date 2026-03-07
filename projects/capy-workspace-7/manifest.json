@@ -1,0 +1,35 @@
+{
+  "project_name": "capy-workspace (7)",
+  "slug": "capy-workspace-7",
+  "original_path": "D:\\novosproj\\projects\\active\\ops\\capy-workspace (7)",
+  "detected_type": "desktop-app",
+  "main_stack": [
+    "Node.js",
+    "React",
+    "Vite",
+    "Electron",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "important_files": [
+    "package.json",
+    "README.md",
+    "vite.config.ts",
+    "tsconfig.json",
+    "tailwind.config.js",
+    "src/main.tsx",
+    "src/App.tsx",
+    "src/app",
+    "src/components",
+    "supabase",
+    "functions",
+    "public"
+  ],
+  "entry_points": [
+    "package.json",
+    "README.md",
+    "src/main.tsx",
+    "src/App.tsx"
+  ],
+  "notes": "CapyOps ML \u00e9 um **painel interno (privado)** para operar uma loja no Mercado Livre no modo **Normal-first**, com foco em execu\u00e7\u00e3o di\u00e1ria sem falhas: **tarefas do dia, estoque cr\u00edtico, registro de vendas, lucro estimado e"
+}

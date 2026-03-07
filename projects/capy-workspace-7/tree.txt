@@ -1,0 +1,121 @@
+capy-workspace (7)/
+├── .capy/
+│   └── metadata.json
+├── android-twa/
+│   └── twa-manifest.json
+├── docs/
+│   ├── APK_TWA.md
+│   ├── navigation.graph.mermaid
+│   ├── RELATORIO_UI_V3_IMPLEMENTADO.md
+│   ├── routes.json
+│   └── ROUTES_AUDIT_REPORT.md
+├── electron/
+│   └── main.cjs
+├── functions/
+│   └── api/
+│       ├── admin/
+│       │   └── workspace/
+│       │       ├── ensure.ts
+│       │       └── invite.ts
+│       └── meli/
+│           ├── items/
+│           │   ├── sync.ts
+│           │   └── update.ts
+│           ├── oauth/
+│           │   ├── callback.ts
+│           │   ├── disconnect.ts
+│           │   └── start.ts
+│           ├── orders/
+│           │   └── sync.ts
+│           ├── shipments/
+│           │   ├── label.ts
+│           │   └── sync.ts
+│           ├── _shared.ts
+│           ├── notificacoes.ts
+│           └── worker.ts
+├── icons/
+│   ├── 200.png
+│   ├── icon-144x144.png
+│   ├── icon-192x192.png
+│   ├── icon-48x48.png
+│   ├── icon-512x512.png
+│   ├── icon-72x72.png
+│   ├── icon-96x96.png
+│   └── teste.txt
+├── public/
+│   ├── icons/
+│   │   ├── 200.png
+│   │   ├── icon-144x144.png
+│   │   ├── icon-192x192.png
+│   │   ├── icon-48x48.png
+│   │   ├── icon-512x512.png
+│   │   ├── icon-72x72.png
+│   │   └── icon-96x96.png
+│   ├── screenshots/
+│   │   ├── dashboard-narrow-720x1280.png
+│   │   └── dashboard-wide-1280x720.png
+│   ├── manifest.webmanifest
+│   ├── robots.txt
+│   ├── sitemap.xml
+│   ├── sw.js
+│   └── vite.svg
+├── scripts/
+│   ├── generate-electron-icon.mjs
+│   └── seed-demo.mjs
+├── src/
+│   ├── app/
+│   │   └── v3/
+│   │       ├── components/
+│   │       │   ├── AlertsList.tsx
+│   │       │   ├── Card.tsx
+│   │       │   ├── ChartCard.tsx
+│   │       │   ├── RightPanelChat.tsx
+│   │       │   ├── SectionHeader.tsx
+│   │       │   └── StatCard.tsx
+│   │       ├── pages/
+│   │       │   └── DashboardV3.tsx
+│   │       ├── shell/
+│   │       │   ├── AppShellV3.tsx
+│   │       │   ├── RightPanelV3.tsx
+│   │       │   ├── SidebarV3.tsx
+│   │       │   └── TopbarV3.tsx
+│   │       ├── theme/
+│   │       │   ├── theme.ts
+│   │       │   ├── ThemeProviderV3.tsx
+│   │       │   └── useTheme.ts
+│   │       └── tokens/
+│   │           └── tokens-v3.css
+│   ├── assets/
+│   │   ├── logo.png
+│   │   ├── logo1.png
+│   │   ├── logo2.png
+│   │   ├── logo3.png
+│   │   ├── logo4.png
+│   │   ├── logo5.png
+│   │   ├── logocapyops.png
+│   │   ├── logocapyops1.png
+│   │   └── react.svg
+│   ├── components/
+│   │   ├── pricing/
+│   │   │   └── PricingBreakdown.tsx
+│   │   ├── sales/
+│   │   │   ├── NewSaleWizard.tsx
+│   │   │   ├── SaleItemRow.tsx
+│   │   │   ├── SaleStepDetails.tsx
+│   │   │   ├── SaleStepProducts.tsx
+│   │   │   ├── SaleStepReview.tsx
+│   │   │   └── types.ts
+│   │   ├── tasks/
+│   │   │   └── TodayTasksPanel.tsx
+│   │   ├── AppHeader.tsx
+│   │   ├── AuthGate.tsx
+│   │   ├── CommandPalette.tsx
+│   │   ├── ErrorBoundary.tsx
+│   │   ├── FormField.tsx
+│   │   ├── InstallAppCard.tsx
+│   │   ├── InstallOptionsPanel.tsx
+│   │   ├── Layout.tsx
+│   │   ├── MobileNav.tsx
+│   │   ├── Modal.tsx
+│   │   ├── MoneyInput.tsx
+... tree truncated ...

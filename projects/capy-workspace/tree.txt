@@ -1,0 +1,60 @@
+capy-workspace/
+├── .capy/
+│   └── metadata.json
+├── guidelines/
+│   └── Guidelines.md
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── figma/
+│   │   │   │   └── ImageWithFallback.tsx
+│   │   │   ├── ui/
+│   │   │   │   ├── accordion.tsx
+│   │   │   │   ├── alert-dialog.tsx
+│   │   │   │   ├── alert.tsx
+│   │   │   │   ├── aspect-ratio.tsx
+│   │   │   │   ├── avatar.tsx
+│   │   │   │   ├── badge.tsx
+│   │   │   │   ├── breadcrumb.tsx
+│   │   │   │   ├── button.tsx
+│   │   │   │   ├── calendar.tsx
+│   │   │   │   ├── card.tsx
+│   │   │   │   ├── carousel.tsx
+│   │   │   │   ├── chart.tsx
+│   │   │   │   ├── checkbox.tsx
+│   │   │   │   ├── collapsible.tsx
+│   │   │   │   ├── command.tsx
+│   │   │   │   └── context-menu.tsx
+│   │   │   ├── CodeEditor.tsx
+│   │   │   ├── editor-area.tsx
+│   │   │   ├── EditorTabs.tsx
+│   │   │   ├── Explorer.tsx
+│   │   │   ├── file-explorer.tsx
+│   │   │   ├── preview-panel.tsx
+│   │   │   ├── status-bar.tsx
+│   │   │   ├── StatusBar.tsx
+│   │   │   ├── top-bar.tsx
+│   │   │   ├── TopBar.tsx
+│   │   │   └── welcome-screen.tsx
+│   │   ├── store/
+│   │   │   ├── editorStore.ts
+│   │   │   └── workspace-store.ts
+│   │   └── App.tsx
+│   ├── assets/
+│   │   ├── 5bf9270b592451077dcbcccc6d0e6aa2a11eef1d.png
+│   │   └── 60b293f7ee822fbfee4cbbd9255d01a9bd24d292.png
+│   ├── imports/
+│   │   ├── Container.tsx
+│   │   └── svg-5s1y4vci93.ts
+│   ├── styles/
+│   │   ├── fonts.css
+│   │   ├── index.css
+│   │   ├── tailwind.css
+│   │   └── theme.css
+│   └── main.tsx
+├── ATTRIBUTIONS.md
+├── index.html
+├── package.json
+├── postcss.config.mjs
+├── README.md
+└── vite.config.ts

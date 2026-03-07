@@ -1,0 +1,22 @@
+{
+  "project_name": "Nova pasta (2)",
+  "slug": "nova-pasta-2",
+  "original_path": "D:\\novosproj\\projects\\active\\ops\\Nova pasta (2)",
+  "detected_type": "web-app",
+  "main_stack": [
+    "Node.js",
+    "React",
+    "Vite",
+    "JavaScript"
+  ],
+  "important_files": [
+    "package.json",
+    "vite.config.js",
+    "src/app",
+    "src/components"
+  ],
+  "entry_points": [
+    "package.json"
+  ],
+  "notes": "Software project based on Node.js, React, Vite."
+}

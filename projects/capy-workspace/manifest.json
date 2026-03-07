@@ -1,0 +1,24 @@
+{
+  "project_name": "capy-workspace",
+  "slug": "capy-workspace",
+  "original_path": "D:\\novosproj\\projects\\2025\\capy-workspace",
+  "detected_type": "web-app",
+  "main_stack": [
+    "Node.js",
+    "Vite",
+    "TypeScript"
+  ],
+  "important_files": [
+    "package.json",
+    "README.md",
+    "vite.config.ts",
+    "src/main.tsx",
+    "src/app"
+  ],
+  "entry_points": [
+    "package.json",
+    "README.md",
+    "src/main.tsx"
+  ],
+  "notes": "This is a code bundle for Web IDE Development. The original project is available at https://www.figma.com/design/iCIKw4WZ2YOClyNvQbU9dg/Web-IDE-Development."
+}
