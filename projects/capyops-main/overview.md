@@ -22,3 +22,24 @@ Resumo curto: # CapyOps ML (privado) — Operação diária + Estoque + Vendas +
 ## Observacoes
 - O codigo-fonte completo permaneceu fora do `capymind`.
 - Arquivos relacionados: [stack](./stack.md), [architecture](./architecture.md), [key-files](./key-files.md).
+
+🛠️ CapyOps Main - Overview
+
+📌 Identidade do Projeto
+
+O coração da infraestrutura. O CapyOps gerencia pipelines, automações e a estabilidade do ecossistema Scarpato.
+
+🔗 Source Artifact (GitHub)
+
+O repositório mestre de infraestrutura está em:
+👉 https://github.com/faelscarpato/capyops
+
+🎯 Pilar Estratégico
+
+Automação de deploys.
+
+Monitoramento de agentes de IA.
+
+Segurança e governança de dados.
+
+Operação centralizada, execução distribuída.
