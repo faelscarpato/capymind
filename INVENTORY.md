@@ -1,14 +1,19 @@
-# INVENTORY
+# Inventory
 
-- Heavy projects detected: 34
-- Light documents found in source areas: 60
-- Prompts found: 4
-- Datasets found: 1
-- Small JSON/CSV files found: 0
-- Heavy files ignored/flagged: 18
-- Review items: 6
+Resumo curto: panorama do conteudo mapeado para o `capymind`.
 
-## Analyzed scope
-- `projects/`: main contamination area with copied projects.
-- `archive/`: legacy versions that also should not remain as official structure.
-- `knowledge/`, `docs/`, `prompts/`, `datasets/`, `data/`, `schemas/`, `references/`, and `scripts/`: treated as light context sources.
+## Detectado
+- Projetos documentados: 40
+- Prompts catalogados: 8
+- Datasets descritos: 6
+- Referencias registradas: 6
+- Catalogos de assets: 4
+- Itens pesados sinalizados: 50
+- Itens em revisao: 4
+
+## Panorama
+- O repositorio final prioriza conhecimento leve, navegavel e versionavel.
+- O corpus bruto permanece fora da estrutura oficial do repo.
+
+## Observacoes
+- O catalogo principal de projetos esta em [PROJECT_CATALOG.md](./PROJECT_CATALOG.md).

@@ -1,159 +1,57 @@
-# HEAVY CONTENT REPORT
+# Heavy Content Report
 
-## Heavy project folders detected
-- Heavy folder: `D:\novosproj\archive\versions\bring-any-idea-to-life`
-  Approx size: `0.15 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/bring-any-idea-to-life`
-- Heavy folder: `D:\novosproj\archive\versions\capy-station---stackverse-portfolio`
-  Approx size: `0.12 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capy-station-stackverse-portfolio`
-- Heavy folder: `D:\novosproj\projects\2025\absencia-control-main\absencia-control-main`
-  Approx size: `9.38 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/absencia-control-main`
-- Heavy folder: `D:\novosproj\projects\2025\aura-main\aura-main`
-  Approx size: `0.33 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/aura-main`
-- Heavy folder: `D:\novosproj\projects\2025\bocaaberta`
-  Approx size: `0.17 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/bocaaberta`
-- Heavy folder: `D:\novosproj\projects\2025\capibaraanalytics-main\capibaraanalytics-main`
-  Approx size: `3.28 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capibaraanalytics-main`
-- Heavy folder: `D:\novosproj\projects\2025\capy-ai-verse-main\capy-ai-verse-main`
-  Approx size: `0.84 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capy-ai-verse-main`
-- Heavy folder: `D:\novosproj\projects\2025\Capy-Station-main\Capy-Station-main`
-  Approx size: `0.05 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capy-station-main`
-- Heavy folder: `D:\novosproj\projects\2025\capy-universe-main\capy-universe-main`
-  Approx size: `0.28 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capy-universe-main`
-- Heavy folder: `D:\novosproj\projects\2025\capy-workspace`
-  Approx size: `0.31 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capy-workspace`
-- Heavy folder: `D:\novosproj\projects\2025\CapyAgente-main\CapyAgente-main`
-  Approx size: `0.20 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capyagente-main`
-- Heavy folder: `D:\novosproj\projects\2025\CapyAI-main\CapyAI-main`
-  Approx size: `0.27 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capyai-main`
-- Heavy folder: `D:\novosproj\projects\2025\CapyAI-wx-main\CapyAI-wx-main`
-  Approx size: `0.25 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capyai-wx-main`
-- Heavy folder: `D:\novosproj\projects\2025\capybox-main\capybox-main`
-  Approx size: `3.17 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capybox-main`
-- Heavy folder: `D:\novosproj\projects\2025\capychat-main\capychat-main`
-  Approx size: `0.44 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capychat-main`
-- Heavy folder: `D:\novosproj\projects\2025\capycontrato-main\capycontrato-main`
-  Approx size: `0.18 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capycontrato-main`
-- Heavy folder: `D:\novosproj\projects\2025\capyfactory-main\capyfactory-main`
-  Approx size: `0.60 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capyfactory-main`
-- Heavy folder: `D:\novosproj\projects\2025\capyide-main\capyide-main`
-  Approx size: `0.29 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capyide-main`
-- Heavy folder: `D:\novosproj\projects\2025\CapyMES-main\CapyMES-main`
-  Approx size: `0.47 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capymes-main`
-- Heavy folder: `D:\novosproj\projects\2025\capypages-main\capypages-main`
-  Approx size: `0.04 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capypages-main`
-- Heavy folder: `D:\novosproj\projects\2025\capyptt-main\capyptt-main`
-  Approx size: `0.00 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capyptt-main`
-- Heavy folder: `D:\novosproj\projects\2025\capyroom-main\capyroom-main`
-  Approx size: `0.05 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capyroom-main`
-- Heavy folder: `D:\novosproj\projects\2025\CapyUNIcode-main\CapyUNIcode-main`
-  Approx size: `0.10 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capyunicode-main`
-- Heavy folder: `D:\novosproj\projects\2025\capyuniv2-main\capyuniv2-main`
-  Approx size: `0.69 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capyuniv2-main`
-- Heavy folder: `D:\novosproj\projects\2025\capyuniv2-main (1)\capyuniv2-main`
-  Approx size: `0.51 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capyuniv2-main-2`
-- Heavy folder: `D:\novosproj\projects\2025\capyviewport-main\capyviewport-main`
-  Approx size: `0.43 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capyviewport-main`
-- Heavy folder: `D:\novosproj\projects\2025\capyvision-main\capyvision-main`
-  Approx size: `0.16 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capyvision-main`
-- Heavy folder: `D:\novosproj\projects\2025\capywork-saas`
-  Approx size: `65.08 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capywork-saas`
-- Heavy folder: `D:\novosproj\projects\active\capypos`
-  Approx size: `4.62 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capypos`
-- Heavy folder: `D:\novosproj\projects\active\ops\capy-workspace (7)`
-  Approx size: `21.98 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capy-workspace-7`
-- Heavy folder: `D:\novosproj\projects\active\ops\capyops\capyops-main`
-  Approx size: `31.59 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capyops-main`
-- Heavy folder: `D:\novosproj\projects\active\ops\capyops-main (3)\capyops-main`
-  Approx size: `9.46 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/capyops-main-2`
-- Heavy folder: `D:\novosproj\projects\active\ops\Nova pasta`
-  Approx size: `0.36 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/nova-pasta`
-- Heavy folder: `D:\novosproj\projects\active\ops\Nova pasta (2)`
-  Approx size: `1.23 MB` (excluding `node_modules` and ignored build folders)
-  Reason: a full project copy should not remain inside a lightweight knowledge repo.
-  Light replacement: `projects/nova-pasta-2`
+Resumo curto: conteudo pesado, inadequado ou incompatível com um repositorio leve.
 
-## Heavy files observed
-- `D:\novosproj\projects\2025\capywork-saas\capyone.zip`: `33.94 MB`
-- `D:\novosproj\projects\2025\capywork-saas\capyops-main (3).zip`: `21.19 MB`
-- `D:\novosproj\projects\active\ops\capy-workspace (7)\CAPYOPS-V3.zip`: `12.52 MB`
-- `D:\novosproj\projects\active\ops\capyops\capyops-main\CAPYOPS-V3.zip`: `12.52 MB`
-- `D:\novosproj\projects\2025\absencia-control-main\absencia-control-main\cache\huggingface\hub\models--Xenova--llama-3-tokenizer\blobs\94eacd0897072dcd7b84d1f6ff3c3f6d1933a8cc`: `8.66 MB`
-- `D:\novosproj\projects\active\capypos\src\renderer\assets\94b7bfbf-a76c-4df0-871e-398025cc219f.png`: `2.75 MB`
-- `D:\novosproj\projects\2025\capibaraanalytics-main\capibaraanalytics-main\public\lovable-uploads\ddf5c4d4-c3df-4674-96f2-10380a1d9918.png`: `2.28 MB`
-- `D:\novosproj\projects\2025\capybox-main\capybox-main\ibge\servicodados.ibge.gov.br_api_docs_CNAE_versao=2#api-_.txt`: `1.14 MB`
-- `D:\novosproj\projects\2025\capywork-saas\capyops-main\capyops-main\icons\200.png`: `1.02 MB`
-- `D:\novosproj\projects\2025\capywork-saas\capyops-main\capyops-main\public\icons\200.png`: `1.02 MB`
-- `D:\novosproj\projects\active\ops\capy-workspace (7)\icons\200.png`: `1.02 MB`
-- `D:\novosproj\projects\active\ops\capy-workspace (7)\public\icons\200.png`: `1.02 MB`
-- `D:\novosproj\projects\active\ops\capyops\capyops-main\CAPYOPS-V3\icons\200.png`: `1.02 MB`
-- `D:\novosproj\projects\active\ops\capyops\capyops-main\CAPYOPS-V3\public\icons\200.png`: `1.02 MB`
-- `D:\novosproj\projects\active\ops\capyops\capyops-main\icons\200.png`: `1.02 MB`
-- `D:\novosproj\projects\active\ops\capyops\capyops-main\public\icons\200.png`: `1.02 MB`
-- `D:\novosproj\projects\active\ops\capyops-main (3)\capyops-main\icons\200.png`: `1.02 MB`
-- `D:\novosproj\projects\active\ops\capyops-main (3)\capyops-main\public\icons\200.png`: `1.02 MB`
+## Pastas pesadas tratadas como origem externa
+- `D:\novosproj\projects\2025\capywork-saas` | tamanho aproximado: 65.08 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capywork-saas/`
+- `D:\novosproj\projects\active\ops\capyops\capyops-main` | tamanho aproximado: 34.53 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capyops-capyops-main/`
+- `D:\novosproj\projects\2025\capyuniverse-main\capyuniverse-main` | tamanho aproximado: 26.42 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capyuniverse-main/`
+- `D:\novosproj\projects\active\ops\capy-workspace (7)` | tamanho aproximado: 21.98 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capy-workspace-7/`
+- `D:\novosproj\projects\active\ops\capyops\capyops-main\CAPYOPS-V3` | tamanho aproximado: 12.46 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capyops-v3/`
+- `D:\novosproj\projects\active\ops\capyops-main (3)\capyops-main` | tamanho aproximado: 9.46 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capyops-main/`
+- `D:\novosproj\projects\2025\absencia-control-main\absencia-control-main` | tamanho aproximado: 9.38 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/absencia-control-main/`
+- `D:\novosproj\projects\active\capypos` | tamanho aproximado: 4.62 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capypos/`
+- `D:\novosproj\projects\2025\capibaraanalytics-main\capibaraanalytics-main` | tamanho aproximado: 3.28 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capibaraanalytics-main/`
+- `D:\novosproj\projects\2025\capybox-main\capybox-main` | tamanho aproximado: 3.17 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capybox-main/`
+- `D:\novosproj\projects\2025\capydeal-main\capydeal-main` | tamanho aproximado: 2.72 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capydeal-main/`
+- `D:\novosproj\projects\active\ops\Nova pasta (2)` | tamanho aproximado: 1.23 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/nova-pasta-2/`
+- `D:\novosproj\projects\2025\capy-ai-verse-main\capy-ai-verse-main` | tamanho aproximado: 0.84 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capy-ai-verse-main/`
+- `D:\novosproj\projects\2025\capyuniv2-main\capyuniv2-main` | tamanho aproximado: 0.69 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capyuniv2-main/`
+- `D:\novosproj\projects\2025\capyfactory-main\capyfactory-main` | tamanho aproximado: 0.6 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capyfactory-main/`
+- `D:\novosproj\projects\2025\capyuniv2-main (1)\capyuniv2-main` | tamanho aproximado: 0.51 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capyuniv2-main-1-capyuniv2-main/`
+- `D:\novosproj\projects\2025\CapyMES-main\CapyMES-main` | tamanho aproximado: 0.47 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capymes-main/`
+- `D:\novosproj\projects\2025\capychat-main\capychat-main` | tamanho aproximado: 0.44 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capychat-main/`
+- `D:\novosproj\projects\2025\capyviewport-main\capyviewport-main` | tamanho aproximado: 0.43 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capyviewport-main/`
+- `D:\novosproj\projects\active\ops\Nova pasta` | tamanho aproximado: 0.36 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/nova-pasta/`
+- `D:\novosproj\projects\2025\aura-main\aura-main` | tamanho aproximado: 0.33 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/aura-main/`
+- `D:\novosproj\projects\2025\capy-workspace` | tamanho aproximado: 0.31 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capy-workspace/`
+- `D:\novosproj\projects\2025\capyide-main\capyide-main` | tamanho aproximado: 0.29 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capyide-main/`
+- `D:\novosproj\projects\2025\capy-universe-main\capy-universe-main` | tamanho aproximado: 0.28 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capy-universe-main/`
+- `D:\novosproj\projects\2025\CapyAI-main\CapyAI-main` | tamanho aproximado: 0.27 MB | motivo: copia integral ou snapshot de aplicacao | substituicao leve: `projects/capyai-main/`
+
+## Arquivos pesados ignorados
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\DESCRIÇÕES SEMANAIS\pptEBD6.pptm  -  Recuperado Automaticamente.pptm` | 69.94 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\FOTOS\fotos.zip` | 55.76 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\FOTOS\Nova pasta\fotos.zip` | 55.76 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\pptA2D6.pptx  -  Recuperado Automaticamente.pptx` | 46.01 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\Imagem1.png` | 21.85 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\Imagem2.png` | 21.85 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\FOTOS\PRETO VELHO\Design sem nome (1).zip` | 13.61 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\DESCRIÇÕES SEMANAIS\Apresentação1.pptx` | 12.72 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\DESCRIÇÕES SEMANAIS\20260221_003603_remastered.png` | 7.49 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\Doc1.docx` | 7.43 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\DESCRIÇÕES SEMANAIS\20260221_003640.png` | 6.42 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\FOTOS\PRETO VELHO\Design sem nome (1)\7.png` | 6.35 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\DESCRIÇÕES SEMANAIS\20260221_003640_remastered.png` | 6.34 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\DESCRIÇÕES SEMANAIS\20260221_003206.png` | 6.24 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\DESCRIÇÕES SEMANAIS\20260221_003709.png` | 6.11 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\DESCRIÇÕES SEMANAIS\20260221_003206_remastered.png` | 6.07 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\Vídeo sem título ‐ Feito com o Clipchamp.mp4` | 6.04 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\DESCRIÇÕES SEMANAIS\20260221_003603.png` | 5.98 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\DESCRIÇÕES SEMANAIS\20260221_003709_remastered.png` | 5.97 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\FOTOS\Nova pasta\crie-uma-ilustrao-comercial-premium-do-produto-que (10).jpeg` | 5.97 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\DESCRIÇÕES SEMANAIS\20260221_003459.png` | 5.86 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\FOTOS\Nova pasta\crie-uma-ilustrao-comercial-premium-do-produto-que (7).jpeg` | 5.84 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\DESCRIÇÕES SEMANAIS\20260221_003459_remastered.png` | 5.73 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\FOTOS\Nova pasta\crie-uma-ilustrao-comercial-premium-do-produto-que (8).jpeg` | 5.61 MB | motivo: arquivo pesado fora do escopo documental leve
+- `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\DESCRIÇÕES SEMANAIS\20260221_003309.png` | 5.55 MB | motivo: arquivo pesado fora do escopo documental leve

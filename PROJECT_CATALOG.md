@@ -1,274 +1,46 @@
-# PROJECT CATALOG
+# Project Catalog
 
-## bring-any-idea-to-life
-- slug: `bring-any-idea-to-life`
-- original path: `D:\novosproj\archive\versions\bring-any-idea-to-life`
-- stack: Node.js, React, Vite, TypeScript
-- purpose: <div align="center">
-- status: `heavy-copy-documented`
-- light folder: `projects/bring-any-idea-to-life`
+Resumo curto: catalogo dos projetos detectados e documentados.
 
-## capy-station---stackverse-portfolio
-- slug: `capy-station-stackverse-portfolio`
-- original path: `D:\novosproj\archive\versions\capy-station---stackverse-portfolio`
-- stack: Node.js, React, Vite, TypeScript
-- purpose: Institutional or personal portfolio website.
-- status: `heavy-copy-documented`
-- light folder: `projects/capy-station-stackverse-portfolio`
-
-## absencia-control-main
-- slug: `absencia-control-main`
-- original path: `D:\novosproj\projects\2025\absencia-control-main\absencia-control-main`
-- stack: Node.js, Next.js, React, TypeScript, JavaScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/absencia-control-main`
-
-## aura-main
-- slug: `aura-main`
-- original path: `D:\novosproj\projects\2025\aura-main\aura-main`
-- stack: Node.js, React, Vite, Electron, TypeScript, JavaScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/aura-main`
-
-## bocaaberta
-- slug: `bocaaberta`
-- original path: `D:\novosproj\projects\2025\bocaaberta`
-- stack: Node.js, React, Vite, TypeScript, JavaScript
-- purpose: Software project based on Node.js, React, Vite.
-- status: `heavy-copy-documented`
-- light folder: `projects/bocaaberta`
-
-## capibaraanalytics-main
-- slug: `capibaraanalytics-main`
-- original path: `D:\novosproj\projects\2025\capibaraanalytics-main\capibaraanalytics-main`
-- stack: Node.js, React, Vite, TypeScript, JavaScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capibaraanalytics-main`
-
-## capy-ai-verse-main
-- slug: `capy-ai-verse-main`
-- original path: `D:\novosproj\projects\2025\capy-ai-verse-main\capy-ai-verse-main`
-- stack: Node.js, React, Vite, TypeScript, JavaScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capy-ai-verse-main`
-
-## Capy-Station-main
-- slug: `capy-station-main`
-- original path: `D:\novosproj\projects\2025\Capy-Station-main\Capy-Station-main`
-- stack: Node.js, React, Vite, TypeScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capy-station-main`
-
-## capy-universe-main
-- slug: `capy-universe-main`
-- original path: `D:\novosproj\projects\2025\capy-universe-main\capy-universe-main`
-- stack: Node.js, Next.js, React, TypeScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capy-universe-main`
-
-## capy-workspace
-- slug: `capy-workspace`
-- original path: `D:\novosproj\projects\2025\capy-workspace`
-- stack: Node.js, Vite, TypeScript
-- purpose: This is a code bundle for Web IDE Development. The original project is available at https://www.figma.com/design/iCIKw4WZ2YOClyNvQbU9dg/Web-IDE-Development.
-- status: `heavy-copy-documented`
-- light folder: `projects/capy-workspace`
-
-## CapyAgente-main
-- slug: `capyagente-main`
-- original path: `D:\novosproj\projects\2025\CapyAgente-main\CapyAgente-main`
-- stack: Node.js, Next.js, React, TypeScript, JavaScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capyagente-main`
-
-## CapyAI-main
-- slug: `capyai-main`
-- original path: `D:\novosproj\projects\2025\CapyAI-main\CapyAI-main`
-- stack: Node.js, Next.js, React, TypeScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capyai-main`
-
-## CapyAI-wx-main
-- slug: `capyai-wx-main`
-- original path: `D:\novosproj\projects\2025\CapyAI-wx-main\CapyAI-wx-main`
-- stack: Node.js, Next.js, React, TypeScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capyai-wx-main`
-
-## capybox-main
-- slug: `capybox-main`
-- original path: `D:\novosproj\projects\2025\capybox-main\capybox-main`
-- stack: Node.js, React, Vite, TypeScript, JavaScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capybox-main`
-
-## capychat-main
-- slug: `capychat-main`
-- original path: `D:\novosproj\projects\2025\capychat-main\capychat-main`
-- stack: Node.js, Next.js, React, TypeScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capychat-main`
-
-## capycontrato-main
-- slug: `capycontrato-main`
-- original path: `D:\novosproj\projects\2025\capycontrato-main\capycontrato-main`
-- stack: Node.js, React, Vite, TypeScript, JavaScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capycontrato-main`
-
-## capyfactory-main
-- slug: `capyfactory-main`
-- original path: `D:\novosproj\projects\2025\capyfactory-main\capyfactory-main`
-- stack: Node.js, Next.js, React, TypeScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capyfactory-main`
-
-## capyide-main
-- slug: `capyide-main`
-- original path: `D:\novosproj\projects\2025\capyide-main\capyide-main`
-- stack: Node.js, JavaScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capyide-main`
-
-## CapyMES-main
-- slug: `capymes-main`
-- original path: `D:\novosproj\projects\2025\CapyMES-main\CapyMES-main`
-- stack: Node.js, Next.js, React, TypeScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capymes-main`
-
-## capypages-main
-- slug: `capypages-main`
-- original path: `D:\novosproj\projects\2025\capypages-main\capypages-main`
-- stack: Node.js, React, Vite, TypeScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capypages-main`
-
-## capyptt-main
-- slug: `capyptt-main`
-- original path: `D:\novosproj\projects\2025\capyptt-main\capyptt-main`
-- stack: Node.js, JavaScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capyptt-main`
-
-## capyroom-main
-- slug: `capyroom-main`
-- original path: `D:\novosproj\projects\2025\capyroom-main\capyroom-main`
-- stack: Node.js, React, Vite, TypeScript, JavaScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capyroom-main`
-
-## CapyUNIcode-main
-- slug: `capyunicode-main`
-- original path: `D:\novosproj\projects\2025\CapyUNIcode-main\CapyUNIcode-main`
-- stack: Node.js, React, Vite, TypeScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capyunicode-main`
-
-## capyuniv2-main
-- slug: `capyuniv2-main`
-- original path: `D:\novosproj\projects\2025\capyuniv2-main\capyuniv2-main`
-- stack: Node.js, React, Vite, TypeScript, JavaScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capyuniv2-main`
-
-## capyuniv2-main
-- slug: `capyuniv2-main-2`
-- original path: `D:\novosproj\projects\2025\capyuniv2-main (1)\capyuniv2-main`
-- stack: Node.js, React, Vite, TypeScript, JavaScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capyuniv2-main-2`
-
-## capyviewport-main
-- slug: `capyviewport-main`
-- original path: `D:\novosproj\projects\2025\capyviewport-main\capyviewport-main`
-- stack: Node.js, React, Vite, TypeScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capyviewport-main`
-
-## capyvision-main
-- slug: `capyvision-main`
-- original path: `D:\novosproj\projects\2025\capyvision-main\capyvision-main`
-- stack: Node.js, React, Vite, TypeScript, JavaScript
-- purpose: AI-oriented product with chat, assistant, or automation behavior.
-- status: `heavy-copy-documented`
-- light folder: `projects/capyvision-main`
-
-## capywork-saas
-- slug: `capywork-saas`
-- original path: `D:\novosproj\projects\2025\capywork-saas`
-- stack: Node.js, Next.js, React, TypeScript, JavaScript
-- purpose: Software project based on Node.js, Next.js, React.
-- status: `heavy-copy-documented`
-- light folder: `projects/capywork-saas`
-
-## capypos
-- slug: `capypos`
-- original path: `D:\novosproj\projects\active\capypos`
-- stack: Node.js, React, Vite, Electron, TypeScript, JavaScript
-- purpose: MVP v0 em Electron + React + TypeScript + Tailwind para devolucao de retornaveis unitarios.
-- status: `heavy-copy-documented`
-- light folder: `projects/capypos`
-
-## capy-workspace (7)
-- slug: `capy-workspace-7`
-- original path: `D:\novosproj\projects\active\ops\capy-workspace (7)`
-- stack: Node.js, React, Vite, Electron, TypeScript, JavaScript
-- purpose: CapyOps ML é um **painel interno (privado)** para operar uma loja no Mercado Livre no modo **Normal-first**, com foco em execução diária sem falhas: **tarefas do dia, estoque crítico, registro de vendas, lucro estimado e
-- status: `heavy-copy-documented`
-- light folder: `projects/capy-workspace-7`
-
-## capyops-main
-- slug: `capyops-main`
-- original path: `D:\novosproj\projects\active\ops\capyops\capyops-main`
-- stack: Node.js, React, Vite, Electron, TypeScript, JavaScript
-- purpose: Operational software focused on dashboards, internal flow, and integrations.
-- status: `heavy-copy-documented`
-- light folder: `projects/capyops-main`
-
-## capyops-main
-- slug: `capyops-main-2`
-- original path: `D:\novosproj\projects\active\ops\capyops-main (3)\capyops-main`
-- stack: Node.js, React, Vite, Electron, TypeScript, JavaScript
-- purpose: Operational software focused on dashboards, internal flow, and integrations.
-- status: `heavy-copy-documented`
-- light folder: `projects/capyops-main-2`
-
-## Nova pasta
-- slug: `nova-pasta`
-- original path: `D:\novosproj\projects\active\ops\Nova pasta`
-- stack: Node.js, React, Vite, Tauri, TypeScript, JavaScript, Rust
-- purpose: Aplicativo desktop para diagnostico e inspecao ADB em dispositivos autorizados.
-- status: `heavy-copy-documented`
-- light folder: `projects/nova-pasta`
-
-## Nova pasta (2)
-- slug: `nova-pasta-2`
-- original path: `D:\novosproj\projects\active\ops\Nova pasta (2)`
-- stack: Node.js, React, Vite, JavaScript
-- purpose: Software project based on Node.js, React, Vite.
-- status: `heavy-copy-documented`
-- light folder: `projects/nova-pasta-2`
-
+| Nome | Slug | Dominio | Stack resumida | Origem | Documentacao |
+| --- | --- | --- | --- | --- | --- |
+| creatr | `absencia-control-main` | ia / produto | Next.js, React, Supabase, Tailwind CSS | `D:\novosproj\projects\2025\absencia-control-main\absencia-control-main` | [overview](./projects/absencia-control-main/overview.md) |
+| jarvis-home-os | `aura-main` | ia / produto | React, Vite, Electron, Supabase, Zustand | `D:\novosproj\projects\2025\aura-main\aura-main` | [overview](./projects/aura-main/overview.md) |
+| bocaaberta | `bocaaberta` | transparencia / dados | React, Vite, Tailwind CSS, React Query | `D:\novosproj\projects\2025\bocaaberta` | [overview](./projects/bocaaberta/overview.md) |
+| bocaaberta-oz-initial-scaffold | `bocaaberta-oz-initial-scaffold` | transparencia / dados | stack parcial | `D:\novosproj\projects\2025\bocaaberta-oz-initial-scaffold\bocaaberta-oz-initial-scaffold` | [overview](./projects/bocaaberta-oz-initial-scaffold/overview.md) |
+| capibaraanalytics-main | `capibaraanalytics-main` | ia / produto | React, Vite, Tailwind CSS, Radix UI | `D:\novosproj\projects\2025\capibaraanalytics-main\capibaraanalytics-main` | [overview](./projects/capibaraanalytics-main/overview.md) |
+| capy-ai-verse-main | `capy-ai-verse-main` | ia / produto | React, Vite, Tailwind CSS, Radix UI | `D:\novosproj\projects\2025\capy-ai-verse-main\capy-ai-verse-main` | [overview](./projects/capy-ai-verse-main/overview.md) |
+| capy-station---stackverse-portfolio | `capy-station-main` | ia / produto | React, Vite | `D:\novosproj\projects\2025\Capy-Station-main\Capy-Station-main` | [overview](./projects/capy-station-main/overview.md) |
+| capy-universe-main | `capy-universe-main` | ia / produto | Next.js, React, Tailwind CSS, Radix UI | `D:\novosproj\projects\2025\capy-universe-main\capy-universe-main` | [overview](./projects/capy-universe-main/overview.md) |
+| capy-workspace | `capy-workspace` | operacoes / saas | Vite, Tailwind CSS, Radix UI | `D:\novosproj\projects\2025\capy-workspace` | [overview](./projects/capy-workspace/overview.md) |
+| capyplanner | `capyagente-main` | ia / produto | Next.js, React, Tailwind CSS, Radix UI | `D:\novosproj\projects\2025\CapyAgente-main\CapyAgente-main` | [overview](./projects/capyagente-main/overview.md) |
+| CapyAI-main | `capyai-main` | ia / produto | Next.js, React, Tailwind CSS, Radix UI | `D:\novosproj\projects\2025\CapyAI-main\CapyAI-main` | [overview](./projects/capyai-main/overview.md) |
+| CapyAI-wx-main | `capyai-wx-main` | ia / produto | Next.js, React, Tailwind CSS, Radix UI | `D:\novosproj\projects\2025\CapyAI-wx-main\CapyAI-wx-main` | [overview](./projects/capyai-wx-main/overview.md) |
+| capywaveb | `capybox-main` | ia / produto | React, Vite, Supabase, Tailwind CSS | `D:\novosproj\projects\2025\capybox-main\capybox-main` | [overview](./projects/capybox-main/overview.md) |
+| capychat-main | `capychat-main` | ia / produto | Next.js, React, Supabase, Tailwind CSS | `D:\novosproj\projects\2025\capychat-main\capychat-main` | [overview](./projects/capychat-main/overview.md) |
+| capycontrato-elite | `capycontrato-main` | ia / produto | React, Vite, Gemini | `D:\novosproj\projects\2025\capycontrato-main\capycontrato-main` | [overview](./projects/capycontrato-main/overview.md) |
+| capydeal-main | `capydeal-main` | ia / produto | Gemini | `D:\novosproj\projects\2025\capydeal-main\capydeal-main` | [overview](./projects/capydeal-main/overview.md) |
+| capyfactory-main | `capyfactory-main` | operacoes / saas | Next.js, React, Tailwind CSS, Radix UI | `D:\novosproj\projects\2025\capyfactory-main\capyfactory-main` | [overview](./projects/capyfactory-main/overview.md) |
+| CapyFlow-main | `capyflow-main` | ia / produto | OpenAI, Gemini | `D:\novosproj\projects\2025\CapyFlow-main\CapyFlow-main` | [overview](./projects/capyflow-main/overview.md) |
+| capyide | `capyide-main` | ia / produto | Gemini | `D:\novosproj\projects\2025\capyide-main\capyide-main` | [overview](./projects/capyide-main/overview.md) |
+| CapyMES-main | `capymes-main` | operacoes / saas | Next.js, React, Supabase, Tailwind CSS | `D:\novosproj\projects\2025\CapyMES-main\CapyMES-main` | [overview](./projects/capymes-main/overview.md) |
+| capypages-digital-agency | `capypages-main` | ia / produto | React, Vite, Gemini | `D:\novosproj\projects\2025\capypages-main\capypages-main` | [overview](./projects/capypages-main/overview.md) |
+| capyptt | `capyptt-main` | ia / produto | Backend service | `D:\novosproj\projects\2025\capyptt-main\capyptt-main` | [overview](./projects/capyptt-main/overview.md) |
+| capyroom-editor-pro | `capyroom-main` | ia / produto | React, Vite, Tailwind CSS, Zustand | `D:\novosproj\projects\2025\capyroom-main\capyroom-main` | [overview](./projects/capyroom-main/overview.md) |
+| capyide---next-gen-web-ide | `capyunicode-main` | ia / produto | React, Vite, Gemini | `D:\novosproj\projects\2025\CapyUNIcode-main\CapyUNIcode-main` | [overview](./projects/capyunicode-main/overview.md) |
+| capyuni-codium-v2 | `capyuniv2-main` | ia / produto | React, Vite, Backend service, Zustand, Gemini | `D:\novosproj\projects\2025\capyuniv2-main\capyuniv2-main` | [overview](./projects/capyuniv2-main/overview.md) |
+| capyuni-codium-v2 | `capyuniv2-main-1-capyuniv2-main` | ia / produto | React, Vite, Zustand, Gemini | `D:\novosproj\projects\2025\capyuniv2-main (1)\capyuniv2-main` | [overview](./projects/capyuniv2-main-1-capyuniv2-main/overview.md) |
+| capyuniverse-main | `capyuniverse-main` | ia / produto | OpenAI, Gemini | `D:\novosproj\projects\2025\capyuniverse-main\capyuniverse-main` | [overview](./projects/capyuniverse-main/overview.md) |
+| capyviewport | `capyviewport-main` | ia / produto | React, Vite, Zod, OpenAI | `D:\novosproj\projects\2025\capyviewport-main\capyviewport-main` | [overview](./projects/capyviewport-main/overview.md) |
+| capyvision-elite | `capyvision-main` | ia / produto | React, Vite, Gemini | `D:\novosproj\projects\2025\capyvision-main\capyvision-main` | [overview](./projects/capyvision-main/overview.md) |
+| capyone | `capywork-saas` | experimental / revisar | Next.js, React, Supabase, Tailwind CSS | `D:\novosproj\projects\2025\capywork-saas` | [overview](./projects/capywork-saas/overview.md) |
+| capypos | `capypos` | operacoes / saas | React, Vite, Electron, Supabase, Tailwind CSS | `D:\novosproj\projects\active\capypos` | [overview](./projects/capypos/overview.md) |
+| capyops-ml | `capy-workspace-7` | operacoes / saas | React, Vite, Electron, Supabase, Tailwind CSS | `D:\novosproj\projects\active\ops\capy-workspace (7)` | [overview](./projects/capy-workspace-7/overview.md) |
+| capyops-ml | `capyops-main` | operacoes / saas | React, Vite, Electron, Supabase, Tailwind CSS | `D:\novosproj\projects\active\ops\capyops-main (3)\capyops-main` | [overview](./projects/capyops-main/overview.md) |
+| capyops-ml | `capyops-capyops-main` | operacoes / saas | React, Vite, Electron, Supabase, Tailwind CSS | `D:\novosproj\projects\active\ops\capyops\capyops-main` | [overview](./projects/capyops-capyops-main/overview.md) |
+| capyops-ml | `capyops-v3` | operacoes / saas | React, Vite, Electron, Supabase, Tailwind CSS | `D:\novosproj\projects\active\ops\capyops\capyops-main\CAPYOPS-V3` | [overview](./projects/capyops-v3/overview.md) |
+| capy-adb-inspector | `nova-pasta` | experimental / revisar | React, Vite, Tauri, Tailwind CSS, Zustand | `D:\novosproj\projects\active\ops\Nova pasta` | [overview](./projects/nova-pasta/overview.md) |
+| capyops-ml-vite | `nova-pasta-2` | operacoes / saas | React, Vite | `D:\novosproj\projects\active\ops\Nova pasta (2)` | [overview](./projects/nova-pasta-2/overview.md) |
+| bring-any-idea-to-life | `bring-any-idea-to-life` | ia / produto | React, Vite, Gemini | `D:\novosproj\archive\versions\bring-any-idea-to-life` | [overview](./projects/bring-any-idea-to-life/overview.md) |
+| capy-station---stackverse-portfolio | `capy-station-stackverse-portfolio` | ia / produto | React, Vite | `D:\novosproj\archive\versions\capy-station---stackverse-portfolio` | [overview](./projects/capy-station-stackverse-portfolio/overview.md) |
+| petala-decor | `petala-decor` | comercial / catalogo | Next.js, React, Tailwind CSS, Radix UI | `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\PETALA DECOR` | [overview](./projects/petala-decor/overview.md) |

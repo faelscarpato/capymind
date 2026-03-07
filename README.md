@@ -1,13 +1,13 @@
 # capymind
 
-Lightweight knowledge base for documentation, AI workflows, and automation.
+Repositorio leve de conhecimento derivado do ecossistema do usuario.
 
-## Principles
-- No full source code copies.
-- Only summaries, manifests, trees, indexes, and references.
-- Keeps the repository commit-ready for GitHub.
+## Neste estagio
+- O repo guarda markdowns navegaveis, indices, resumos e rastreabilidade.
+- Projetos completos, builds, dependencias e ativos pesados permanecem fora.
 
-## Current scope
-- Heavy projects cataloged: 34
-- Heavy files flagged (>1 MB, outside ignored folders): 18
-- Manual review items: 6
+## Entradas principais
+- [PROJECT_CATALOG.md](./PROJECT_CATALOG.md)
+- [KNOWLEDGE_MAP.md](./KNOWLEDGE_MAP.md)
+- [INVENTORY.md](./INVENTORY.md)
+- [HEAVY_CONTENT_REPORT.md](./HEAVY_CONTENT_REPORT.md)
