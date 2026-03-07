@@ -1,8 +1,23 @@
 # Stack
 
-- Framework: Node.js, React, Vite
-- Language: TypeScript
-- Build tool: Vite
-- Package manager: npm
-- Main libs: Not identified
-- Capabilities detected: Not identified
+Resumo curto: stack tecnico detectado de forma heuristica.
+
+## Origem
+- Caminho original: `D:\novosproj\archive\versions\capy-station---stackverse-portfolio`
+
+## Detectado
+- Linguagens: TypeScript, JavaScript
+- Frameworks: React, Vite
+- Toolchain: npm
+- Bibliotecas principais: Sem bibliotecas-chave suficientemente claras
+- Sinais funcionais: Scripts de build e desenvolvimento presentes
+- Confianca da deteccao: alta
+
+## Inferido
+- A stack sugere aplicacao web moderna.
+
+## Relevancia
+- Esta pagina ajuda IA e humanos a localizar rapidamente os blocos tecnicos do projeto.
+
+## Observacoes
+- A deteccao foi feita sem copiar o projeto para o repositrio documental.

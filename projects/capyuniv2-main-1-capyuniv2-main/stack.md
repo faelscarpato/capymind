@@ -3,13 +3,13 @@
 Resumo curto: stack tecnico detectado de forma heuristica.
 
 ## Origem
-- Caminho original: `D:\novosproj\projects\2025\capyviewport-main\capyviewport-main`
+- Caminho original: `D:\novosproj\projects\2025\capyuniv2-main (1)\capyuniv2-main`
 
 ## Detectado
 - Linguagens: TypeScript, JavaScript
 - Frameworks: React, Vite
-- Toolchain: npm
-- Bibliotecas principais: Zod, OpenAI, Gemini
+- Toolchain: Nao detectado com confianca
+- Bibliotecas principais: Zustand, Gemini
 - Sinais funcionais: Scripts de build e desenvolvimento presentes
 - Confianca da deteccao: alta
 
