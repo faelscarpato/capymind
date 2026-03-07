@@ -43,3 +43,5 @@ Resumo curto: indice dos projetos documentados no repositorio.
 - [bring-any-idea-to-life](./bring-any-idea-to-life/overview.md): ia / produto | origem `D:\novosproj\archive\versions\bring-any-idea-to-life`
 - [capy-station---stackverse-portfolio](./capy-station-stackverse-portfolio/overview.md): ia / produto | origem `D:\novosproj\archive\versions\capy-station---stackverse-portfolio`
 - [petala-decor](./petala-decor/overview.md): comercial / catalogo | origem `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\PETALA DECOR`
+- [pedreiracep](./pedreiracep/overview.md): dados locais / utilitario publico | origem `https://github.com/faelscarpato/pedreiracep`
+
