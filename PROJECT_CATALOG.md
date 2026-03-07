@@ -44,3 +44,210 @@ Resumo curto: catalogo dos projetos detectados e documentados.
 | bring-any-idea-to-life | `bring-any-idea-to-life` | ia / produto | React, Vite, Gemini | `D:\novosproj\archive\versions\bring-any-idea-to-life` | [overview](./projects/bring-any-idea-to-life/overview.md) |
 | capy-station---stackverse-portfolio | `capy-station-stackverse-portfolio` | ia / produto | React, Vite | `D:\novosproj\archive\versions\capy-station---stackverse-portfolio` | [overview](./projects/capy-station-stackverse-portfolio/overview.md) |
 | petala-decor | `petala-decor` | comercial / catalogo | Next.js, React, Tailwind CSS, Radix UI | `D:\novosproj\PROJETOS 2026\MERCADO LIVRE\PETALA DECOR` | [overview](./projects/petala-decor/overview.md) |
+
+
+📂 Catálogo de Projetos Capymind (Arquitetura Sináptica)
+
+Este catálogo constitui o "Ponto Único de Verdade" (Single Source of Truth) para a localização, monitorização e governança de todos os artefatos de código no ecossistema digital gerido pelo @faelscarpato. Ele serve como a ponte definitiva entre a documentação de inteligência (Capymind) e a execução técnica (GitHub).
+
+🛰️ Visão Estratégica
+
+A estrutura abaixo não é apenas uma lista de repositórios, mas um mapeamento de competências. Cada projeto está interligado para formar um ecossistema onde o conhecimento flui entre IAs e humanos através do protocolo MCP.
+
+🛠️ Matriz de Projetos e Artefatos
+
+🧠 Inteligência Artificial & Core Agents
+
+Projetos focados em processamento de linguagem natural, agentes autónomos e lógica de rede.
+
+ Catálogo de Projetos Capymind (Arquitetura Sináptica)
+
+Este catálogo constitui o "Ponto Único de Verdade" (Single Source of Truth) para a localização, monitorização e governança de todos os artefatos de código no ecossistema digital gerido pelo @faelscarpato. Ele serve como a ponte definitiva entre a documentação de inteligência (Capymind) e a execução técnica (GitHub).
+
+🛰️ Visão Estratégica
+
+A estrutura abaixo não é apenas uma lista de repositórios, mas um mapeamento de competências. Cada projeto está interligado para formar um ecossistema onde o conhecimento flui entre IAs e humanos através do protocolo MCP.
+
+🛠️ Matriz de Projetos e Artefatos
+
+🧠 Inteligência Artificial & Core Agents
+
+Projetos focados em processamento de linguagem natural, agentes autónomos e lógica de rede.
+
+Projeto
+
+Pasta Local
+
+Status
+
+Repositório GitHub (Source)
+
+Impacto Estratégico
+
+Capy AI
+
+capyai-main
+
+🚀 Ativo
+
+github.com/.../CapyAI
+
+Motor central de processamento e lógica.
+
+Capy AI Verse
+
+capy-ai-verse-main
+
+✅ Estável
+
+github.com/.../capy-ai-verse
+
+Universo de prompts e ferramentas integradas.
+
+Capy AI WX
+
+capyai-wx-main
+
+🛠️ Dev
+
+github.com/.../CapyAI-wx
+
+Extensões experimentais e widgets de IA.
+
+Capy Agente
+
+capyagente-main
+
+🤖 Ativo
+
+github.com/.../CapyAgente
+
+Automação de tarefas autónomas de alto nível.
+
+Aura AI
+
+aura-main
+
+🛠️ Dev
+
+github.com/.../aura
+
+Interface de empatia e contexto emocional.
+
+🏭 Operações Industriais & Business (ERP/MES)
+
+Soluções verticais para gestão de fábrica, contratos e fluxos de trabalho comerciais.
+
+Projeto
+
+Pasta Local
+
+Status
+
+Repositório GitHub (Source)
+
+Impacto Estratégico
+
+Capy MES
+
+capymes-main
+
+🏭 Ind.
+
+github.com/.../CapyMES
+
+Execução de manufatura e controle fabril.
+
+Capy Factory
+
+capyfactory-main
+
+🏗️ Dev
+
+github.com/.../capyfactory
+
+Gestão de recursos e ativos de produção.
+
+Capy Contrato
+
+capycontrato-main
+
+✅ Estável
+
+github.com/.../capycontrato
+
+Gestão de ciclo de vida de contratos (CLM).
+
+Absência Control
+
+absencia-control-main
+
+🚀 Ativo
+
+github.com/.../absencia-control
+
+Monitoramento de produtividade e presença.
+
+Capy Deal
+
+capydeal-main
+
+🛠️ Dev
+
+github.com/.../capydeal
+
+Pipeline comercial e negociações B2B.
+
+🌐 Infraestrutura, Web & Experiência Visual
+
+Frameworks de UI, gestão de sistemas e e-commerce.
+
+Frameworks de UI, gestão de sistemas e e-commerce.
+
+| Projeto | Pasta Local | Status | Repositório GitHub (Source) | Impacto Estratégico |
+| :--- | :--- | :---: | :--- | : :--- |
+| Capy Ops | capyops-main | 🛠️ Dev | github.com/.../capyops | Orquestração de infraestrutura e DevOps. |
+| Capy Universe | capy-universe-main | 🌌 Master | github.com/.../capy-universe | Portal centralizador do ecossistema Scarpato. |
+| Capy Viewport | capyviewport-main | 🖼️ Dev | github.com/.../capyviewport | Renderização e interfaces de visualização. |
+| Capy Vision | capyvision-main | 👁️ Ativo | github.com/.../capyvision | Análise de imagem e visão computacional. |
+| Pétala Decor | petala-decor | 🛍️ E-com | github.com/.../petaladecor | Flagship de e-commerce e varejo digital. |
+
+🔍 Legenda de Status & Governança
+
+Para garantir a consistência do ecossistema, cada projeto segue um ciclo de vida rigoroso:
+
+🚀 Ativo (Produção): Projetos em uso real, com monitoramento constante.
+
+🛠️ Dev (Desenvolvimento): Projetos com iterações diárias e mudanças frequentes.
+
+🔍 Investig. (Investigação): Protótipos de viabilidade ou análise de dados brutos.
+
+✅ Estável (Manutenção): Projetos maduros que requerem pouca alteração de código.
+
+🏗️ Construindo (Scaffolding): Fase inicial de definição de arquitetura e pastas.
+
+🤖 Agente: Projetos onde a maioria dos commits é gerada ou gerida por agentes de IA.
+
+📡 Integração com o Capymind (Brain Integration)
+
+Diferente de um repositório comum, o Capymind consome este catálogo para:
+
+Indexação Semântica: Agentes de IA utilizam estes links para encontrar referências cruzadas.
+
+Rastreabilidade: Cada decisão documentada em knowledge/ deve ser rastreável a um commit nestes repositórios.
+
+Reuso de Código: O catálogo permite identificar rapidamente qual projeto possui a biblioteca de UI ou o motor de IA necessário para novas demandas.
+
+📝 Procedimento para Novos Projetos
+
+Para adicionar um novo artefato a este catálogo:
+
+Crie a pasta correspondente em /projects/ seguindo o padrão de nomenclatura.
+
+Crie o arquivo overview.md com o link do GitHub.
+
+Insira a nova entrada na tabela acima, respeitando a categoria funcional.
+
+Atualize o INGESTION_LOG.md com a data da inclusão.
+
+Nota de Sincronia: Este mapa é atualizado dinamicamente. Caso um repositório seja renomeado no GitHub, a atualização deve ser refletida aqui imediatamente para evitar a quebra de links sinápticos.
