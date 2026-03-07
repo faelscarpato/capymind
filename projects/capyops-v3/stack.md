@@ -3,14 +3,14 @@
 Resumo curto: stack tecnico detectado de forma heuristica.
 
 ## Origem
-- Caminho original: `D:\novosproj\projects\2025\CapyMES-main\CapyMES-main`
+- Caminho original: `D:\novosproj\projects\active\ops\capyops\capyops-main\CAPYOPS-V3`
 
 ## Detectado
 - Linguagens: TypeScript, JavaScript
-- Frameworks: Next.js, React
-- Toolchain: pnpm
-- Bibliotecas principais: Supabase, Tailwind CSS, Radix UI, shadcn/ui, Zod
-- Sinais funcionais: Banco, UI kit, Scripts de build e desenvolvimento presentes
+- Frameworks: React, Vite, Electron
+- Toolchain: npm
+- Bibliotecas principais: Supabase, Tailwind CSS, Radix UI, React Query, Chart.js, Mercado Livre API
+- Sinais funcionais: Banco, Auth, Dashboard, UI kit, Storage, Desktop, Scripts de build e desenvolvimento presentes
 - Confianca da deteccao: alta
 
 ## Inferido

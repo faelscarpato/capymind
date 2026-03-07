@@ -1,8 +1,23 @@
 # Stack
 
-- Framework: Node.js, React, Vite, Electron
-- Language: TypeScript, JavaScript
-- Build tool: Vite
-- Package manager: npm
-- Main libs: tailwindcss
-- Capabilities detected: Database, Auth, UI Kit
+Resumo curto: stack tecnico detectado de forma heuristica.
+
+## Origem
+- Caminho original: `D:\novosproj\projects\active\capypos`
+
+## Detectado
+- Linguagens: TypeScript, JavaScript
+- Frameworks: React, Vite, Electron
+- Toolchain: npm
+- Bibliotecas principais: Supabase, Tailwind CSS
+- Sinais funcionais: Banco, UI kit, Desktop, Scripts de build e desenvolvimento presentes
+- Confianca da deteccao: alta
+
+## Inferido
+- A stack sugere aplicacao web moderna.
+
+## Relevancia
+- Esta pagina ajuda IA e humanos a localizar rapidamente os blocos tecnicos do projeto.
+
+## Observacoes
+- A deteccao foi feita sem copiar o projeto para o repositrio documental.
