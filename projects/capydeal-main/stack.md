@@ -3,15 +3,15 @@
 Resumo curto: stack tecnico detectado de forma heuristica.
 
 ## Origem
-- Caminho original: `D:\novosproj\projects\2025\capyide-main\capyide-main`
+- Caminho original: `D:\novosproj\projects\2025\capydeal-main\capydeal-main`
 
 ## Detectado
-- Linguagens: JavaScript
+- Linguagens: Nao detectado com confianca
 - Frameworks: Nao detectado com confianca
-- Toolchain: npm
+- Toolchain: Nao detectado com confianca
 - Bibliotecas principais: Gemini
-- Sinais funcionais: Storage, Scripts de build e desenvolvimento presentes
-- Confianca da deteccao: alta
+- Sinais funcionais: Storage
+- Confianca da deteccao: baixa
 
 ## Inferido
 - A stack sugere aplicacao com stack mista ou customizada.

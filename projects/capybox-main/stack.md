@@ -1,8 +1,23 @@
 # Stack
 
-- Framework: Node.js, React, Vite
-- Language: TypeScript, JavaScript
-- Build tool: Vite
-- Package manager: npm
-- Main libs: tailwindcss, react-router-dom, lucide-react
-- Capabilities detected: Database, Auth, UI Kit
+Resumo curto: stack tecnico detectado de forma heuristica.
+
+## Origem
+- Caminho original: `D:\novosproj\projects\2025\capybox-main\capybox-main`
+
+## Detectado
+- Linguagens: TypeScript, JavaScript
+- Frameworks: React, Vite
+- Toolchain: npm
+- Bibliotecas principais: Supabase, Tailwind CSS, Chart.js
+- Sinais funcionais: Banco, Auth, Dashboard, UI kit, Scripts de build e desenvolvimento presentes
+- Confianca da deteccao: alta
+
+## Inferido
+- A stack sugere aplicacao web moderna.
+
+## Relevancia
+- Esta pagina ajuda IA e humanos a localizar rapidamente os blocos tecnicos do projeto.
+
+## Observacoes
+- A deteccao foi feita sem copiar o projeto para o repositrio documental.

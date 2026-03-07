@@ -1,0 +1,25 @@
+# Data Notes
+
+Resumo curto: sinais de dados, schemas e bases locais.
+
+## Origem
+- Caminho original: `D:\novosproj\projects\2025\capybox-main\capybox-main`
+
+## Detectado
+- `api-docs.json`
+- `package-lock.json`
+- `package.json`
+- `tsconfig.json`
+- `ibge/estados.json`
+- `ibge/municipios.json`
+- `public/ibge/estados.json`
+- `public/ibge/municipios.json`
+
+## Inferido
+- Se o projeto usa banco remoto, isso pode nao aparecer na primeira camada da pasta.
+
+## Relevancia
+- Ajuda a localizar estruturas que podem alimentar IA, analytics e documentacao.
+
+## Observacoes
+- Bases pesadas continuam fora do `capymind`.

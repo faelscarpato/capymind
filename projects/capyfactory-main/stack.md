@@ -1,8 +1,23 @@
 # Stack
 
-- Framework: Node.js, Next.js, React
-- Language: TypeScript
-- Build tool: Unknown
-- Package manager: pnpm
-- Main libs: tailwindcss, zod, lucide-react
-- Capabilities detected: UI Kit
+Resumo curto: stack tecnico detectado de forma heuristica.
+
+## Origem
+- Caminho original: `D:\novosproj\projects\2025\capyfactory-main\capyfactory-main`
+
+## Detectado
+- Linguagens: TypeScript, JavaScript
+- Frameworks: Next.js, React
+- Toolchain: pnpm
+- Bibliotecas principais: Tailwind CSS, Radix UI, shadcn/ui, Zod
+- Sinais funcionais: UI kit, Scripts de build e desenvolvimento presentes
+- Confianca da deteccao: alta
+
+## Inferido
+- A stack sugere aplicacao web moderna.
+
+## Relevancia
+- Esta pagina ajuda IA e humanos a localizar rapidamente os blocos tecnicos do projeto.
+
+## Observacoes
+- A deteccao foi feita sem copiar o projeto para o repositrio documental.
