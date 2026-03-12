@@ -1,0 +1,18 @@
+{
+  "description": "Source origins of knowledge used in CapyMind.",
+  "version": "1.0.0",
+  "sources": [
+    {
+      "id": "internal-docs",
+      "type": "repository",
+      "location": "docs/",
+      "trust_level": "high"
+    },
+    {
+      "id": "ai-policies",
+      "type": "repository",
+      "location": "ai/policies/",
+      "trust_level": "high"
+    }
+  ]
+}

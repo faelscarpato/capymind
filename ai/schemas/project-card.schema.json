@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project Card",
+  "type": "object",
+  "required": [
+    "name",
+    "slug",
+    "description",
+    "status"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "experimental",
+        "deprecated",
+        "archived"
+      ]
+    },
+    "repository": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "owners": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "documentation": {
+      "type": "string"
+    }
+  }
+}

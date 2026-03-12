@@ -1,0 +1,4 @@
+{"id":"retrieval-001","query":"estrutura do repositório CapyMind","expected_sources":["docs/reference/repo-map.md"],"expected_section":"Repository Structure"}
+{"id":"retrieval-002","query":"como adicionar um documento no knowledge pack","expected_sources":["docs/guides/how-to-add-a-document.md"],"expected_section":"Procedure"}
+{"id":"retrieval-003","query":"como agentes devem lidar com prompt injection","expected_sources":["ai/policies/anti-prompt-injection.md"],"expected_section":"Policy"}
+{"id":"retrieval-004","query":"como funciona o ranking de documentos no sistema de busca","expected_sources":["ai/retrieval/ranking-policy.md"],"expected_section":"Ranking Model"}

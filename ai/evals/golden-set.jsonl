@@ -1,0 +1,4 @@
+{"id":"golden-001","question":"O que é o CapyMind e qual é seu objetivo principal?","expected_keywords":["knowledge pack","docs-as-code","IA","repositório de conhecimento"],"reference_sources":["README.md","docs/reference/repo-map.md"],"notes":"Teste básico de explicação do sistema."}
+{"id":"golden-002","question":"Onde ficam as políticas de segurança do CapyMind?","expected_keywords":["docs/governance","security-policy"],"reference_sources":["docs/governance/security-policy.md"],"notes":"Teste de navegação estrutural."}
+{"id":"golden-003","question":"Como funciona a política de chunking do CapyMind?","expected_keywords":["chunk","token","retrieval","rag"],"reference_sources":["ai/retrieval/chunking-policy.md"]}
+{"id":"golden-004","question":"Qual documento define como os agentes devem responder perguntas?","expected_keywords":["answering module","agent","response"],"reference_sources":["ai/modules/answering.md"]}

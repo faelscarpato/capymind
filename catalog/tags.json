@@ -1,0 +1,22 @@
+{
+  "description": "Tag taxonomy used across CapyMind documents.",
+  "version": "1.0.0",
+  "tags": [
+    {
+      "tag": "ai",
+      "domain": "general"
+    },
+    {
+      "tag": "retrieval",
+      "domain": "rag"
+    },
+    {
+      "tag": "security",
+      "domain": "governance"
+    },
+    {
+      "tag": "policy",
+      "domain": "governance"
+    }
+  ]
+}

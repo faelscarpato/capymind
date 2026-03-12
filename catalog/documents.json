@@ -1,0 +1,29 @@
+{
+  "description": "Catalog of all canonical documents in the CapyMind knowledge pack.",
+  "version": "1.0.0",
+  "documents": [
+    {
+      "id": "repo-map",
+      "path": "docs/reference/repo-map.md",
+      "title": "Repository Map",
+      "doc_type": "reference",
+      "canonical": true,
+      "tags": [
+        "repository",
+        "structure"
+      ]
+    },
+    {
+      "id": "chunking-policy",
+      "path": "ai/retrieval/chunking-policy.md",
+      "title": "Chunking Policy",
+      "doc_type": "policy",
+      "canonical": true,
+      "tags": [
+        "retrieval",
+        "rag",
+        "chunking"
+      ]
+    }
+  ]
+}

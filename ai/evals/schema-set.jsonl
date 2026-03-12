@@ -1,0 +1,4 @@
+{"id":"schema-001","task":"Responder pergunta sobre estrutura do repositório","expected_schema":"answer.schema.json","validation":{"required_fields":["answer","sources"]}}
+{"id":"schema-002","task":"Gerar card de projeto","expected_schema":"project-card.schema.json","validation":{"required_fields":["name","slug","description","status"]}}
+{"id":"schema-003","task":"Retornar resultado de busca semântica","expected_schema":"retrieval-result.schema.json","validation":{"required_fields":["query","results"]}}
+{"id":"schema-004","task":"Listar ferramentas disponíveis","expected_schema":"tool-catalog.schema.json","validation":{"required_fields":["tools"]}}

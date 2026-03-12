@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Retrieval Result",
+  "type": "object",
+  "required": [
+    "query",
+    "results"
+  ],
+  "properties": {
+    "query": {
+      "type": "string"
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "score"
+        ],
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "score": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string"
+          },
+          "snippet": {
+            "type": "string"
+          },
+          "section": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

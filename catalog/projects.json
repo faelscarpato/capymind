@@ -1,0 +1,17 @@
+{
+  "description": "Catalog of projects referenced by the CapyMind knowledge pack.",
+  "version": "1.0.0",
+  "projects": [
+    {
+      "name": "CapyMind",
+      "slug": "capymind",
+      "description": "Knowledge pack and MCP-style repository for AI agents.",
+      "status": "active",
+      "repository": "capymind",
+      "tags": [
+        "ai",
+        "knowledge-pack"
+      ]
+    }
+  ]
+}

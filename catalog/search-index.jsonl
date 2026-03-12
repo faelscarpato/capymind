@@ -1,0 +1,2 @@
+{"id": "doc-001", "path": "docs/reference/repo-map.md", "title": "Repository Map", "tags": ["repository", "structure"], "snippet": "Overview of repository structure and major directories."}
+{"id": "doc-002", "path": "ai/retrieval/chunking-policy.md", "title": "Chunking Policy", "tags": ["retrieval", "rag"], "snippet": "Defines how documents are segmented for embeddings and retrieval."}
