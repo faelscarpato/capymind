@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project Metadata",
+  "type": "object",
+  "required": [
+    "name",
+    "slug",
+    "description",
+    "status"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Human-readable project name"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-safe identifier (kebab-case), matches projects/<slug>/ folder name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Short summary of the project's purpose"
+    },
+    "status": {
+      "type": "string",
+      "description": "Project lifecycle state",
+      "enum": ["active", "experimental", "deprecated", "archived"]
+    },
+    "repository": {
+      "type": "string",
+      "description": "GitHub repo slug or full URL"
+    },
+    "domain": {
+      "type": "string",
+      "description": "Primary thematic/functional domain - see docs/reference/taxonomy.md",
+      "enum": ["ai", "technical", "operations", "business", "commercial", "products", "branding", "security", "governance", "project"]
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Controlled descriptors for retrieval"
+    },
+    "owners": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Team or person responsible for the project"
+    },
+    "documentation": {
+      "type": "string",
+      "description": "Path to canonical project documentation (relative to repo root), e.g., projects/<slug>/overview.md"
+    },
+    "sensitivity": {
+      "type": "string",
+      "description": "Handling classification for any project-sensitive content",
+      "enum": ["public", "internal", "confidential", "restricted"]
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date",
+      "description": "Last update date (ISO 8601)"
+    },
+    "canonical": {
+      "type": "boolean",
+      "description": "Whether this project card represents the authoritative source-of-truth for this project"
+    }
+  },
+  "additionalProperties": false
+}

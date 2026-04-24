@@ -1,29 +1,1045 @@
 {
-  "description": "Catalog of all canonical documents in the CapyMind knowledge pack.",
+  "description": "Auto-generated catalog of canonical documents in CapyMind.",
   "version": "1.0.0",
+  "generated_at": "2026-04-24T17:24:00.033Z",
   "documents": [
     {
-      "id": "repo-map",
-      "path": "docs/reference/repo-map.md",
-      "title": "Repository Map",
-      "doc_type": "reference",
-      "canonical": true,
+      "id": "ai-module-answering",
+      "path": "ai/modules/answering.md",
+      "title": "Answering Module",
+      "doc_type": "ai-instruction",
+      "domain": "ai",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
       "tags": [
-        "repository",
-        "structure"
-      ]
+        "ai",
+        "answering",
+        "grounded-response",
+        "citations",
+        "safety"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "citability": "summary-only",
+      "description": "Canonical AI module defining how agents should construct grounded answers from CapyMind repository evidence."
     },
     {
-      "id": "chunking-policy",
+      "id": "ai-policy-anti-prompt-injection",
+      "path": "ai/policies/anti-prompt-injection.md",
+      "title": "Anti-Prompt-Injection Policy",
+      "doc_type": "policy",
+      "domain": "security",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "ai",
+        "security",
+        "prompt-injection",
+        "retrieval",
+        "policy",
+        "safety"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "citability": "summary-only",
+      "description": "Canonical policy defining how AI agents connected to CapyMind must detect, downgrade, isolate, and refuse prompt injection attempts found in repository content or user inputs."
+    },
+    {
+      "id": "ai-policy-citation-and-grounding",
+      "path": "ai/policies/citation-and-grounding.md",
+      "title": "Citation and Grounding Policy",
+      "doc_type": "policy",
+      "domain": "ai",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "ai",
+        "grounding",
+        "citation",
+        "evidence",
+        "retrieval",
+        "policy"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "citability": "summary-only",
+      "description": "Canonical policy defining how CapyMind-connected agents must ground repository-derived outputs in evidence and cite the strongest relevant sources."
+    },
+    {
+      "id": "ai-policy-pii-redaction",
+      "path": "ai/policies/pii-redaction.md",
+      "title": "PII Redaction Policy",
+      "doc_type": "policy",
+      "domain": "security",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "ai",
+        "pii",
+        "redaction",
+        "privacy",
+        "safety",
+        "data-protection"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "citability": "summary-only",
+      "description": "Canonical policy defining how CapyMind-connected agents must detect, minimize, redact, and refuse exposure of personally identifiable information."
+    },
+    {
+      "id": "ai-policy-refusal-policy",
+      "path": "ai/policies/refusal-policy.md",
+      "title": "Refusal Policy",
+      "doc_type": "policy",
+      "domain": "ai",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "ai",
+        "refusal",
+        "safety",
+        "policy",
+        "sensitive-actions",
+        "redaction"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "citability": "summary-only",
+      "description": "Canonical policy defining when and how CapyMind-connected agents must refuse unsafe, unauthorized, or insufficiently grounded requests while still remaining as helpful as possible."
+    },
+    {
+      "id": "ai-policy-retrieval-safety",
+      "path": "ai/policies/retrieval-safety.md",
+      "title": "Retrieval Safety Policy",
+      "doc_type": "policy",
+      "domain": "security",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "ai",
+        "security",
+        "retrieval",
+        "rag",
+        "safety",
+        "grounding"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "citability": "summary-only",
+      "description": "Canonical policy defining safe retrieval practices for AI agents, including chunk handling, source ranking, uncertainty signaling, and grounding discipline in CapyMind."
+    },
+    {
+      "id": "ai-policy-sensitive-actions",
+      "path": "ai/policies/sensitive-actions.md",
+      "title": "Sensitive Actions Policy",
+      "doc_type": "policy",
+      "domain": "security",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "ai",
+        "policy",
+        "sensitive-actions",
+        "tools",
+        "permissions",
+        "safety"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "citability": "summary-only",
+      "description": "Canonical policy defining how CapyMind-connected agents must identify, constrain, and refuse sensitive actions involving tools, data exposure, or irreversible side effects."
+    },
+    {
+      "id": "ai-retrieval-chunking-policy",
       "path": "ai/retrieval/chunking-policy.md",
       "title": "Chunking Policy",
       "doc_type": "policy",
+      "domain": "retrieval",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "ai",
+        "retrieval",
+        "rag",
+        "chunking",
+        "indexing"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
       "canonical": true,
+      "description": "Policy defining how repository documents should be segmented into chunks for retrieval and embedding pipelines."
+    },
+    {
+      "id": "ai-retrieval-indexing-spec",
+      "path": "ai/retrieval/indexing-spec.md",
+      "title": "Indexing Specification",
+      "doc_type": "specification",
+      "domain": "retrieval",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "ai",
+        "indexing",
+        "rag",
+        "embeddings"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "description": "Specification describing how repository documents must be indexed for retrieval systems."
+    },
+    {
+      "id": "ai-retrieval-query-rewrite-policy",
+      "path": "ai/retrieval/query-rewrite-policy.md",
+      "title": "Query Rewrite Policy",
+      "doc_type": "policy",
+      "domain": "retrieval",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "ai",
+        "retrieval",
+        "query-rewrite",
+        "rag"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "description": "Policy defining how user queries should be rewritten to improve retrieval quality."
+    },
+    {
+      "id": "ai-retrieval-ranking-policy",
+      "path": "ai/retrieval/ranking-policy.md",
+      "title": "Ranking Policy",
+      "doc_type": "policy",
+      "domain": "retrieval",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "ai",
+        "retrieval",
+        "ranking",
+        "rag",
+        "search"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "description": "Policy defining how retrieved documents should be ranked when answering queries from the CapyMind knowledge pack."
+    },
+    {
+      "id": "ai-system-base-system-prompt",
+      "path": "ai/system/base-system-prompt.md",
+      "title": "Base System Prompt",
+      "doc_type": "ai-instruction",
+      "domain": "ai",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "ai",
+        "system",
+        "base-prompt",
+        "behavior",
+        "safety",
+        "grounding",
+        "retrieval"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "citability": "summary-only",
+      "description": "Canonical base system instruction defining the default behavior, constraints, grounding rules, and safety boundaries for AI agents operating over CapyMind."
+    },
+    {
+      "id": "ai-system-routing-policy",
+      "path": "ai/system/routing-policy.md",
+      "title": "Routing Policy",
+      "doc_type": "ai-instruction",
+      "domain": "ai",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "ai",
+        "routing",
+        "policy",
+        "query-classification",
+        "retrieval",
+        "modules"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "citability": "summary-only",
+      "description": "Canonical routing policy defining how AI agents should classify requests, select repository areas, and invoke the correct retrieval or behavior modules in CapyMind."
+    },
+    {
+      "id": "adr-0001-knowledge-pack-scope",
+      "path": "docs/adrs/0001-knowledge-pack-scope.md",
+      "title": "Knowledge Pack Scope",
+      "doc_type": "adr",
+      "domain": "knowledge-management",
+      "status": "accepted",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "description": "Defines the scope and purpose of CapyMind as a knowledge pack designed for both human navigation and AI retrieval systems."
+    },
+    {
+      "id": "adr-0002-document-frontmatter",
+      "path": "docs/adrs/0002-document-frontmatter.md",
+      "title": "Document Frontmatter Standard",
+      "doc_type": "adr",
+      "domain": "documentation",
+      "status": "accepted",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "description": "Establishes the requirement that governed documents must include structured frontmatter metadata."
+    },
+    {
+      "id": "adr-0003-agent-retrieval-policy",
+      "path": "docs/adrs/0003-agent-retrieval-policy.md",
+      "title": "Agent Retrieval Policy",
+      "doc_type": "adr",
+      "domain": "ai",
+      "status": "accepted",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "description": "Defines how AI agents should retrieve and interpret content from the CapyMind repository."
+    },
+    {
+      "id": "adr-0004-sensitivity-classification",
+      "path": "docs/adrs/0004-sensitivity-classification.md",
+      "title": "Sensitivity Classification",
+      "doc_type": "adr",
+      "domain": "security",
+      "status": "accepted",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "description": "Defines the sensitivity classification model used for documents inside the CapyMind repository."
+    },
+    {
+      "id": "api-authentication",
+      "path": "docs/api/authentication.md",
+      "title": "API Authentication",
+      "doc_type": "guide",
+      "domain": "documentation",
+      "status": "active",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "developer"
+      ],
+      "canonical": true,
+      "description": "Guide to authenticating with the CapyMind REST API using API keys."
+    },
+    {
+      "id": "api-quickstart",
+      "path": "docs/api/quickstart.md",
+      "title": "API Quickstart",
+      "doc_type": "guide",
+      "domain": "documentation",
+      "status": "active",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "developer"
+      ],
+      "canonical": true,
+      "description": "Quickstart guide for using the CapyMind public REST API."
+    },
+    {
+      "id": "api-rate-limits",
+      "path": "docs/api/rate-limits.md",
+      "title": "API Rate Limits",
+      "doc_type": "guide",
+      "domain": "documentation",
+      "status": "active",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "developer"
+      ],
+      "canonical": true,
+      "description": "Rate limiting policy for the CapyMind public API."
+    },
+    {
+      "id": "governance-content-governance",
+      "path": "docs/governance/content-governance.md",
+      "title": "Content Governance",
+      "doc_type": "policy",
+      "domain": "governance",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "description": "Defines governance rules for documentation quality, ownership, lifecycle management, and repository knowledge integrity."
+    },
+    {
+      "id": "governance-ownership",
+      "path": "docs/governance/ownership.md",
+      "title": "Ownership",
+      "doc_type": "policy",
+      "domain": "governance",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human"
+      ],
+      "canonical": true,
+      "description": "Defines ownership responsibilities for documentation, projects, and governance artifacts inside the CapyMind repository."
+    },
+    {
+      "id": "governance-pii-policy",
+      "path": "docs/governance/pii-policy.md",
+      "title": "PII Policy",
+      "doc_type": "policy",
+      "domain": "security",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "description": "Policy defining how personally identifiable information (PII) must be handled inside the CapyMind repository."
+    },
+    {
+      "id": "governance-review-policy",
+      "path": "docs/governance/review-policy.md",
+      "title": "Review Policy",
+      "doc_type": "policy",
+      "domain": "governance",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human"
+      ],
+      "canonical": true,
+      "description": "Defines the review workflow for documentation contributions and repository updates."
+    },
+    {
+      "id": "governance-security-policy",
+      "path": "docs/governance/security-policy.md",
+      "title": "Security Policy",
+      "doc_type": "policy",
+      "domain": "security",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "description": "Security policy defining how sensitive information, prompt injection risks, and unsafe repository usage must be handled in CapyMind."
+    },
+    {
+      "id": "guide-getting-started",
+      "path": "docs/guides/getting-started.md",
+      "title": "Getting Started with CapyMind",
+      "doc_type": "guide",
+      "domain": "knowledge-management",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "onboarding",
+        "capymind",
+        "knowledge-pack",
+        "docs-as-code",
+        "agent-ready"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "citability": "excerpt-only",
+      "description": "Onboarding guide for understanding, navigating, and safely using the CapyMind knowledge pack repository."
+    },
+    {
+      "id": "guide-add-document",
+      "path": "docs/guides/how-to-add-a-document.md",
+      "title": "How to Add a Document",
+      "doc_type": "guide",
+      "domain": "documentation",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "docs-as-code",
+        "contribution",
+        "documentation",
+        "metadata",
+        "governance",
+        "quality"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human"
+      ],
+      "canonical": true,
+      "citability": "excerpt-only",
+      "description": "Guide for creating, structuring, validating, and submitting new documents to CapyMind without degrading repository quality, retrieval quality, or safety."
+    },
+    {
+      "id": "guide-query-knowledge-pack",
+      "path": "docs/guides/how-to-query-the-knowledge-pack.md",
+      "title": "How to Query the Knowledge Pack",
+      "doc_type": "guide",
+      "domain": "ai",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
       "tags": [
         "retrieval",
         "rag",
-        "chunking"
-      ]
+        "grounding",
+        "citation",
+        "knowledge-pack",
+        "agent-ready"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "citability": "excerpt-only",
+      "description": "Guide for safely querying, retrieving, validating, and using CapyMind knowledge in human workflows and AI systems."
+    },
+    {
+      "id": "mcp-quickstart",
+      "path": "docs/mcp/quickstart.md",
+      "title": "MCP Quickstart",
+      "doc_type": "guide",
+      "domain": "documentation",
+      "status": "active",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "developer"
+      ],
+      "canonical": true,
+      "description": "Quickstart for connecting agents to CapyMind via MCP (Model Context Protocol)."
+    },
+    {
+      "id": "mcp-security",
+      "path": "docs/mcp/security.md",
+      "title": "MCP Security",
+      "doc_type": "policy",
+      "domain": "security",
+      "status": "active",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "agent"
+      ],
+      "canonical": true,
+      "description": "Security policy for MCP connections to CapyMind."
+    },
+    {
+      "id": "mcp-tools",
+      "path": "docs/mcp/tools.md",
+      "title": "MCP Tools Reference",
+      "doc_type": "reference",
+      "domain": "ai",
+      "status": "active",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "agent"
+      ],
+      "canonical": true,
+      "description": "Reference for MCP tools exposed by the CapyMind server."
+    },
+    {
+      "id": "reference-citation-policy",
+      "path": "docs/reference/citation-policy.md",
+      "title": "Citation Policy",
+      "doc_type": "reference",
+      "domain": "knowledge-management",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "citation",
+        "grounding",
+        "retrieval",
+        "safety",
+        "evidence",
+        "ai",
+        "governance"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "citability": "excerpt-only",
+      "description": "Canonical policy for citing repository sources, grounding answers, and safely quoting CapyMind content in human and AI workflows."
+    },
+    {
+      "id": "reference-document-types",
+      "path": "docs/reference/document-types.md",
+      "title": "Document Types",
+      "doc_type": "reference",
+      "domain": "documentation",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "document-types",
+        "taxonomy",
+        "metadata",
+        "repository",
+        "retrieval",
+        "governance",
+        "docs-as-code"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "citability": "excerpt-only",
+      "description": "Canonical reference for document types used in CapyMind, including role, boundaries, structure expectations, and retrieval implications."
+    },
+    {
+      "id": "reference-naming-conventions",
+      "path": "docs/reference/naming-conventions.md",
+      "title": "Naming Conventions",
+      "doc_type": "reference",
+      "domain": "documentation",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "naming",
+        "conventions",
+        "metadata",
+        "slugs",
+        "repository",
+        "retrieval",
+        "docs-as-code"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "citability": "excerpt-only",
+      "description": "Canonical naming conventions for files, folders, document IDs, slugs, manifests, schemas, and repository artifacts in CapyMind."
+    },
+    {
+      "id": "reference-repo-map",
+      "path": "docs/reference/repo-map.md",
+      "title": "Repository Map",
+      "doc_type": "reference",
+      "domain": "knowledge-management",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "repository",
+        "navigation",
+        "information-architecture",
+        "knowledge-pack",
+        "docs-as-code",
+        "agent-ready"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "citability": "excerpt-only",
+      "description": "Canonical map of the CapyMind repository, defining the role, boundaries, precedence, and navigation rules for each repository area."
+    },
+    {
+      "id": "reference-taxonomy",
+      "path": "docs/reference/taxonomy.md",
+      "title": "Taxonomy",
+      "doc_type": "reference",
+      "domain": "knowledge-management",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "taxonomy",
+        "metadata",
+        "classification",
+        "retrieval",
+        "governance",
+        "knowledge-pack"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "citability": "excerpt-only",
+      "description": "Canonical taxonomy for classifying documents, domains, status, sensitivity, audience, and retrieval behavior in CapyMind."
+    },
+    {
+      "id": "runbook-incident-response",
+      "path": "docs/runbooks/incident-response-runbook.md",
+      "title": "Incident Response Runbook",
+      "doc_type": "runbook",
+      "domain": "operations",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human"
+      ],
+      "canonical": true,
+      "description": "Procedure for responding to security, repository integrity, or AI safety incidents affecting CapyMind."
+    },
+    {
+      "id": "runbook-ingestion",
+      "path": "docs/runbooks/ingestion-runbook.md",
+      "title": "Ingestion Runbook",
+      "doc_type": "runbook",
+      "domain": "operations",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "description": "Operational procedure for ingesting new documents, projects, or datasets into the CapyMind repository and knowledge pack."
+    },
+    {
+      "id": "runbook-release",
+      "path": "docs/runbooks/release-runbook.md",
+      "title": "Release Runbook",
+      "doc_type": "runbook",
+      "domain": "operations",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human"
+      ],
+      "canonical": true,
+      "description": "Procedure for publishing a new version of the CapyMind knowledge pack."
+    },
+    {
+      "id": "runbook-review",
+      "path": "docs/runbooks/review-runbook.md",
+      "title": "Review Runbook",
+      "doc_type": "runbook",
+      "domain": "governance",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human"
+      ],
+      "canonical": true,
+      "description": "Operational workflow for reviewing documentation changes in CapyMind."
+    },
+    {
+      "id": "sdk-typescript",
+      "path": "docs/sdk/typescript.md",
+      "title": "TypeScript SDK",
+      "doc_type": "guide",
+      "domain": "documentation",
+      "status": "active",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "developer"
+      ],
+      "canonical": true,
+      "description": "TypeScript SDK for CapyMind API."
+    },
+    {
+      "id": "tutorial-building-project-card",
+      "path": "docs/tutorials/building-a-project-card.md",
+      "title": "Building a Project Card",
+      "doc_type": "tutorial",
+      "domain": "documentation",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "tutorial",
+        "projects",
+        "metadata",
+        "project-card",
+        "catalog"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "citability": "excerpt-only",
+      "description": "Step-by-step tutorial showing how to create a standardized project card for a project inside CapyMind."
+    },
+    {
+      "id": "tutorial-creating-ai-instruction-page",
+      "path": "docs/tutorials/creating-an-ai-instruction-page.md",
+      "title": "Creating an AI Instruction Page",
+      "doc_type": "tutorial",
+      "domain": "ai",
+      "status": "active",
+      "version": "1.0.0",
+      "owners": [
+        "capymind-maintainers"
+      ],
+      "tags": [
+        "tutorial",
+        "ai",
+        "instruction",
+        "prompt",
+        "agent",
+        "governance"
+      ],
+      "sensitivity": "internal",
+      "last_updated": "2026-03-11",
+      "audience": [
+        "human",
+        "agent"
+      ],
+      "canonical": true,
+      "citability": "excerpt-only",
+      "description": "Step-by-step tutorial for creating a governed AI instruction page that safely guides agent behavior."
     }
   ]
 }

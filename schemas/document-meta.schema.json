@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Document Frontmatter Metadata",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "doc_type",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique stable identifier for the document (kebab-case)"
+    },
+    "title": {
+      "type": "string",
+      "description": "Human-readable title"
+    },
+    "doc_type": {
+      "type": "string",
+      "description": "Document role (guide, reference, policy, etc.) - see docs/reference/document-types.md",
+      "enum": ["guide", "reference", "tutorial", "runbook", "policy", "adr", "project-overview", "architecture", "integration-reference", "schema-spec", "ai-instruction", "eval-spec", "glossary", "checklist", "playbook", "source-map", "risk-note", "migration-note", "inventory", "catalog-entry"]
+    },
+    "domain": {
+      "type": "string",
+      "description": "Thematic/functional context - see docs/reference/taxonomy.md",
+      "enum": ["knowledge-management", "documentation", "ai", "technical", "operations", "business", "commercial", "products", "branding", "security", "governance", "project"]
+    },
+    "status": {
+      "type": "string",
+      "description": "Lifecycle state of the document",
+      "enum": ["draft", "active", "deprecated", "archived", "superseded"]
+    },
+    "version": {
+      "type": "string",
+      "description": "Document version (semantic)"
+    },
+    "owners": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Maintainers responsible for this document"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Controlled descriptors for retrieval"
+    },
+    "sensitivity": {
+      "type": "string",
+      "description": "Handling classification",
+      "enum": ["public", "internal", "confidential", "restricted"]
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date",
+      "description": "Last update date (ISO 8601)"
+    },
+    "audience": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["human", "agent"] },
+      "description": "Intended consumer(s)"
+    },
+    "canonical": {
+      "type": "boolean",
+      "description": "Whether this document is a maintained source of truth"
+    },
+    "citability": {
+      "type": "string",
+      "description": "Quoting/citation rules",
+      "enum": ["full", "excerpt-only", "summary-only", "restricted"]
+    },
+    "description": {
+      "type": "string",
+      "description": "One-sentence description of the document's purpose"
+    }
+  },
+  "additionalProperties": false
+}
