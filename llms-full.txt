@@ -1,85 +1,62 @@
-# CapyMind Full Index
-> Índice expandido para agentes que precisam navegar o acervo completo com mais contexto.
+# CapyMind — Full Index
+> índice expandido de todos os documentos ativos
 
-## Root files
-- [README.md](./README.md): visão geral e rotas principais.
-- [MCP_GUIDE.md](./MCP_GUIDE.md): instruções de navegação para MCP.
-- [KNOWLEDGE_MAP.md](./KNOWLEDGE_MAP.md): mapa dos domínios.
-- [PROJECT_CATALOG.md](./PROJECT_CATALOG.md): catálogo de projetos.
-- [INVENTORY.md](./INVENTORY.md): panorama quantitativo.
-- [REPO_RULES.md](./REPO_RULES.md): regras do repositório.
-- [HEAVY_CONTENT_REPORT.md](./HEAVY_CONTENT_REPORT.md): conteúdo pesado detectado.
-- [REVIEW_QUEUE.md](./REVIEW_QUEUE.md): pendências de revisão.
+## Ai-instruction
 
-## Knowledge
-- [knowledge/overview.md](./knowledge/overview.md)
-- [knowledge/technical/capy-ecosystem-overview.md](./knowledge/technical/capy-ecosystem-overview.md)
-- [knowledge/operations/capy-ops-and-ml-workflows.md](./knowledge/operations/capy-ops-and-ml-workflows.md)
-- [knowledge/business/mercado-livre-operations.md](./knowledge/business/mercado-livre-operations.md)
-- [knowledge/commercial/marketplace-sales-materials.md](./knowledge/commercial/marketplace-sales-materials.md)
-- [knowledge/products/petala-decor-catalog-notes.md](./knowledge/products/petala-decor-catalog-notes.md)
-- [knowledge/ai/prompt-engineering-notes.md](./knowledge/ai/prompt-engineering-notes.md)
-- [knowledge/branding/brand-asset-signals.md](./knowledge/branding/brand-asset-signals.md)
+- [Answering Module](ai/modules/answering.md) — Answering Module Purpose This module defines how an AI agent should construct an
+- [Base System Prompt](ai/system/base-system-prompt.md) — Base System Prompt Purpose This document defines the **base system behavior** fo
+- [Routing Policy](ai/system/routing-policy.md) — Routing Policy Purpose This document defines how an AI agent connected to CapyMi
 
-## Featured project paths
-- [projects/_featured.md](./projects/_featured.md)
-- [projects/capyops-main/overview.md](./projects/capyops-main/overview.md)
-- [projects/capyops-v3/overview.md](./projects/capyops-v3/overview.md)
-- [projects/capy-universe-main/overview.md](./projects/capy-universe-main/overview.md)
-- [projects/capyuniverse-main/overview.md](./projects/capyuniverse-main/overview.md)
-- [projects/capywork-saas/overview.md](./projects/capywork-saas/overview.md)
-- [projects/capyide-main/overview.md](./projects/capyide-main/overview.md)
-- [projects/capyvision-main/overview.md](./projects/capyvision-main/overview.md)
-- [projects/petala-decor/overview.md](./projects/petala-decor/overview.md)
-- [projects/bocaaberta/overview.md](./projects/bocaaberta/overview.md)
+## Guide
 
-## Project navigation pattern
-Para qualquer projeto em `projects/<slug>/`, leia nesta ordem:
-1. `overview.md`
-2. `purpose.md`
-3. `stack.md`
-4. `architecture.md`
-5. `key-files.md`
-6. `integrations.md`
-7. `data-notes.md`
-8. `ui-notes.md`
-9. `roadmap-notes.md`
-10. `source-path.md`
+- [API Authentication](docs/api/authentication.md) — API Authentication Overview The CapyMind API uses API keys to control access. Al
+- [API Quickstart](docs/api/quickstart.md) — API Quickstart Purpose This guide helps you get started with the CapyMind REST A
+- [API Rate Limits](docs/api/rate-limits.md) — Rate Limits Purpose This document defines the rate limiting behavior of the Capy
+- [Getting Started with CapyMind](docs/guides/getting-started.md) — Getting Started with CapyMind Purpose This guide is the **entry point** for anyo
+- [How to Add a Document](docs/guides/how-to-add-a-document.md) — How to Add a Document Purpose This guide explains how to add a new document to C
+- [How to Query the Knowledge Pack](docs/guides/how-to-query-the-knowledge-pack.md) — How to Query the Knowledge Pack Purpose This guide defines how to query CapyMind
+- [MCP Quickstart](docs/mcp/quickstart.md) — MCP Quickstart What is MCP? Model Context Protocol (MCP) allows AI assistants an
+- [TypeScript SDK](docs/sdk/typescript.md) — TypeScript SDK Installation Basic Usage Methods `search(query: string, limit?: n
 
-## Collections
-- [prompts/_index.md](./prompts/_index.md)
-- [datasets/_index.md](./datasets/_index.md)
-- [docs/_index.md](./docs/_index.md)
-- [references/_index.md](./references/_index.md)
-- [assets/_index.md](./assets/_index.md)
-- [archive/_index.md](./archive/_index.md)
+## Policy
 
-## Domain-specific entry points
-### IA / prompts
-- [knowledge/ai/prompt-engineering-notes.md](./knowledge/ai/prompt-engineering-notes.md)
-- [prompts/analysis/agent-system-prompt.md](./prompts/analysis/agent-system-prompt.md)
-- [prompts/analysis/full-search-ai-prompt.md](./prompts/analysis/full-search-ai-prompt.md)
-- [prompts/coding/codegen-instructions.md](./prompts/coding/codegen-instructions.md)
-- [prompts/image/vision-to-code-pattern.md](./prompts/image/vision-to-code-pattern.md)
+- [Anti-Prompt-Injection Policy](ai/policies/anti-prompt-injection.md) — Anti-Prompt-Injection Policy Purpose This policy defines how AI agents connected
+- [Citation and Grounding Policy](ai/policies/citation-and-grounding.md) — Citation and Grounding Policy Purpose This policy defines how AI agents connecte
+- [PII Redaction Policy](ai/policies/pii-redaction.md) — PII Redaction Policy Purpose This policy defines how AI agents connected to Capy
+- [Refusal Policy](ai/policies/refusal-policy.md) — Refusal Policy Purpose This policy defines when and how AI agents connected to C
+- [Retrieval Safety Policy](ai/policies/retrieval-safety.md) — Retrieval Safety Policy Purpose This policy defines **safe retrieval behavior** 
+- [Sensitive Actions Policy](ai/policies/sensitive-actions.md) — Sensitive Actions Policy Purpose This policy defines how AI agents connected to 
+- [Chunking Policy](ai/retrieval/chunking-policy.md) — Chunking Policy Purpose This document defines how CapyMind documents must be seg
+- [Query Rewrite Policy](ai/retrieval/query-rewrite-policy.md) — Query Rewrite Policy Purpose User queries are often ambiguous or underspecified.
+- [Ranking Policy](ai/retrieval/ranking-policy.md) — Ranking Policy Purpose This policy defines how retrieved documents should be ran
+- [Content Governance](docs/governance/content-governance.md) — Content Governance Purpose Content governance ensures that CapyMind remains: - a
+- [Ownership](docs/governance/ownership.md) — Ownership Purpose Ownership ensures that every part of the CapyMind repository h
+- [PII Policy](docs/governance/pii-policy.md) — PII Policy Purpose This policy defines how **personally identifiable information
+- [Review Policy](docs/governance/review-policy.md) — Review Policy Purpose The review policy defines how documentation changes are va
+- [Security Policy](docs/governance/security-policy.md) — Security Policy Purpose This document defines the **security policy for CapyMind
+- [MCP Security](docs/mcp/security.md) — MCP Security Authentication All MCP connections must authenticate using a valid 
 
-### Operação / Mercado Livre
-- [knowledge/business/mercado-livre-operations.md](./knowledge/business/mercado-livre-operations.md)
-- [knowledge/operations/capy-ops-and-ml-workflows.md](./knowledge/operations/capy-ops-and-ml-workflows.md)
-- [datasets/structured/mercado-livre-anuncios.md](./datasets/structured/mercado-livre-anuncios.md)
-- [datasets/structured/mercado-livre-produtos.md](./datasets/structured/mercado-livre-produtos.md)
-- [datasets/structured/mercado-livre-taxas-e-gestao.md](./datasets/structured/mercado-livre-taxas-e-gestao.md)
-- [references/commercial/mercado-livre-commercial-documents.md](./references/commercial/mercado-livre-commercial-documents.md)
-- [references/external/mercado-livre-api-reference.md](./references/external/mercado-livre-api-reference.md)
+## Reference
 
-### Produto físico / Pétala Decor
-- [knowledge/products/petala-decor-catalog-notes.md](./knowledge/products/petala-decor-catalog-notes.md)
-- [assets/catalogs/petala-decor-product-catalog.md](./assets/catalogs/petala-decor-product-catalog.md)
-- [assets/product-assets/petala-decor-media-batches.md](./assets/product-assets/petala-decor-media-batches.md)
-- [knowledge/commercial/marketplace-sales-materials.md](./knowledge/commercial/marketplace-sales-materials.md)
+- [MCP Tools Reference](docs/mcp/tools.md) — MCP Tools Reference This document describes each tool available via the CapyMind
+- [Citation Policy](docs/reference/citation-policy.md) — Citation Policy Purpose This document defines the **canonical citation and groun
+- [Document Types](docs/reference/document-types.md) — Document Types Purpose This document defines the **canonical document types** us
+- [Naming Conventions](docs/reference/naming-conventions.md) — Naming Conventions Purpose This document defines the **canonical naming rules** 
+- [Repository Map](docs/reference/repo-map.md) — Repository Map Purpose This document is the **canonical map of the CapyMind repo
+- [Taxonomy](docs/reference/taxonomy.md) — Taxonomy Purpose This document defines the **canonical classification system** f
 
-### Arquitetura / integração / UI
-- [docs/architecture/capy-project-patterns.md](./docs/architecture/capy-project-patterns.md)
-- [docs/systems/operational-systems-overview.md](./docs/systems/operational-systems-overview.md)
-- [docs/flows/ingestion-and-governance.md](./docs/flows/ingestion-and-governance.md)
-- [docs/ui-ux/design-system-signals.md](./docs/ui-ux/design-system-signals.md)
-- [docs/api/integration-signals.md](./docs/api/integration-signals.md)
+## Runbook
+
+- [Incident Response Runbook](docs/runbooks/incident-response-runbook.md) — Incident Response Runbook Purpose Provides the steps for handling incidents affe
+- [Ingestion Runbook](docs/runbooks/ingestion-runbook.md) — Ingestion Runbook Purpose Defines the operational steps for safely ingesting new
+- [Release Runbook](docs/runbooks/release-runbook.md) — Release Runbook Purpose Defines the procedure for creating and publishing a new 
+- [Review Runbook](docs/runbooks/review-runbook.md) — Review Runbook Purpose Defines the practical steps for reviewing pull requests a
+
+## Specification
+
+- [Indexing Specification](ai/retrieval/indexing-spec.md) — Indexing Specification Purpose This document defines how CapyMind content should
+
+## Tutorial
+
+- [Building a Project Card](docs/tutorials/building-a-project-card.md) — Building a Project Card Purpose This tutorial demonstrates how to create a **Pro
+- [Creating an AI Instruction Page](docs/tutorials/creating-an-ai-instruction-page.md) — Creating an AI Instruction Page Purpose This tutorial explains how to create an 

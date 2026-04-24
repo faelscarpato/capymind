@@ -1,0 +1,238 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "CapyMind API",
+    "description": "Public REST API for CapyMind knowledge pack",
+    "version": "1.0.0",
+    "contact": {
+      "name": "CapyMind Maintainers"
+    }
+  },
+  "servers": [
+    {
+      "url": "{protocol}://{project}.supabase.co/functions/v1/capymind-api",
+      "variables": {
+        "protocol": { "default": "https", "enum": ["https", "http"] },
+        "project": { "default": "your-project-ref" }
+      }
+    },
+    { "url": "http://localhost:54321/functions/v1/capymind-api", "description": "Local dev" }
+  ],
+  "paths": {
+    "/v1/health": {
+      "get": {
+        "summary": "Health check",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": { "type": "object", "properties": { "status": { "type": "string" }, "timestamp": { "type": "string", "format": "date-time" } } }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/projects": {
+      "get": {
+        "summary": "List active projects",
+        "security": [{ "ApiKeyAuth": [] }],
+        "responses": {
+          "200": {
+            "description": "List of projects",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": { "type": "string", "format": "uuid" },
+                      "name": { "type": "string" },
+                      "slug": { "type": "string" },
+                      "description": { "type": "string" },
+                      "status": { "type": "string", "enum": ["active", "experimental", "deprecated", "archived"] },
+                      "domain": { "type": "string" },
+                      "tags": { "type": "array", "items": { "type": "string" } },
+                      "repository": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/projects/{slug}": {
+      "get": {
+        "summary": "Get project by slug",
+        "parameters": [
+          { "name": "slug", "in": "path", "required": true, "schema": { "type": "string" } }
+        ],
+        "security": [{ "ApiKeyAuth": [] }],
+        "responses": {
+          "200": { "description": "Project object", "content": { "application/json": { "schema": { "type": "object" } } } },
+          "404": { "description": "Not found" }
+        }
+      }
+    },
+    "/v1/documents/{id}": {
+      "get": {
+        "summary": "Get document by ID",
+        "parameters": [
+          { "name": "id", "in": "path", "required": true, "schema": { "type": "string", "format": "uuid" } }
+        ],
+        "security": [{ "ApiKeyAuth": [] }],
+        "responses": {
+          "200": { "description": "Document object", "content": { "application/json": { "schema": { "type": "object" } } } },
+          "404": { "description": "Not found" }
+        }
+      }
+    },
+    "/v1/search": {
+      "post": {
+        "summary": "Search documents",
+        "security": [{ "ApiKeyAuth": [] }],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "query": { "type": "string", "description": "Search query" },
+                  "limit": { "type": "integer", "default": 10, "maximum": 50 },
+                  "offset": { "type": "integer", "default": 0 }
+                },
+                "required": ["query"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Search result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SearchResult"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/context-pack": {
+      "post": {
+        "summary": "Build context pack for grounding",
+        "security": [{ "ApiKeyAuth": [] }],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "query": { "type": "string" },
+                  "limit": { "type": "integer", "default": 5, "maximum": 20 }
+                },
+                "required": ["query"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Context pack",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ContextPack" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/llms.txt": {
+      "get": {
+        "summary": "Public text index",
+        "responses": {
+          "200": {
+            "description": "Plain text index",
+            "content": {
+              "text/plain": {
+                "schema": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "Authorization"
+      }
+    },
+    "schemas": {
+      "SearchResult": {
+        "type": "object",
+        "required": ["query", "total", "results"],
+        "properties": {
+          "query": { "type": "string" },
+          "total": { "type": "integer" },
+          "limit": { "type": "integer" },
+          "offset": { "type": "integer" },
+          "results": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "path": { "type": "string" },
+                "score": { "type": "number" },
+                "title": { "type": "string" },
+                "snippet": { "type": "string" },
+                "doc_type": { "type": "string" },
+                "status": { "type": "string" },
+                "sensitivity": { "type": "string" },
+                "canonical": { "type": "boolean" },
+                "tags": { "type": "array", "items": { "type": "string" } }
+              }
+            }
+          }
+        }
+      },
+      "ContextPack": {
+        "type": "object",
+        "required": ["query", "pack_version", "generated_at", "sources"],
+        "properties": {
+          "query": { "type": "string" },
+          "pack_version": { "type": "string" },
+          "generated_at": { "type": "string", "format": "date-time" },
+          "summary": { "type": "string" },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "path": { "type": "string" },
+                "chunk_index": { "type": "integer" },
+                "score": { "type": "number" },
+                "text": { "type": "string" },
+                "metadata": { "type": "object" }
+              }
+            }
+          },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  },
+  "security": [{ "ApiKeyAuth": [] }]
+}

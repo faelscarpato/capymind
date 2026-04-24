@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Context Pack",
+  "type": "object",
+  "description": "Structured response containing ranked documents and a synthesized summary for grounding an AI answer.",
+  "required": [
+    "query",
+    "pack_version",
+    "generated_at",
+    "sources"
+  ],
+  "properties": {
+    "query": {
+      "type": "string",
+      "description": "Original user query that triggered retrieval"
+    },
+    "pack_version": {
+      "type": "string",
+      "description": "Version of the context-pack schema (semantic)"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp of pack generation (ISO 8601)"
+    },
+    "summary": {
+      "type": "string",
+      "description": "Brief synthesis of the retrieved context (optional, may be null)"
+    },
+    "sources": {
+      "type": "array",
+      "description": "Ordered list of retrieved source documents/chunks",
+      "items": {
+        "type": "object",
+        "required": ["path", "score", "chunk_index"],
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Repository-relative path to the source document"
+          },
+          "chunk_index": {
+            "type": "integer",
+            "description": "Chunk number within the document (0-based), if chunked"
+          },
+          "score": {
+            "type": "number",
+            "description": "Retrieval relevance score (0-1, higher is better)"
+          },
+          "text": {
+            "type": "string",
+            "description": "Retrieved text chunk content"
+          },
+          "metadata": {
+            "type": "object",
+            "description": "Document-level metadata (frontmatter fields)",
+            "properties": {
+              "id": { "type": "string" },
+              "title": { "type": "string" },
+              "doc_type": { "type": "string" },
+              "status": { "type": "string" },
+              "sensitivity": { "type": "string" },
+              "canonical": { "type": "boolean" },
+              "tags": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          "section": {
+            "type": "string",
+            "description": "Heading or section name where the chunk appears, if identifiable"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "string",
+      "description": "Optional notes about retrieval quality, conflicts, or uncertainty"
+    }
+  },
+  "additionalProperties": false
+}

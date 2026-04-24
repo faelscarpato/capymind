@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Search Result",
+  "type": "object",
+  "description": "Response format for a repository search query (lightweight alternative to full context pack).",
+  "required": [
+    "query",
+    "total",
+    "results"
+  ],
+  "properties": {
+    "query": {
+      "type": "string",
+      "description": "Original search query"
+    },
+    "total": {
+      "type": "integer",
+      "description": "Total number of matching documents (across all pages)"
+    },
+    "limit": {
+      "type": "integer",
+      "description": "Number of results returned in this page"
+    },
+    "offset": {
+      "type": "integer",
+      "description": "Offset of first result in this page"
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "score"],
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Repository-relative path to the matched document"
+          },
+          "score": {
+            "type": "number",
+            "description": "Relevance score (0-1)"
+          },
+          "title": {
+            "type": "string",
+            "description": "Document title (from frontmatter)"
+          },
+          "snippet": {
+            "type": "string",
+            "description": "Short excerpt highlighting the match (plain text)"
+          },
+          "section": {
+            "type": "string",
+            "description": "Specific section or heading where match occurs"
+          },
+          "doc_type": {
+            "type": "string",
+            "description": "Document type (guide, policy, reference, etc.)"
+          },
+          "status": {
+            "type": "string",
+            "description": "Document lifecycle status"
+          },
+          "sensitivity": {
+            "type": "string",
+            "description": "Sensitivity level (public/internal/confidential/restricted)"
+          },
+          "canonical": {
+            "type": "boolean",
+            "description": "Whether this is a canonical source"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

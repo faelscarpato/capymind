@@ -1,0 +1,34 @@
+{
+  "name": "@capymind/sdk",
+  "version": "1.0.0",
+  "description": "TypeScript SDK for CapyMind knowledge pack API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "capymind",
+    "sdk",
+    "knowledge-pack",
+    "ai",
+    "retrieval"
+  ]
+}
