@@ -2,7 +2,7 @@ import express, { Request, Response } from 'express';
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/streamableHttp.js';
 import { z } from 'zod';
-import { getStructuralAgentContext } from './lib/agent-contexts.js';
+import { getAgentContext, getStructuralAgentContext, listAgentCatalog } from './lib/agent-contexts.js';
 import { buildAgentContext, getProjectContext, listEngenLabProjects, searchEngenLabDoc, type Discipline } from './lib/engelab-data.js';
 import { SAFETY_NOTICE, withSafetyNotice } from './lib/safety.js';
 
@@ -95,6 +95,36 @@ function createMcpServer() {
     },
     async ({ query, discipline, limit }) => {
       const payload = buildAgentContext({ query, discipline: discipline as Discipline | undefined, limit });
+
+      return {
+        content: [{ type: 'text', text: JSON.stringify(payload, null, 2) }],
+        structuredContent: payload,
+      };
+    },
+  );
+
+  server.tool(
+    'list_agent_catalog',
+    'List available EngenLab PromptDesk agents exposed by the CapyMind MCP catalog.',
+    {},
+    async () => {
+      const payload = listAgentCatalog();
+
+      return {
+        content: [{ type: 'text', text: JSON.stringify(payload, null, 2) }],
+        structuredContent: payload,
+      };
+    },
+  );
+
+  server.tool(
+    'get_agent_context',
+    'Return the fixed context/system prompt and PromptDesk configuration for an agent by agent_id.',
+    {
+      agent_id: z.string().min(2).describe('Agent ID, for example engenlab-estruturas-ia-modulo-15.'),
+    },
+    async ({ agent_id }) => {
+      const payload = getAgentContext(agent_id);
 
       return {
         content: [{ type: 'text', text: JSON.stringify(payload, null, 2) }],
