@@ -1,93 +1,58 @@
-<div align="center">
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:020617,35:0F766E,70:2563EB,100:7C3AED&text=CapyMind&fontColor=FFFFFF&fontSize=58&fontAlignY=38&desc=Knowledge%20Pack%20%2B%20MCP%20Server%20%2B%20Agent%20Catalog&descAlignY=62&descSize=18&animation=fadeIn" alt="CapyMind banner" />
+</p>
 
-# CapyMind
+<p align="center">
+  <strong>A camada de inteligência operacional para o EngenLab PromptDesk.</strong><br />
+  Organiza conhecimento técnico, roteia agentes, entrega contexto rastreável e mantém limites de segurança para fluxos de IA.
+</p>
 
-### Knowledge Pack + MCP Server + Agent Catalog for EngenLab PromptDesk
+<p align="center">
+  <a href="#visão-geral">Visão geral</a> ·
+  <a href="#como-funciona">Como funciona</a> ·
+  <a href="#capymind-engenlab-mcp">MCP</a> ·
+  <a href="#catálogo-de-agentes">Agentes</a> ·
+  <a href="#promptdesk">PromptDesk</a> ·
+  <a href="#segurança-técnica">Segurança</a>
+</p>
 
-**Uma camada de contexto, governança e roteamento de agentes para transformar conhecimento técnico em fluxos de IA utilizáveis, rastreáveis e seguros.**
-
-<br />
-
-![Status](https://img.shields.io/badge/status-active-0f766e?style=for-the-badge)
-![MCP](https://img.shields.io/badge/MCP-ready-2563eb?style=for-the-badge)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6?style=for-the-badge)
-![Node](https://img.shields.io/badge/Node-20+-16a34a?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT111827?style=for-the-badge)
-
-<br />
-
-[Visão Geral](#visão-geral) · [Arquitetura](#arquitetura) · [MCP Server](#capymind-engenlab-mcp) · [Agentes](#catálogo-de-agentes) · [PromptDesk](#integração-com-promptdesk) · [Segurança Técnica](#segurança-técnica)
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/status-active-0F766E?style=for-the-badge" alt="status active" />
+  <img src="https://img.shields.io/badge/MCP-ready-2563EB?style=for-the-badge" alt="mcp ready" />
+  <img src="https://img.shields.io/badge/agents-12-7C3AED?style=for-the-badge" alt="12 agents" />
+  <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="typescript" />
+  <img src="https://img.shields.io/badge/Node.js-20+-16A34A?style=for-the-badge&logo=node.js&logoColor=white" alt="node" />
+</p>
 
 ---
 
 ## Visão geral
 
-**CapyMind** é um repositório `docs-as-code` desenhado para operar como uma base viva de contexto para IAs, agentes, automações, aplicativos desktop e clientes MCP.
+**CapyMind** é um knowledge pack `docs-as-code` criado para servir como base de contexto para IAs, MCP servers, automações e apps operacionais.
 
-Ele organiza documentação, regras, agentes e metadados de forma versionada, consultável e segura. No estado atual, o foco principal é servir como camada de inteligência para o **EngenLab PromptDesk**, conectando o app desktop e o ChatGPT a um catálogo técnico de agentes de engenharia.
-
-<div align="center">
-
-| Camada | Função |
-|---|---|
-| **Knowledge Pack** | Documentos canônicos, políticas, schemas, catálogos e contexto técnico. |
-| **MCP Server** | Interface HTTP para ChatGPT, PromptDesk e outros clientes MCP. |
-| **Agent Catalog** | 12 agentes técnicos educacionais com system prompt, comandos rápidos e limites de uso. |
-| **Routing Layer** | Seleção automática do agente mais adequado para cada tarefa. |
-| **Safety Layer** | Avisos técnicos, limites de responsabilidade e uso preliminar/revisável. |
-
-</div>
-
----
-
-## O que o CapyMind entrega
+No fluxo atual, ele funciona como o cérebro técnico do **EngenLab PromptDesk**: recebe uma intenção do usuário, identifica o melhor agente, injeta o contexto correto e devolve uma saída pronta para revisão humana.
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### Contexto governado
+### Contexto canônico
 
-Documentos canônicos em Markdown, com rastreabilidade, status, metadados e uso controlado por agentes.
-
-</td>
-<td width="33%" valign="top">
-
-### MCP funcional
-
-Servidor MCP read-only com endpoints `/health` e `/mcp`, pronto para uso via HTTPS.
+Documentos versionados com regras, limites, metadados e instruções fixas para agentes.
 
 </td>
 <td width="33%" valign="top">
 
-### Agentes operacionais
+### MCP operacional
 
-Catálogo com agentes de engenharia, PromptDesk config, comandos rápidos e prompt fixo por módulo.
-
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-### Roteamento inteligente
-
-Seleciona o agente correto com base na tarefa, disciplina, módulo ou caminho de origem.
+Servidor HTTP com tools para consulta, roteamento, contexto e catálogo de agentes.
 
 </td>
 <td width="33%" valign="top">
 
-### Segurança técnica
+### PromptDesk-ready
 
-Mantém respostas como apoio educacional, preliminar e revisável, sem promessa executiva.
-
-</td>
-<td width="33%" valign="top">
-
-### Integração PromptDesk
-
-Fornece o contexto necessário para gerar prompts, checklists, relatórios e roteiros técnicos.
+Catálogo de agentes pronto para desktop, ChatGPT Apps e futuras sincronizações via MCP.
 
 </td>
 </tr>
@@ -95,69 +60,40 @@ Fornece o contexto necessário para gerar prompts, checklists, relatórios e rot
 
 ---
 
-## Arquitetura
+## Como funciona
 
-```txt
-ChatGPT App / PromptDesk / MCP Client
-  ↓ HTTPS /mcp
-CapyMind EngenLab MCP Server
-  ↓
-Tool router + safety layer + agent catalog
-  ↓
-CapyMind canonical agent documents
-  ↓
-EngenLab Doc corpus: faelscarpato/engelab_doc
-  ↓
-Resposta estruturada com sourceDocument, sourcePath e aviso técnico
+```mermaid
+flowchart LR
+    A[Usuário / PromptDesk] --> B[CapyMind MCP]
+    B --> C{Roteador de agentes}
+    C --> D[Catálogo de 12 agentes]
+    D --> E[Contexto canônico]
+    E --> F[Prompt final com limites técnicos]
+    F --> G[Revisão humana]
+
+    B --> H[EngenLab Doc]
+    H --> E
 ```
 
-O servidor atual é **read-only**. Ele consulta, organiza, roteia e entrega contexto; não edita documentos externos, não cria aprovações técnicas e não substitui revisão humana.
+O CapyMind não tenta ser “mais uma pasta de prompts”. Ele funciona como uma **camada de governança operacional** entre o usuário, o app e os agentes especializados.
 
 ---
 
-## Estrutura principal
+## O que ele resolve
 
-```txt
-capymind/
-├── apps/
-│   └── capymind-engelab-mcp/
-│       ├── src/server.ts
-│       └── src/lib/
-│           ├── agent-contexts.ts
-│           ├── agent-router.ts
-│           ├── engelab-data.ts
-│           └── safety.ts
-│
-├── projects/
-│   └── capymind-engelab-mcp/
-│       └── agents/
-│           ├── modulo-01-estrutural-context.md
-│           ├── modulo-02-eletrico-context.md
-│           ├── modulo-03-hidrossanitario-context.md
-│           ├── modulo-04-prompts-modulares-context.md
-│           ├── modulo-08-revit-prompt-context.md
-│           ├── modulo-09-calculo-estrutural-context.md
-│           ├── modulo-10-compatibilizacao-context.md
-│           ├── modulo-11-orcamentos-quantitativos-context.md
-│           ├── modulo-12-planejamento-obra-context.md
-│           ├── modulo-13-vistorias-relatorios-context.md
-│           ├── modulo-14-seguranca-trabalho-context.md
-│           └── modulo-15-estruturas-context.md
-│
-├── ai/
-├── catalog/
-├── docs/
-├── knowledge/
-├── references/
-├── scripts/
-└── tests/
-```
+| Problema | Solução com CapyMind |
+|---|---|
+| Prompts soltos e difíceis de manter | Contextos canônicos por agente e módulo. |
+| Biblioteca técnica grande demais para navegar manualmente | Roteamento por tarefa, disciplina, módulo e palavras-chave. |
+| Respostas técnicas sem limite claro | Aviso obrigatório e política de uso preliminar/revisável. |
+| App desktop desconectado da base de conhecimento | Catálogo local ou sincronização futura via MCP. |
+| Agentes duplicados ou inconsistentes | `agent_id`, `sourceDocument`, comandos rápidos e prompt fixo. |
 
 ---
 
 ## CapyMind EngenLab MCP
 
-O app MCP fica em:
+O servidor MCP principal fica em:
 
 ```txt
 apps/capymind-engelab-mcp/
@@ -165,20 +101,20 @@ apps/capymind-engelab-mcp/
 
 ### Stack
 
-| Tecnologia | Uso |
-|---|---|
-| **Node.js 20+** | Runtime do servidor MCP. |
-| **TypeScript** | Tipagem e contratos internos. |
-| **Express** | Servidor HTTP. |
-| **@modelcontextprotocol/sdk** | MCP server e Streamable HTTP. |
-| **Zod** | Validação de entrada das tools. |
+<p>
+  <img src="https://img.shields.io/badge/Express-111827?style=flat-square&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square" alt="Zod" />
+  <img src="https://img.shields.io/badge/MCP-2563EB?style=flat-square" alt="MCP" />
+  <img src="https://img.shields.io/badge/Streamable_HTTP-0F766E?style=flat-square" alt="Streamable HTTP" />
+</p>
 
 ### Endpoints
 
-```txt
-GET  /health
-POST /mcp
-```
+| Endpoint | Uso |
+|---|---|
+| `GET /health` | Verifica se o servidor está ativo. |
+| `POST /mcp` | Endpoint MCP Streamable HTTP. |
 
 ### Rodar localmente
 
@@ -189,53 +125,30 @@ npm run build
 npm run dev
 ```
 
-Teste de saúde:
+Teste rápido:
 
 ```bash
 curl http://localhost:3000/health
-```
-
-Resposta esperada:
-
-```json
-{
-  "status": "ok",
-  "service": "capymind-engelab-mcp",
-  "version": "0.1.0"
-}
-```
-
-### Publicação via HTTPS
-
-Para conectar no ChatGPT Apps ou em outro cliente MCP, publique o servidor e use:
-
-```txt
-https://<host>/mcp
-```
-
-Em desenvolvimento local, o túnel pode apontar para:
-
-```txt
-http://localhost:3000
 ```
 
 ---
 
 ## Tools MCP
 
-| Tool | Descrição |
+| Tool | O que faz |
 |---|---|
 | `get_safety_notice` | Retorna o aviso técnico obrigatório. |
 | `list_engelab_projects` | Lista grupos de projetos-modelo da biblioteca EngenLab Doc. |
-| `search_engelab_doc` | Busca metadados curados da biblioteca EngenLab Doc. |
+| `search_engelab_doc` | Busca metadados curados da biblioteca. |
 | `get_project_context` | Retorna contexto estruturado de um grupo de projetos. |
-| `build_agent_context` | Monta pacote de contexto para outro GPT/agente. |
-| `list_agent_catalog` | Lista os agentes PromptDesk disponíveis. |
-| `get_agent_context` | Retorna contexto fixo/system prompt por `agent_id`. |
-| `route_agent_for_task` | Escolhe automaticamente o melhor agente para uma tarefa. |
+| `build_agent_context` | Monta pacote de contexto para outro agente/GPT. |
+| `list_agent_catalog` | Lista o catálogo PromptDesk. |
+| `get_agent_context` | Retorna system prompt e configuração por `agent_id`. |
+| `route_agent_for_task` | Seleciona o melhor agente para uma tarefa. |
 | `get_structural_agent_context` | Atalho para o agente de Estruturas Módulo 15. |
 
-### Exemplo de roteamento
+<details>
+<summary><strong>Exemplo de roteamento</strong></summary>
 
 Entrada:
 
@@ -246,126 +159,129 @@ Entrada:
 }
 ```
 
-Saída esperada:
+Agente esperado:
 
 ```txt
 engenlab-planejamento-obra-ia-modulo-12
 ```
 
+</details>
+
 ---
 
 ## Catálogo de agentes
 
-O CapyMind expõe **12 agentes técnicos educacionais** para o EngenLab PromptDesk.
+O CapyMind expõe **12 agentes técnicos educacionais** organizados por módulo da biblioteca EngenLab.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Projetos-modelo
+
+- `engenlab-estrutural-projetos-ia-01`
+- `engenlab-eletrico-projetos-ia-02`
+- `engenlab-hidrossanitario-projetos-ia-03`
+
+</td>
+<td width="50%" valign="top">
+
+### Prompts e BIM
+
+- `engenlab-prompts-modulares-ia-04`
+- `engenlab-revit-prompt-ia-08`
+- `engenlab-calculo-estrutural-ia-09`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Obra e documentação
+
+- `engenlab-compatibilizacao-ia-modulo-10`
+- `engenlab-orcamentos-quantitativos-ia-modulo-11`
+- `engenlab-planejamento-obra-ia-modulo-12`
+
+</td>
+<td width="50%" valign="top">
+
+### Relatórios, segurança e estruturas
+
+- `engenlab-vistorias-relatorios-ia-modulo-13`
+- `engenlab-seguranca-trabalho-obras-ia-modulo-14`
+- `engenlab-estruturas-ia-modulo-15`
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><strong>Ver tabela completa dos agentes</strong></summary>
 
 | # | Agente | Módulo | Especialidade |
 |---:|---|---|---|
-| 1 | `engenlab-estrutural-projetos-ia-01` | `01_ESTRUTURAL` | Projetos-modelo estruturais, pranchas, memoriais e checklists. |
-| 2 | `engenlab-eletrico-projetos-ia-02` | `02_ELETRICO` | Instalações elétricas, circuitos, pontos, quadros e pranchas. |
-| 3 | `engenlab-hidrossanitario-projetos-ia-03` | `03_HIDROSSANITARIO` | Água fria, água quente, esgoto, ventilação e compatibilização. |
-| 4 | `engenlab-prompts-modulares-ia-04` | `04_PROMPTS_MODULARES` | Criação, melhoria e padronização de prompts técnicos. |
-| 5 | `engenlab-revit-prompt-ia-08` | `08_BONUS/PROMPT_REVIT` | Prompts BIM/Revit, famílias, vistas, parâmetros e pranchas. |
-| 6 | `engenlab-calculo-estrutural-ia-09` | `09_CALCULO_ESTRUTURAL_IA` | Hipóteses, checklists e apoio educacional ao cálculo estrutural. |
-| 7 | `engenlab-compatibilizacao-ia-modulo-10` | `PLUS_MODULOS_10_14 / Módulo 10` | Matriz de interferências e compatibilização técnica. |
-| 8 | `engenlab-orcamentos-quantitativos-ia-modulo-11` | `PLUS_MODULOS_10_14 / Módulo 11` | Quantitativos, insumos, orçamento preliminar e lacunas de medição. |
-| 9 | `engenlab-planejamento-obra-ia-modulo-12` | `PLUS_MODULOS_10_14 / Módulo 12` | EAP, cronograma conceitual, riscos e sequenciamento. |
-| 10 | `engenlab-vistorias-relatorios-ia-modulo-13` | `PLUS_MODULOS_10_14 / Módulo 13` | Vistorias preliminares, evidências e relatórios educacionais. |
-| 11 | `engenlab-seguranca-trabalho-obras-ia-modulo-14` | `PLUS_MODULOS_10_14 / Módulo 14` | SST em obras, riscos aparentes, checklists e roteiros. |
-| 12 | `engenlab-estruturas-ia-modulo-15` | `PLUS_MODULO_15_ESTRUTURAS` | Estruturas com IA, prompts, relatórios, memoriais e pranchas. |
+| 1 | `engenlab-estrutural-projetos-ia-01` | `01_ESTRUTURAL` | Projetos estruturais, pranchas, memoriais e checklists. |
+| 2 | `engenlab-eletrico-projetos-ia-02` | `02_ELETRICO` | Instalações elétricas, circuitos, pontos e quadros. |
+| 3 | `engenlab-hidrossanitario-projetos-ia-03` | `03_HIDROSSANITARIO` | Água, esgoto, ventilação e compatibilização. |
+| 4 | `engenlab-prompts-modulares-ia-04` | `04_PROMPTS_MODULARES` | Prompts técnicos modulares e padrões de saída. |
+| 5 | `engenlab-revit-prompt-ia-08` | `08_BONUS/PROMPT_REVIT` | Revit/BIM, vistas, famílias, parâmetros e pranchas. |
+| 6 | `engenlab-calculo-estrutural-ia-09` | `09_CALCULO_ESTRUTURAL_IA` | Hipóteses, checklists e apoio educacional ao cálculo. |
+| 7 | `engenlab-compatibilizacao-ia-modulo-10` | `Módulo 10` | Interferências e compatibilização técnica. |
+| 8 | `engenlab-orcamentos-quantitativos-ia-modulo-11` | `Módulo 11` | Quantitativos, insumos e orçamento preliminar. |
+| 9 | `engenlab-planejamento-obra-ia-modulo-12` | `Módulo 12` | EAP, cronograma conceitual, riscos e sequência. |
+| 10 | `engenlab-vistorias-relatorios-ia-modulo-13` | `Módulo 13` | Vistorias, evidências e relatórios preliminares. |
+| 11 | `engenlab-seguranca-trabalho-obras-ia-modulo-14` | `Módulo 14` | SST, riscos aparentes, checklists e roteiros. |
+| 12 | `engenlab-estruturas-ia-modulo-15` | `Módulo 15` | Estruturas com IA, memoriais, relatórios e pranchas. |
 
-Cada agente possui:
-
-```txt
-agentId
-sourceDocument
-sourcePath
-PromptDesk config
-system prompt
-quick commands
-opening message
-mandatory safety notice
-```
+</details>
 
 ---
 
-## Documentos canônicos dos agentes
+## PromptDesk
 
-| Agente | Documento |
-|---|---|
-| Estrutural 01 | `projects/capymind-engelab-mcp/agents/modulo-01-estrutural-context.md` |
-| Elétrico 02 | `projects/capymind-engelab-mcp/agents/modulo-02-eletrico-context.md` |
-| Hidrossanitário 03 | `projects/capymind-engelab-mcp/agents/modulo-03-hidrossanitario-context.md` |
-| Prompts Modulares 04 | `projects/capymind-engelab-mcp/agents/modulo-04-prompts-modulares-context.md` |
-| Revit Prompt 08 | `projects/capymind-engelab-mcp/agents/modulo-08-revit-prompt-context.md` |
-| Cálculo Estrutural 09 | `projects/capymind-engelab-mcp/agents/modulo-09-calculo-estrutural-context.md` |
-| Compatibilização 10 | `projects/capymind-engelab-mcp/agents/modulo-10-compatibilizacao-context.md` |
-| Orçamentos 11 | `projects/capymind-engelab-mcp/agents/modulo-11-orcamentos-quantitativos-context.md` |
-| Planejamento 12 | `projects/capymind-engelab-mcp/agents/modulo-12-planejamento-obra-context.md` |
-| Vistorias 13 | `projects/capymind-engelab-mcp/agents/modulo-13-vistorias-relatorios-context.md` |
-| Segurança 14 | `projects/capymind-engelab-mcp/agents/modulo-14-seguranca-trabalho-context.md` |
-| Estruturas 15 | `projects/capymind-engelab-mcp/agents/modulo-15-estruturas-context.md` |
+O EngenLab PromptDesk pode usar o CapyMind em dois modos.
 
----
-
-## Integração com PromptDesk
-
-O EngenLab PromptDesk pode consumir o CapyMind de duas formas.
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### Modo local
 
-Ideal para app desktop, MVP e uso offline.
+Catálogo embutido no app desktop.
 
-```txt
-PromptDesk
-  ↓
-catálogo local de agentes CapyMind
-  ↓
-roteamento local
-  ↓
-prompt final com contexto fixo do agente
-```
+Indicado para:
+
+- MVP;
+- uso offline;
+- resposta rápida;
+- menor dependência externa.
+
+</td>
+<td width="50%" valign="top">
 
 ### Modo MCP
 
-Ideal para sincronização futura e atualizações centralizadas.
+Sincronização remota via `/mcp`.
 
-```txt
-PromptDesk
-  ↓
-CapyMind EngenLab MCP /mcp
-  ↓
-list_agent_catalog / get_agent_context / route_agent_for_task
-  ↓
-catálogo atualizado
-```
+Indicado para:
+
+- atualização centralizada;
+- múltiplos clientes;
+- ChatGPT Apps;
+- catálogo vivo de agentes.
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## Segurança técnica
 
-O CapyMind foi projetado para trabalhar com engenharia de forma responsável. Todas as respostas técnicas devem manter o seguinte limite:
+> Este material é um apoio educacional, preliminar e de organização técnica. Não constitui projeto executivo, cálculo estrutural final, laudo, ART/RRT, aprovação legal ou substituição de profissional habilitado.
 
-```txt
-Este material é um apoio educacional, preliminar e de organização técnica. Não constitui projeto executivo, cálculo estrutural final, laudo, ART/RRT, aprovação legal ou substituição de profissional habilitado.
-```
-
-O objetivo é acelerar organização, documentação, prompts, checklists e raciocínio preliminar — sempre com revisão humana obrigatória quando houver impacto técnico, legal, financeiro ou de segurança.
-
----
-
-## Experiência esperada
-
-<div align="center">
-
-| Antes | Depois com CapyMind |
-|---|---|
-| Prompt solto | Prompt governado por agente |
-| Biblioteca difícil de navegar | Catálogo com roteamento por tarefa |
-| Contexto disperso | Documento canônico por módulo |
-| Risco de resposta executiva indevida | Limites técnicos obrigatórios |
-| Uso manual da biblioteca | Fluxo pronto para PromptDesk e ChatGPT |
-
-</div>
+CapyMind acelera organização, prompts, checklists, roteiros e documentação preliminar. A validação final deve ser feita por profissional habilitado sempre que houver impacto técnico, legal, financeiro ou de segurança.
 
 ---
 
@@ -391,10 +307,11 @@ Use o CapyMind EngenLab para escolher o melhor agente para: criar checklist de s
 
 ---
 
-<div align="center">
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:7C3AED,45:2563EB,100:0F766E" alt="footer" />
+</p>
 
-## CapyMind é a camada de inteligência operacional do EngenLab PromptDesk.
-
-**Organiza conhecimento. Roteia agentes. Entrega contexto. Mantém limites técnicos.**
-
-</div>
+<p align="center">
+  <strong>CapyMind</strong><br />
+  Organiza conhecimento. Roteia agentes. Entrega contexto. Mantém limites técnicos.
+</p>
