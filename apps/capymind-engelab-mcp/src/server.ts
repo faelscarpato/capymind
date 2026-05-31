@@ -2,7 +2,7 @@ import express, { Request, Response } from 'express';
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/streamableHttp.js';
 import { z } from 'zod';
-import { getProjectContext, listEngenLabProjects, searchEngenLabDoc, type Discipline } from './lib/engelab-data.js';
+import { buildAgentContext, getProjectContext, listEngenLabProjects, searchEngenLabDoc, type Discipline } from './lib/engelab-data.js';
 import { SAFETY_NOTICE, withSafetyNotice } from './lib/safety.js';
 
 const PORT = Number(process.env.PORT ?? 3000);
@@ -76,6 +76,24 @@ function createMcpServer() {
     },
     async ({ project_id }) => {
       const payload = getProjectContext(project_id);
+
+      return {
+        content: [{ type: 'text', text: JSON.stringify(payload, null, 2) }],
+        structuredContent: payload,
+      };
+    },
+  );
+
+  server.tool(
+    'build_agent_context',
+    'Build a bounded context pack for another GPT or agent workflow using EngenLab Doc metadata and CapyMind safety rules.',
+    {
+      query: z.string().min(2).describe('Context objective, for example montar prompt estrutural, localizar projetos elétricos or estudar módulo 15.'),
+      discipline: disciplineSchema.describe('Optional discipline filter.'),
+      limit: z.number().int().min(1).max(20).optional().describe('Maximum number of recommended sources. Default: 5. Maximum: 20.'),
+    },
+    async ({ query, discipline, limit }) => {
+      const payload = buildAgentContext({ query, discipline: discipline as Discipline | undefined, limit });
 
       return {
         content: [{ type: 'text', text: JSON.stringify(payload, null, 2) }],
