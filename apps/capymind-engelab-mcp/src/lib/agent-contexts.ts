@@ -76,7 +76,7 @@ const AGENT_DEFINITIONS: AgentDefinition[] = [
     outputFormats: ['prompt técnico', 'checklist', 'memorial conceitual', 'relatório preliminar', 'instrução de prancha'],
     openingMessage: 'Envie uma planta, PDF, DWG referencial, imagem ou briefing estrutural e eu organizo prompts, checklists, memoriais e instruções de prancha para estudo e revisão humana.',
     evidenceBase: ['01_ESTRUTURAL/', '04_PROMPTS_MODULARES/', '00_GUIA_DE_USO/', '07_MATRIZ_E_CONTROLE/'],
-    sourceDocument: '01_ESTRUTURAL/',
+    sourceDocument: 'projects/capymind-engelab-mcp/agents/modulo-01-estrutural-context.md',
   },
   {
     agentId: 'engenlab-eletrico-projetos-ia-02',
@@ -94,7 +94,7 @@ const AGENT_DEFINITIONS: AgentDefinition[] = [
     outputFormats: ['prompt técnico', 'checklist', 'quadro conceitual', 'relatório preliminar', 'instrução de prancha'],
     openingMessage: 'Envie planta, lista de ambientes, pontos ou briefing elétrico e eu organizo prompts, checklists e quadros preliminares para revisão profissional.',
     evidenceBase: ['02_ELETRICO/', '04_PROMPTS_MODULARES/', '00_GUIA_DE_USO/', '07_MATRIZ_E_CONTROLE/'],
-    sourceDocument: '02_ELETRICO/',
+    sourceDocument: 'projects/capymind-engelab-mcp/agents/modulo-02-eletrico-context.md',
   },
   {
     agentId: 'engenlab-hidrossanitario-projetos-ia-03',
@@ -112,7 +112,7 @@ const AGENT_DEFINITIONS: AgentDefinition[] = [
     outputFormats: ['prompt técnico', 'checklist', 'memorial conceitual', 'relatório preliminar', 'instrução de prancha'],
     openingMessage: 'Envie planta, pontos hidráulicos/sanitários ou briefing e eu organizo prompts, checklists e memoriais preliminares para revisão profissional.',
     evidenceBase: ['03_HIDROSSANITARIO/', '04_PROMPTS_MODULARES/', '00_GUIA_DE_USO/', '07_MATRIZ_E_CONTROLE/'],
-    sourceDocument: '03_HIDROSSANITARIO/',
+    sourceDocument: 'projects/capymind-engelab-mcp/agents/modulo-03-hidrossanitario-context.md',
   },
   {
     agentId: 'engenlab-prompts-modulares-ia-04',
@@ -130,7 +130,7 @@ const AGENT_DEFINITIONS: AgentDefinition[] = [
     outputFormats: ['prompt completo', 'prompt curto', 'template com variáveis', 'checklist de qualidade', 'roteiro de uso'],
     openingMessage: 'Informe a tarefa, disciplina e saída desejada e eu monto um prompt modular técnico, seguro e pronto para revisão.',
     evidenceBase: ['04_PROMPTS_MODULARES/', '00_GUIA_DE_USO/', 'PLUS_MODULOS_10_14/', 'PLUS_MODULO_15_ESTRUTURAS/'],
-    sourceDocument: '04_PROMPTS_MODULARES/',
+    sourceDocument: 'projects/capymind-engelab-mcp/agents/modulo-04-prompts-modulares-context.md',
     canUseImages: false,
     canGenerateBoards: false,
   },
@@ -150,7 +150,7 @@ const AGENT_DEFINITIONS: AgentDefinition[] = [
     outputFormats: ['prompt Revit', 'roteiro BIM', 'checklist', 'estrutura de pranchas', 'lista de parâmetros'],
     openingMessage: 'Informe o objetivo no Revit/BIM, disciplina e dados disponíveis e eu organizo prompts, roteiros e checklists de modelagem para revisão humana.',
     evidenceBase: ['08_BONUS/PROMPT_REVIT/', '04_PROMPTS_MODULARES/', '00_GUIA_DE_USO/'],
-    sourceDocument: '08_BONUS/PROMPT_REVIT/',
+    sourceDocument: 'projects/capymind-engelab-mcp/agents/modulo-08-revit-prompt-context.md',
   },
   {
     agentId: 'engenlab-calculo-estrutural-ia-09',
@@ -168,7 +168,7 @@ const AGENT_DEFINITIONS: AgentDefinition[] = [
     outputFormats: ['checklist', 'prompt técnico', 'roteiro de estudo', 'relatório conceitual', 'lista de lacunas'],
     openingMessage: 'Envie os dados preliminares de estrutura e eu organizo hipóteses, lacunas, checklists e prompts de apoio educacional ao cálculo para revisão por engenheiro.',
     evidenceBase: ['09_CALCULO_ESTRUTURAL_IA/', '01_ESTRUTURAL/', '04_PROMPTS_MODULARES/', '00_GUIA_DE_USO/'],
-    sourceDocument: '09_CALCULO_ESTRUTURAL_IA/',
+    sourceDocument: 'projects/capymind-engelab-mcp/agents/modulo-09-calculo-estrutural-context.md',
     canGenerateBoards: false,
   },
   {
@@ -187,7 +187,7 @@ const AGENT_DEFINITIONS: AgentDefinition[] = [
     outputFormats: ['matriz de interferências', 'checklist', 'relatório preliminar', 'prompt técnico', 'roteiro de revisão'],
     openingMessage: 'Envie plantas, PDFs ou descrições das disciplinas e eu organizo uma compatibilização técnica preliminar com matriz de interferências, lacunas e checklist de revisão.',
     evidenceBase: ['PLUS_MODULOS_10_14/', 'PLUS_MODULOS_10_14/04_PROMPTS_IA/', '00_GUIA_DE_USO/', '04_PROMPTS_MODULARES/'],
-    sourceDocument: 'PLUS_MODULOS_10_14/README.md',
+    sourceDocument: 'projects/capymind-engelab-mcp/agents/modulo-10-compatibilizacao-context.md',
   },
   {
     agentId: 'engenlab-orcamentos-quantitativos-ia-modulo-11',
@@ -205,7 +205,7 @@ const AGENT_DEFINITIONS: AgentDefinition[] = [
     outputFormats: ['quadro de quantitativos', 'checklist', 'prompt técnico', 'relatório preliminar', 'estrutura de planilha'],
     openingMessage: 'Envie dados, memorial, projeto ou descrição do serviço e eu organizo quantitativos preliminares, lacunas e prompts de orçamento para revisão humana.',
     evidenceBase: ['PLUS_MODULOS_10_14/', 'PLUS_MODULOS_10_14/04_PROMPTS_IA/', '07_MATRIZ_E_CONTROLE/', '04_PROMPTS_MODULARES/'],
-    sourceDocument: 'PLUS_MODULOS_10_14/README.md',
+    sourceDocument: 'projects/capymind-engelab-mcp/agents/modulo-11-orcamentos-quantitativos-context.md',
     canGenerateBoards: false,
   },
   {
@@ -224,7 +224,7 @@ const AGENT_DEFINITIONS: AgentDefinition[] = [
     outputFormats: ['EAP', 'cronograma conceitual', 'checklist', 'matriz de riscos', 'prompt técnico'],
     openingMessage: 'Envie o escopo da obra, etapas ou restrições e eu organizo EAP, cronograma conceitual, riscos e prompts de planejamento para revisão humana.',
     evidenceBase: ['PLUS_MODULOS_10_14/', 'PLUS_MODULOS_10_14/04_PROMPTS_IA/', '00_GUIA_DE_USO/'],
-    sourceDocument: 'PLUS_MODULOS_10_14/README.md',
+    sourceDocument: 'projects/capymind-engelab-mcp/agents/modulo-12-planejamento-obra-context.md',
     canGenerateBoards: false,
   },
   {
@@ -243,7 +243,7 @@ const AGENT_DEFINITIONS: AgentDefinition[] = [
     outputFormats: ['relatório preliminar', 'checklist', 'lista de evidências', 'prompt técnico', 'roteiro de vistoria'],
     openingMessage: 'Envie fotos, observações ou documentos de vistoria e eu organizo relatório preliminar, evidências, lacunas e checklist para revisão profissional.',
     evidenceBase: ['PLUS_MODULOS_10_14/', 'PLUS_MODULOS_10_14/04_PROMPTS_IA/', '00_GUIA_DE_USO/'],
-    sourceDocument: 'PLUS_MODULOS_10_14/README.md',
+    sourceDocument: 'projects/capymind-engelab-mcp/agents/modulo-13-vistorias-relatorios-context.md',
   },
   {
     agentId: 'engenlab-seguranca-trabalho-obras-ia-modulo-14',
@@ -261,7 +261,7 @@ const AGENT_DEFINITIONS: AgentDefinition[] = [
     outputFormats: ['checklist', 'roteiro de inspeção', 'relatório preliminar', 'lista de riscos aparentes', 'prompt técnico'],
     openingMessage: 'Envie a atividade, fase da obra ou fotos do ambiente e eu organizo um checklist educacional de segurança, riscos aparentes e lacunas para revisão por profissional de SST.',
     evidenceBase: ['PLUS_MODULOS_10_14/', 'PLUS_MODULOS_10_14/04_PROMPTS_IA/', '00_GUIA_DE_USO/'],
-    sourceDocument: 'PLUS_MODULOS_10_14/README.md',
+    sourceDocument: 'projects/capymind-engelab-mcp/agents/modulo-14-seguranca-trabalho-context.md',
     canGenerateBoards: false,
   },
   {
@@ -337,7 +337,7 @@ const AGENT_CATALOG: AgentCatalogEntry[] = AGENT_DEFINITIONS.map(definitionToCat
 export function listAgentCatalog() {
   return withSafetyNotice({
     repository: 'faelscarpato/capymind',
-    catalog_version: '0.3.0',
+    catalog_version: '0.4.0',
     count: AGENT_CATALOG.length,
     agents: AGENT_CATALOG,
   });
