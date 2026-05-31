@@ -1,5 +1,4 @@
 import express, { Request, Response } from 'express';
-import { randomUUID } from 'node:crypto';
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/streamableHttp.js';
 import { z } from 'zod';
@@ -103,7 +102,9 @@ app.get('/health', (_req: Request, res: Response) => {
 app.post('/mcp', async (req: Request, res: Response) => {
   const server = createMcpServer();
   const transport = new StreamableHTTPServerTransport({
-    sessionIdGenerator: () => randomUUID(),
+    // Stateless mode keeps the MVP simple for connector testing.
+    // Add persistent session storage before enabling advanced bidirectional flows.
+    sessionIdGenerator: undefined,
   });
 
   res.on('close', () => {
@@ -118,7 +119,7 @@ app.post('/mcp', async (req: Request, res: Response) => {
 app.get('/mcp', async (_req: Request, res: Response) => {
   res.status(405).json({
     error: 'Method not allowed',
-    message: 'Use POST /mcp for Streamable HTTP MCP requests.',
+    message: 'This MCP endpoint uses Streamable HTTP. Use POST /mcp from an MCP client.',
   });
 });
 
