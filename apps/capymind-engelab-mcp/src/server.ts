@@ -3,6 +3,7 @@ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/streamableHttp.js';
 import { z } from 'zod';
 import { getAgentContext, getStructuralAgentContext, listAgentCatalog } from './lib/agent-contexts.js';
+import { routeAgentForTask } from './lib/agent-router.js';
 import { buildAgentContext, getProjectContext, listEngenLabProjects, searchEngenLabDoc, type Discipline } from './lib/engelab-data.js';
 import { SAFETY_NOTICE, withSafetyNotice } from './lib/safety.js';
 
@@ -125,6 +126,26 @@ function createMcpServer() {
     },
     async ({ agent_id }) => {
       const payload = getAgentContext(agent_id);
+
+      return {
+        content: [{ type: 'text', text: JSON.stringify(payload, null, 2) }],
+        structuredContent: payload,
+      };
+    },
+  );
+
+  server.tool(
+    'route_agent_for_task',
+    'Select the best EngenLab PromptDesk agent for a user task using task text plus optional module, discipline or sourcePath hints.',
+    {
+      task: z.string().min(2).describe('User task or workflow description to route to the best PromptDesk agent.'),
+      module: z.string().optional().describe('Optional module hint, such as 01_ESTRUTURAL, 08_BONUS/PROMPT_REVIT or PLUS_MODULOS_10_14.'),
+      discipline: z.string().optional().describe('Optional discipline hint, such as Estrutural, BIM/Revit, Planejamento de Obra or Segurança do Trabalho.'),
+      sourcePath: z.string().optional().describe('Optional source path hint from the EngenLab Doc library.'),
+      includeContext: z.boolean().optional().describe('When true, include the selected agent context in the same response.'),
+    },
+    async ({ task, module, discipline, sourcePath, includeContext }) => {
+      const payload = routeAgentForTask({ task, module, discipline, sourcePath, includeContext });
 
       return {
         content: [{ type: 'text', text: JSON.stringify(payload, null, 2) }],
