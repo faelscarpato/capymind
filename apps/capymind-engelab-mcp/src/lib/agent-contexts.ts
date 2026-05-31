@@ -130,6 +130,52 @@ const INTERNAL_CATEGORIES = [
   { code: 'EST-PROMPT', label: 'Prompts estruturais' },
 ];
 
+const STRUCTURAL_AGENT_CATALOG_ENTRY = {
+  agentId: 'engenlab-estruturas-ia-modulo-15',
+  name: 'EngenLab Estruturas IA',
+  displayName: 'EngenLab Estruturas IA — Módulo 15',
+  module: 'Módulo 15',
+  area: 'Engenharia Civil',
+  discipline: 'Estruturas',
+  type: 'Agente técnico educacional',
+  riskLevel: 'Alto — requer aviso técnico obrigatório',
+  status: 'active',
+  canUsePdf: true,
+  canUseImages: true,
+  canGeneratePrompts: true,
+  canGenerateChecklists: true,
+  canGenerateReports: true,
+  canGenerateBoards: true,
+  requiresHumanReview: true,
+  mandatoryDisclaimer: true,
+  quickCommands: QUICK_COMMANDS,
+  sourceDocument: 'projects/capymind-engelab-mcp/agents/modulo-15-estruturas-context.md',
+};
+
+const AGENT_CATALOG = [STRUCTURAL_AGENT_CATALOG_ENTRY];
+
+export function listAgentCatalog() {
+  return withSafetyNotice({
+    repository: 'faelscarpato/capymind',
+    catalog_version: '0.1.0',
+    count: AGENT_CATALOG.length,
+    agents: AGENT_CATALOG,
+  });
+}
+
+export function getAgentContext(agentId: string) {
+  if (agentId === 'engenlab-estruturas-ia-modulo-15') {
+    return getStructuralAgentContext();
+  }
+
+  return withSafetyNotice({
+    found: false,
+    agent_id: agentId,
+    message: 'Agent not found in the current MVP catalog. Use list_agent_catalog to inspect available agents.',
+    available_agent_ids: AGENT_CATALOG.map((agent) => agent.agentId),
+  });
+}
+
 export function getStructuralAgentContext() {
   return withSafetyNotice({
     agent_id: 'engenlab-estruturas-ia-modulo-15',
