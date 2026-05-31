@@ -2,6 +2,7 @@ import express, { Request, Response } from 'express';
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/streamableHttp.js';
 import { z } from 'zod';
+import { getStructuralAgentContext } from './lib/agent-contexts.js';
 import { buildAgentContext, getProjectContext, listEngenLabProjects, searchEngenLabDoc, type Discipline } from './lib/engelab-data.js';
 import { SAFETY_NOTICE, withSafetyNotice } from './lib/safety.js';
 
@@ -94,6 +95,20 @@ function createMcpServer() {
     },
     async ({ query, discipline, limit }) => {
       const payload = buildAgentContext({ query, discipline: discipline as Discipline | undefined, limit });
+
+      return {
+        content: [{ type: 'text', text: JSON.stringify(payload, null, 2) }],
+        structuredContent: payload,
+      };
+    },
+  );
+
+  server.tool(
+    'get_structural_agent_context',
+    'Return the fixed system/context prompt, PromptDesk configuration and quick commands for EngenLab Estruturas IA — Módulo 15.',
+    {},
+    async () => {
+      const payload = getStructuralAgentContext();
 
       return {
         content: [{ type: 'text', text: JSON.stringify(payload, null, 2) }],
